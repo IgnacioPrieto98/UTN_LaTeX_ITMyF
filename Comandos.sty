@@ -1,0 +1,90 @@
+\usepackage{Estilo}
+
+% --- Comandos --- %
+
+% Línea de separación.
+\newcommand{\Sep}{
+%	\vspace{1cm}
+	\vspace*{-3mm}
+		\hrule	
+	\vspace*{3mm}
+}
+
+% Inclusión de bibliografía y separación con el texto.
+\newcommand{\Biblio}[1]{
+\begin{flushright}
+	\footnotesize #1
+\end{flushright}
+\Sep
+}
+
+% Notación para indicar uso de datos.
+\newcommand{\Tab}{\leftarrow \text{\footnotesize Valor det. por tabla}}
+
+
+% Recuadro para indicar que hace falta desarrollar algo ahí.
+
+\newcommand{\ADes}[1]{
+\begin{center}
+    \hrule
+    \large
+    \vspace{1cm}
+    {\color{red}- #1 -}
+    \vspace{1cm}
+    \hrule
+\end{center}
+}
+
+% --- DEFINICIÓN DE CONTADORES Y LONGITUDES --- % 
+
+% Comando para un TColorbox de ejemplo.
+\newcounter{ejem}[chapter]
+
+% Longitudes
+\newlength{\Fcorta}
+\setlength{\Fcorta}{0.55\linewidth}
+
+% --- DEFINICIÓN DE TCOLORBOX --- %
+
+% Recuadro de definiciones.
+
+\newtcolorbox{defs}{colback=blue!5!white, arc = 0pt, boxrule=0pt,colframe= white}
+\newtcolorbox{norm}{colback=red!10!white, arc = 0pt, boxrule=0pt,colframe= white,breakable, fontupper = \footnotesize}
+
+
+% Recuadro de ejemplos.
+
+\newtcolorbox{Ejem}[1]{breakable, coltitle = white,colbacktitle = colorS,title = {\footnotesize Ejemplo \thechapter.\theejem\ - #1},parbox=false, colframe = white, colback = black!05,arc = 0pt,step = ejem}
+
+
+
+% --- DEFINICIÓN DE TABLAS Y COLUMNAS --- %
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{M}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{I}[1]{>{\raggedleft\arraybackslash}m{#1}}
+
+\newcommand{\Tcen}[1]{
+    \multicolumn{1}{c}{#1}
+    }
+
+% --- --- --- --- --- --- --- --- %
+
+% Comando para citar por debajo de los tcolorbox %
+\newcommand{\CitaNorm}[1]{
+	\begin{flushright}
+		\footnotesize #1
+	\end{flushright}
+}
+
+% Comandos reductores de código repetitivo %
+\newcommand{\ef}[1]{\mathbf{#1o}}
+\newcommand{\cmll}[1]{``#1"}
+\newcommand{\Tau}{\mathcal{T}}
+\newcommand{\FP}{F\hspace{-.9mm} P}
+\newcommand{\VAp}{V\hspace{-.9mm} A}
+\renewcommand{\mathbf}[1]{\boldsymbol{#1}}
+\newcommand{\Un}[1]{ \; \color{colorS} #1}
+\newcommand{\Rell}{[...]}
+
+\endinput

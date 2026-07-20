@@ -1,0 +1,70 @@
+\documentclass[12pt,a4paper]{book}
+
+\usepackage{Estilo}
+\usepackage{Comandos}
+\usepackage{pdfpages}
+\usepackage[explicit]{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{soul}
+
+\renewcommand{\Autor}{PRIETO IGNACIO}
+\renewcommand{\Materia}{INSTALACIONES T. M y F}
+\renewcommand{\arraystretch}{1.7}
+\setlength{\columnsep}{2cm}
+
+\captionsetup{
+  font=small,       % tamaño de la letra del caption
+}
+
+\usepackage[defaultfam,tabular,lining]{montserrat} 
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+\setlength{\headheight}{12.1638pt}
+
+
+\begin{document}
+	
+	
+	\includepdf[pages={-}]{Portada/00-Portada.pdf}
+
+	\raggedbottom
+	
+	\tableofcontents
+	
+	\vfill
+
+	\newpage 
+
+
+	\part{Instalaciones frigoríficas}
+	
+	\input{CAP/U1-REFRIGERANTES.tex}
+
+%	\input{CAP/U2-INTERCAMBIADORES.tex}
+
+%	\input{CAP/U3-REFRIGERACIÓN.tex}
+
+%	\input{CAP/U4-ACONDICIONAMIENTOAMB.tex}
+
+%	\input{CAP/U5-ACONDICIONAMIENTOIND.tex}
+
+%	\input{CAP/U6-CANERIAS.tex}
+
+%	\input{CAP/U7-CONDUCCIONFLUIDOS.tex}
+
+%	\input{CAP/U8-MANTENIMIENTO.tex}
+
+	\negmedspace
+	\appendix
+	\part{Anexos}
+	
+	\input{ANX/01-Ciclos.tex}
+
+	\captionsetup{font=scriptsize}
+	\bibliographystyle{apalike}
+	\bibliography{Bibliografia.bib}
+
+
+\end{document}
+
+

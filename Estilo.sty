@@ -1,0 +1,147 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Estilo}[2025/01/20 Paquetes]
+
+% --- DEFINICIÓN DE PAQUETES --- %
+
+% PAQUETES DE ESTRUCTURA
+\usepackage{caption}
+\usepackage{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{apalike}
+\usepackage{fancyhdr}
+
+% PAQUETES DE ESTÉTICA
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{float}
+\tcbuselibrary{skins, breakable}
+\graphicspath{IMA/}
+\usepackage{titletoc}
+
+
+% PAQUETES DE TABLAS
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% PAQUETES DE MATEMÁTICA
+\usepackage{cancel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% --- MODIFICACIÓN DE TEXTOS --- %
+
+%\addto\captionsspanish{\renewcommand{\chaptername}{Unidad}}
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\appendixname}{Anexo}}
+\addto\captionsspanish{\renewcommand{\partname}{Parte}}
+\addto\captionsspanish{\renewcommand{\chaptername}{Unidad}}
+
+% --- MODIFICACIÓN DE ESTILO --- %
+
+\fancyhead[RO]{\footnotesize \leftmark}
+\fancyhead[LO]{\footnotesize \Autor}
+\fancyhead[CE]{}
+\fancyhead[LE]{\footnotesize \Materia}
+\fancyhead[RE]{\footnotesize \rightmark}
+\fancyfoot[C]{pág. \thepage\ de \pageref{LastPage}}
+
+% --- NUEVOS Y MODIFICACIÓN DE COMANDOS --- %
+
+\newcommand{\Autor}{x}
+\newcommand{\Materia}{x}
+\renewcommand{\arraystretch}{1.5}
+
+% --- DEFINICIÓN DE COLORES --- %
+
+\definecolor{colorMF}{RGB}{0,49,101} % Color más fuerte.
+\definecolor{colorF}{RGB}{0,73,147} % Color fuerte.
+\definecolor{colorS}{RGB}{13,128,255} % Color suave.
+\definecolor{colorMS}{RGB}{74,160,255} % Color más suave.
+
+% --- --- --- --- --- --- --- --- %
+
+% --- TABLA DE CONTENIDO - DATOS TOMADOS DE OTRO DOCUMENTO --- %
+
+%BEGIN_FOLD (DEFINICIÓN DE COLORES DE PAQUETE "xcolor")
+
+%Colores para entorno del documento.
+\definecolor{C1}{RGB}{119,180,188} %AZUL 1 - UTN 
+\definecolor{C3}{RGB}{4,132,168} %AZUL 2 - UTN 
+\definecolor{C4}{RGB}{90,188,204} %AZUL 3 - UTN 
+\definecolor{C5}{RGB}{44,142,173} %AZUL 4 - UTN  %4 102 133
+
+\definecolor{C2}{RGB}{229,229,221} %GRIS - UTN
+
+%Colores para código.
+\definecolor{C101}{RGB}{120,120,120} %Color comentarios.
+\definecolor{C102}{RGB}{0,80,120} %Color comentarios.
+\definecolor{C103}{RGB}{120,60,40} %Color comentarios.
+\definecolor{C104}{RGB}{120,60,40} %Color comentarios.
+\definecolor{C105}{RGB}{120,120,5} %Color comentarios.
+%END_FOLD
+
+
+\titlecontents{part}% <section-type>
+[0pt]% <left>
+{\centering
+%    \vspace{1cm}\includegraphics[height=1.5cm]{Figuras/UTN_logo.jpg} \vspace{-1cm} \\ 
+\sc \vspace{1cm} \LARGE Parte \vspace{.1cm}}% <above-code>
+{}% <numbered-entry-format>
+{}% <numberless-entry-format>
+{\\ \vspace{-8mm} \hrulefill}
+
+\titlecontents{chapter}% <section-type>
+[0pt]% <left>
+{\bfseries \vspace{.4cm} \hspace{1cm} \sc \large \color{white} \vspace{.1cm}}% <above-code>
+{\bfseries \begin{tikzpicture}[overlay]
+		\fill[C5] (-5mm,6.4mm) rectangle (0.95\textwidth+1mm,-3.4mm
+        );
+		\node at (-10mm,1.5mm) 
+		[fill = black!80!white,text centered,minimum width = 1cm, minimum height = 1cm, draw = white, node contents = {\sc \color{white} \Large \thecontentslabel}];
+\end{tikzpicture}}% <numbered-entry-format>
+{}% <numberless-entry-format>
+{\bfseries \color{white} \large \hfill\contentspage \vspace{.5cm}}
+\titlecontents{section}% <section-type>
+[0pt]% <left>
+{\hspace{1cm}}% <above-code>
+{\begin{tikzpicture}[overlay]
+		\node at (-6mm,1.5mm) 
+		[text centered,minimum width = .7cm,minimum height = .4cm] {\color{C5} \fontsize{10}{10} \thecontentslabel};
+\end{tikzpicture}}% <numbered-entry-format>
+{}% <numberless-entry-format>
+{\hfill\contentspage}
+
+\titlecontents{subsection}% <section-type>
+[0pt]% <left>
+{\hspace{2cm}}% <above-code>
+{\begin{tikzpicture}[overlay]
+		\node at (-6mm,1mm) {\color{C5} \thecontentslabel};
+\end{tikzpicture}}% <numbered-entry-format>
+{}% <numberless-entry-format>
+{\hfill\contentspage}
+
+% --- --- --- --- --- --- --- %
+
+
+
+
+
+
+
+
+
+
+

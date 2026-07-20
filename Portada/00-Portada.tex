@@ -1,0 +1,89 @@
+% !TeX program = xelatex
+
+\documentclass[12pt,a4paper]{book}
+
+
+%BEGIN_FOLD
+
+\usepackage{STY-UTN-LTX-CATEDRAS}
+\usepackage{colortbl}
+\usepackage{hyperref}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{pdfpages}
+\usepackage{setspace}
+
+%---PARÁMETROS PARA DEFINIR---%
+\def\supervisor{Ing. Mauro Yoris}
+\def\titulo{INSTALACIONES TÉRMICAS, MECÁNICAS Y FRIGORÍFICAS}
+\def\subtitulo{Contenidos del legajo de cátedra}
+\def\autor{
+	Prieto Ignacio}
+
+	
+%END_FOLD
+
+\begin{document}
+		\begin{titlepage}
+			\pagestyle{empty}
+		\begin{tikzpicture}[remember picture,overlay,node distance=2mm]
+			\fill[C5] ($ (current page.north east)-(.8\marginparwidth,0)$) rectangle ($ (current page.south east)$);
+		\end{tikzpicture}
+		\thispagestyle{empty}
+		\begin{flushleft}
+			{ \fontspec{Montserrat}  
+			\begin{spacing}{1.4}
+				{\Huge \textbf\titulo}
+			\end{spacing}}
+			\vspace{.5cm}
+			{\fontsize{15}{20} \fontspec{Montserrat} \subtitulo}
+		\end{flushleft}
+		\vfill
+		\includegraphics[width=0.9\textwidth]{UTN-LTX-LOGOS}
+		\vspace{-1cm}
+
+		\newpage
+		\hspace{1cm}
+		\newpage
+
+		\begin{tikzpicture}[remember picture,overlay,node distance=2mm]
+			\fill[C5] ($ (current page.north east)-(.8\marginparwidth,0)$) rectangle ($ (current page.south east)$);
+		\end{tikzpicture}
+		
+		{\color{white} UTN}
+		\vfill
+		
+			
+			\hspace{0.5\linewidth}\begin{minipage}{0.4\textwidth}
+				{\fontspec{Montserrat}
+				\small
+					\hrule
+					\vspace{5mm}
+					\begin{flushright}
+						\textbf{Fecha de finalización}\\
+						\today \\
+					\end{flushright}
+					\hrule
+					\vspace{2mm}
+					\begin{flushright}
+						\textbf{Desarrolladores}\\
+						\autor \\
+					\end{flushright}
+					\hrule
+					\vspace{2mm}
+					\begin{flushright}
+						\textbf{Docentes de la cátedra}\\
+						\supervisor \\
+					\end{flushright}
+					\hrule
+					\vspace{2mm}
+					\begin{flushright}
+						\textbf{Localidad}\\
+						Reconquista Santa Fe \\
+					\end{flushright}
+					\hrule
+				}
+			\end{minipage}
+		
+	\end{titlepage}
+\end{document}
