@@ -4,30 +4,32 @@
 \contentsline {section}{\numberline {1.1}Refrigeración y los ciclos}{10}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Sistemas de refrigeración por aire}{10}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Sistema de refrigeración por compresión de vapor}{11}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Refrigerantes en instalaciones}{12}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Características, comparaciones y selección}{12}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Impacto ambiental}{12}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Consideraciones de seguridad}{12}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Refrigerantes secundarios}{12}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Conducción de fluidos refrigerantes}{12}{section.1.7}%
-\contentsline {part}{II\hspace {1em}Anexos}{15}{part.2}%
-\contentsline {chapter}{\numberline {A}Ciclos de refrigeración}{17}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Parámetros principales de ciclos}{18}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Presión}{18}{subsection.Alph1.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Energía interna}{18}{subsection.Alph1.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Entropía}{19}{subsection.Alph1.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Entalpía}{19}{subsection.Alph1.1.4}%
-\contentsline {section}{\numberline {A.2}1° Ley en flujos cerrados}{20}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}1° Ley de la termodinámica}{20}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Proceso isocórico (V = cte)}{20}{subsection.Alph1.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Proceso isobárico (P = cte)}{20}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Proceso isotérmico (T = cte)}{21}{subsection.Alph1.2.4}%
-\contentsline {subsection}{\numberline {A.2.5}Proceso adiabático (Q = Cte)}{21}{subsection.Alph1.2.5}%
-\contentsline {section}{\numberline {A.3}Gráficos termodinámicos fundamentales}{22}{section.Alph1.3}%
-\contentsline {subsection}{\numberline {A.3.1}Diagrama T-s}{22}{subsection.Alph1.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Diagrama p-v}{22}{subsection.Alph1.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Diagrama p-h}{23}{subsection.Alph1.3.3}%
-\contentsline {section}{\numberline {A.4}Ciclo Carnot inverso}{24}{section.Alph1.4}%
-\contentsline {section}{\numberline {A.5}Ciclo Rankine inverso}{24}{section.Alph1.5}%
-\contentsline {section}{\numberline {A.6}Ciclo Brayton inverso}{26}{section.Alph1.6}%
+\contentsline {subsubsection}{Eficiencia volumétrica}{15}{Item.13}%
+\contentsline {subsubsection}{Análisis matemático de la refrigeración por compresión de vapor}{15}{Item.13}%
+\contentsline {section}{\numberline {1.2}Refrigerantes en instalaciones}{17}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Características, comparaciones y selección}{17}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Impacto ambiental}{17}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Consideraciones de seguridad}{17}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Refrigerantes secundarios}{17}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Conducción de fluidos refrigerantes}{17}{section.1.7}%
+\contentsline {part}{II\hspace {1em}Anexos}{19}{part.2}%
+\contentsline {chapter}{\numberline {A}Ciclos de refrigeración}{21}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Parámetros principales de ciclos}{22}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Presión}{22}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Energía interna}{22}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Entropía}{23}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Entalpía}{23}{subsection.Alph1.1.4}%
+\contentsline {section}{\numberline {A.2}1° Ley en flujos cerrados}{24}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}1° Ley de la termodinámica}{24}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Proceso isocórico (V = cte)}{24}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Proceso isobárico (P = cte)}{24}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Proceso isotérmico (T = cte)}{25}{subsection.Alph1.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}Proceso adiabático (Q = Cte)}{25}{subsection.Alph1.2.5}%
+\contentsline {section}{\numberline {A.3}Gráficos termodinámicos fundamentales}{26}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Diagrama T-s}{26}{subsection.Alph1.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Diagrama p-v}{26}{subsection.Alph1.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Diagrama p-h}{27}{subsection.Alph1.3.3}%
+\contentsline {section}{\numberline {A.4}Ciclo Carnot inverso}{28}{section.Alph1.4}%
+\contentsline {section}{\numberline {A.5}Ciclo Rankine inverso}{28}{section.Alph1.5}%
+\contentsline {section}{\numberline {A.6}Ciclo Brayton inverso}{30}{section.Alph1.6}%
 \contentsfinish 

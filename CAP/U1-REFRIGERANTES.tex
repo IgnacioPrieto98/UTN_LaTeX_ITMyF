@@ -69,8 +69,144 @@
 
 	\subsection{Sistema de refrigeración por compresión de vapor}
 
-	Hola culiado
+	De todos los sistemas de refrigeración, el sistema de compresión de vapor es el sistema más importante desde el punto de vista de su utilidad comercial y doméstica. Es la forma más práctica de refrigeración. En este sistema el fluido de trabajo es un vapor uqe se evapora y se condensa con facilidad o cambia alternadamente entre las fases de vapor y líquida sin salir de la planta refrigerante. Durante la evaporación, absorbe el calor del cuerpo frío. Este calor se utiliza ya que es calor latente para convertirlo de líquido a vapor. Al condensarlo, enfriarlo o licuarlo, rechaza el calor hacia un cuerpo externo, creando de esta manera un efecto de enfriamiento en el fluido de trabajo. Este sistema de refrigeración actúa como una bomba de calor latente dado que bombea su calor latente del cuerpo frío y lo suministra a un cuerpo externo o medio de enfriamiento. El principio con el que funciona el sistema de compresión de vapor se aplica a todos los vapores para los que se dispone de tablas de propiedades termodinámicas.
+
+	EL ciclo que compone un sistema de compresión de vapor es idéntico a un ciclo rankine inverso, compuesto por:
+
+	\begin{itemize}
+		\item Compresión.
+		\item Condensación.
+		\item Expansión.
+		\item Vaporización.
+	\end{itemize}
+
+	El vapor a baja temperatura y presión entra al compresor en donde se comprime isentrópicamente y luego su temperatura y presión aumentan considerablemente. Este vapor, después de salir del compresor, entra al condensador donde se condensa como un líquido a alta presión y se colecta en un tanque receptor. Del tanque receptor pasa a través de una válvula de expansión, donde se estrangula hasta una presión menor y tiene una baja temperatura. Después de pasar por la válvula de expansión por último pasa al evaporador  donde extrae el calor de los alrededores o del fluido circulando siendo refrigerado y se vaporiza en un vapor a baja presión.
 	
+	
+	Las ventajas principales de un sistema de compresión a vapor sobre el sistema de refrigeración por aire son:
+
+	\begin{itemize}
+		\item Valor de COP alto debido a que el ciclo de trabajo es próximo al ciclo Carnot.
+		\item Cuando se utiliza a nivel del suelo, el costo de operación de un sistema de refrigeración de vapor es solo un quinto del sistema de refrigeración de aire.
+		\item Para el mismo efecto refrigerante, el tamaño del evaporador es más pequeño.
+		\item La temperatura requerida del evaporador se puede alcanzar simplemente ajustando la válvula de estrangulación de la misma unidad.
+	\end{itemize}
+
+	Las desventajas son su alto costo inicial y la inflamabilidad, fuga de vapores y toxicidad; aunque ellas van evolucionando y mejorando con el tiempo.
+
+	Los diversos elementos que componen un sistema de refrigeración por vapor se desarrollan a continuación:
+
+	\begin{itemize}
+		\item Compresor. La función de un compresor es remover el vapor del evaporador, y aumentar su temperatura y presión hasta un punto tal que el vapor se pueda condensar con el medio de condensación disponible.
+		\item Condensador. La función de un condensador es proporcionar una superficie de transferencia de calor a través de que el calor pasa del vapor refrigerante caliente al medio de condensación.
+		\item Tanque receptor. Un tanque receptor se utiliza para proporcionar almacenamiento para un líquido condensador tal que esté disponible un suministro constante de líquido hacia el evaporador según se requiera.
+		\item Conducto de descarga. Un conducto de gas caliente o de descarga suministra el vapor a alta presión y temperatura de descarga del compresor al condensador.
+		\item Conductor de líquido. Un conducto de líquido transporta el refrigerante líquido del tanque receptor al control de flujo de refrigerante.
+		\item Válvula de expansión. Su función es dosificar la cantidad apropiada de refrigerante hacia el evaporador y reducir la presión del líquido entrante al evaporador de manera que el líquido se vaporizará en el evaporador a la temperatura baja deseada y tomará una suficiente cantidad de calor.
+		\item Evaporador. Un evaporador proporciona una superficie de transferencia de calor a través de la que el calor puede pasar del espacio al refrigerador hacia el refrigerante vaporizado.
+		\item Conducto de aspiración. El conductor de aspiración transporta el vapor a baja presión del evaporador hacia la entrada del compresor.
+	\end{itemize}
+	
+	El ciclo de refrigeración de un sistema de refrigeración por vapor puede ser de alguno de los tres siguientes casos:
+	
+	\begin{enumerate}
+		\item Vapor saturado al final de la compresión. En este caso el vapor entra en el cilindro del compresor siendo una mezcla de vapor y líquido. Esta configuración del sistema posee dos inconvenientes, uno de ellos es la necesidad de poseer un compresor que maneje las mezclas y el otro es su bajo rendimiento.
+		\item Vapor sobrecalentado al final de la compresión. Si la compresión de vapor continua después de que se ha secado, el vapor estará sobrecalentado, saliendo de la campana de mezcla. Aquí el calor quitado es mayor, pero nuevamente la compresión sigue siendo una mezcla entre líquido y vapor, a menos que la compresión comience en calidad 1.
+		\item Vapor húmedo luego de la compresión. 
+	\end{enumerate}
+
+	Los factores que afectan al desempeño de compresión de vapor son los siguientes:
+
+	\begin{enumerate}
+		\item Efecto de la presión de aspiración. El efecto de una disminución en la presión de aspiración reduce el efecto refrigerante, debido a la temperatura menor que se presenta durante la evaporación del fluido. Por lo tanto, una disminución de la presión me representa una disminución notable en el rendimiento frigorífico.
+		\item Efecto de la presión de suministro. El efecto de la presión de suministro, o aumentar la presión a la salida del compresor, es similar al de disminuir la presión de aspiración. La única diferencia es que el efecto de disminuir la presión de aspiración es más predominante que el efecto de aumentar la presión de descarga.
+		\item Efecto de sobrecalentamiento. El efecto de sobrecalentamiento consiste en aumentar el efecto refrigerante, pero este aumento es a costa de un aumento en la cantidad de trabajo empleada para obtener el límite superior. Dado que el aumento en la cantidad de trabajo es mayor que el aumento en el efecto refrigerante, el efecto global del sobrecalentamiento reduce el valor del COP.
+		\item Subenfriamiento del líquido. El subenfriamiento es el proceso de enfriar el refrigerante líquido a una temperatura menor que la de condensación para una presión dada. como es evidente, el efecto del subenfriamiento es aumentar el efecto refrigerante. Por lo tanto, el subenfriamiento resulta en un aumento dle COP a condición que no se gaste energía adicional para obtener el refrigerante frío adicional requerido. Este subenfriamiento se puede obtener según:
+		\begin{itemize}
+			\item Insertando un serpentín especial entre el condensador y la válvula de expansión.
+			\item Circulando una mayor cantidad de agua de enfriamiento a través del condensador.
+			\item Utilizando un enfriador de agua en vez de la circulación principal.
+		\end{itemize}
+		\item Efecto de la temperatura de aspiración y la temperatura del condensador. El desempeño del ciclo refrigerante de compresión de vapor varía considerablemente tanto con la temperatura de vaporización como con la temperatura de condensación. DE las dos, la temperatura de vaporización tiene mayor efecto. Se ha observado que la capacidad y el desempeño del refrigerante mejoran conforme a la temperatura de vaporización aumenta y la temperatura de evaporación disminuye. Por tal motivo, se debe diseñar siempre para que funcione a la mayor temperatura de vaporización y a la menor temperatura de condensación posible.
+	\end{enumerate}
+	
+	El ciclo real de compresión de vapor difiere del ciclo teórico de muchas maneras debido a las razones siguientes:
+
+	\begin{enumerate}
+		\item Con frecuencia, el líquido refrigerante se subenfría antes de que se deje entrar a la válvula de expansión, y por lo general el gas saliente del evaporador se sobrecalienta algunos grados antes de que entre al compresor. Este sobrecalentamiento puede ocurrir como resultado del tipo de control de la expansión utilizado o mediante una captación del calor en el conducto de aspiración entre el evaporador y el compresor.
+		\item La compresión, aunque suele ser isentrópica, en realidad puede demostrarse que no es isentrópica ni politrópica.
+		\item Las válvulas de aspiración y de descarga del compresor se accionan por una diferencia de presión y este proceso requiere que la presión de aspiración real dentro del compresor sea ligeramente menor que la presión del evaporador y que la presión de descarga sea mayor que la presión del condensador.
+		\item Aunque se supone que la compresión es isentrópica no hay transferencia de calor entre el refrigerante y las paredes del cilindro, las paredes de este se encuentran más calientes que los gases entrantes al evaporador y más frías que los gases comprimidos descargados al condensador.
+		\item La caída de presión en las tuberías largas de los conductores de aspiración y de líquido y cualesquiera diferencias verticales en la carga creadas por la ubicación del evaporador y el condensador en elevaciones diferentes.
+	\end{enumerate}
+
+	A continuación se describen los procesos:
+
+	\begin{itemize}
+		\item[1-2-3] Este proceso representa el paso de un refrigerante a través del evaporador representando con 1-2 la ganancia de calor latente de vaporización, y 2-3, la ganancia de sobrecalentamiento antes de la entrada al compresor. Estos dos procesos tienden a las condiciones de presión constante.
+		\item[3-4-5-6-7-8] Esta ruta/proceso representa el paso del vapor refrigerante desde la entrada hasta la descarga del compresor. La ruta 3-4 representa la acción de estrangulación que ocurre durante el paso a través de las válvulas de aspiración, y la ruta 7-8 representa la estrangulación durante el paso a través de las válvulas de escape. Estas dos acciones se acompañan por un aumento en la entropía y por una ligera caída en la temperatura.
+		La compresión del refrigerante sucede a lo largo de la ruta 5-6, que en realidad no es isentrópica ni politrópica. Las transferencias indicadas por las rutas 4-5 y 6-7 ocurren, en esencia, a presión constante.
+		\item[8-9-10-11] Este proceso representa el paso de refrigerante a través del condensador en donde 8-9 indica la remoción de sobrecalor, 9-10 indica la remoción de calor latente y 10-11 indica la remoción de calor líquido o subenfriamiento.
+		\item[11-1] Este proceso representa el paso del refrigerante a través de la válvula de expansión, tanto teórica como prácticamente en una ruta adiabática reversible. 
+	\end{itemize}
+
+	\subsubsection{Eficiencia volumétrica}
+
+	Un compresión que teóricamente es perfecto no tendría un espacio muerto ni pérdidas de ningún tipo y bombearía en cada carrera una cantidad de refrigerante igual al desplazamiento del émbolo. Ningún compresor real puede hacer esto, ya que es imposible construir un compresor sin válvulas de aspiración y descarga, que no tenga sobrecalentamiento de los gases de aspiración al hacer contacto con las paredes y redes del cilindro, o sin fugas de gas que pasen el émbolo o las válvulas. Todos estos factores afectan el volumen de gas bombeado o la capacidad del compresor, algunos de ellos afectan los requerimientos de potencia por tonelada de refrigeración desarrollada.
+
+	La eficiencia volumétrica se define como la relación del volumen real de gas en el compresor en cada carrera con respecto al desplazamiento del émbolo. Si solo se considera el efecto del volumen del espacio muerto, la expresión resultante se puede denominar como eficiencia volumétrica del espacio muerto. La expresión que se utiliza para agrupar en una constante todos los factores de eficiencia se puede denominar eficiencia volumétrica total.
+
+	\begin{itemize}
+		\item La eficiencia volumétrica del espacio muerto. El volumen del espacio muerto es aquel que se presenta entre el extremo del cilindro y el émbolo cuando el mismo está en su punto superior. EL volumen de espacio muerto se expresa como un porcentaje de desplazamiento del émbolo.
+		
+		Durante la carrear de aspiración, el vapor aspirado en el espacio muerto a la presión de descarga se expande a lo largo del desplazamiento hacia el punto muerto inferior y la válvula de aspiración se abre lentamente cuando la presión ha caído hasta la presión de aspiración. Por lo tanto, el volumen real aspirado será el volumen barrido una vez se abrió la válvula de aspiración. La relación entre el volumen real de vapor aspirado con respecto al desplazamiento del émbolo se define como la eficiencia volumétrica del espacio muerto.
+
+		\item Eficiencia volumétrica total. La eficiencia volumétrica total de un compresor se obtiene mejor mediante mediciones reales de laboratorio de la cantidad de refrigerante comprimido y suministrado al condensador. Es muy difícil de predecir los efectos de aspiración de agua, de calentamiento de las paredes del cilindro y de las fugas del émbolo para permitir cualquier grado de precisión en la mayoría de los casos. La eficiencia volumétrica total se puede calcular aproximadamente si se conocen la caída de presión a través de las válvulas de aspiración y la temperatura de los gases al final de la carrera de aspiración, y si se supone que no hay fugas en el émbolo durante la compresión. 
+	\end{itemize}
+
+	\subsubsection{Análisis matemático de la refrigeración por compresión de vapor}
+
+	\begin{itemize}
+		\item Efecto refrigerante. El efecto refrigerante es la cantidad de calor absorbido por el refrigerante en su recorrido a través del evaporador. Este se determina según la expresión:
+		\begin{equation}
+			Q_{evap} = (h_2 - h_1) \Un{kJ/kg}
+		\end{equation}
+
+		Además del calor latente de vaporización se puede incluir cualquier calor de sobrecalor absorbido en el evaporador. 
+
+		\item La masa de refrigerante circulado se puede calcular la cantidad de calor entre el efecto refrigerante.
+		
+		\begin{equation}
+			m = \dfrac{1\Un{Ton/s}}{Q_{evap}\Un{Ton/kg}} 
+		\end{equation}
+
+		Donde $1Ton = 1400kJ$.
+
+		\item El desplazamiento teórico por ton de refrigeración del émbolo se puede determinar multiplicando la masa del refrigerante que debe circular por el volumen específico del gas refrigerante, en su entrada al compresor.
+		
+		\item Potencia teórica requerida. La potencia teórica por ton de refrigeración es la potencia que teóricamente se necesita para comprimir el refrigerante. Aquí, las eficiencias volumétrica y mecánica no se toma en consideración. La potencia se puede calcular como:
+		
+		\begin{itemize}
+			\item Compresión isentrópica:
+			\begin{equation}
+				P = m(h_3 - h_2) \Un{kW}
+			\end{equation}
+
+			\item Compresión según $pV^n = cte$:
+			\begin{equation}
+				P = m\left[\dfrac{n}{n-1} \dfrac{p_3 v_3 - p_2 v_2}{1000} - (h_3 - h_2)\right] \Un{kJ}
+			\end{equation}
+		
+		\end{itemize}
+
+		\item Calor removido a través del condensador. El calor removido a través del condensador incluye el calor removido como calor latente, sobrecalor o subenfriamiento. Esto equivale al calor absorbido en el evaporador más el trabajo de compresión.
+		
+		\begin{equation}
+			Q = \dot{m} (h_3 - h_4) \Un{kJ/s}
+		\end{equation}
+
+	\end{itemize}
+
 	\newpage
 
 	\section{Refrigerantes en instalaciones}
