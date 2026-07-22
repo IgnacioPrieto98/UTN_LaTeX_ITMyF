@@ -14,7 +14,7 @@
 
 
 	\section{Refrigeración y los ciclos}
-	\Biblio{\cite[pág. 721 a 722]{Rajput2011termodinamica}}
+	\Biblio{\cite[pág. 721 a 751]{Rajput2011termodinamica}}
 
 	La refrigeración es el enfriamiento o la remoción de calor de un sistema. El equipo empleado para mantener a un sistema a una temperatura baja se denomina sistema de refrigeración, mientras que el sistema que se mantiene a una temperatura menor se denomina sistema refrigerado.
 
@@ -45,7 +45,7 @@
 		\end{tabular}
 	\end{table}
 
-	La medición del desempeño de los sistemas de refrigeración se mide a partir de un coeficiente de desempeño ($COP$), que se define como la relación del calor absorbido por el refrigerante mientras pasa por el evaporador on respecto al trabajo requerido para comprimir el refrigerante mientras pasa por el compresor.
+	La medición del desempeño de los sistemas de refrigeración se mide a partir de un coeficiente de desempeño ($COP$), que se define como la relación del calor absorbido por el refrigerante mientras pasa por el evaporador con respecto al trabajo requerido para comprimir el refrigerante mientras pasa por el compresor.
 
 	\begin{equation}\label{E1-Coeficiente de desempeño (COP)}
 		COP = \dfrac{\text{Calor neto quitado}}{\text{Trabajo de expansión}} = \dfrac{Q_L}{W_{neto}}
@@ -207,10 +207,150 @@
 
 	\end{itemize}
 
-	\newpage
+	\subsection{Sistema de absorción de vapor}
 
+	En un sistema de absorción de vapor el refrigerante se absorbe al salir del evaporador, en donde el medio absorbente es un sólido o un líquido. A fin de que la secuencia de efectos sea continua, es necesario que el refrigerante se separe del absorbente y luego se condense antes de regresar al evaporador. La separación se efectúa por la aplicación de calor directo en un generador. La solubilidad del refrigerante y del absorbente debe ser la adecuada. Una planta que utiliza amoniaco como refrigerante y agua como absorbente es el mejor ejemplo y se describirá a continuación.
+
+	\subsubsection{Sistema simple de absorción de vapor}
+
+	Analizando la figura \ref{F1-Sistema simple de absorción de vapor.} donde se muestra un sistema simple de absorción. La solubilidad del amoniaco en agua a bajas temperaturas y presiones es mayor que a altas temperaturas y presiones. El vapor de amoniaco que sale del evaporador en el punto 2 se absorbe con facilidad en la solución caliente a baja temperatura en el absorbedor. Este proceso se acompaña por un rechazo de calor. El amoniaco en la solución de agua se bombea hasta la presión superior y se calienta en el generador. DEbido a la solubilidad reducida del amoniaco en agua a la presión y temperatura superior, el vapor se remueve de la solución y luego el vapor pasa al condensador en agua a la presión y temperatura superior, el vapor se remueve de la solución. Luego el vapor pasa al condensador y el amoniaco debilitado en la solución de agua se regresa al absorbedor.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = 0.9\linewidth]{Figuras/U1/F1-CICLO_ABSORCION.png}
+		\caption{Sistema simple de absorción de vapor.}\label{F1-Sistema simple de absorción de vapor.}
+	\end{figure}
+
+	En este sistema el trabajo realizado en la compresión es menor que en un ciclo de compresión de vapor, ya que el bombeo de un líquido requiere mucho menos trabajo que la compresión de vapor entre las mismas presiones, pero se requiere una entrada de calor hacia el generador, el calor se puede suministra mediante cualquier forma convincente, por ejemplo, calentamiento por vapor o gas.
+
+	\subsubsection{Sistema práctico de absorción de vapor}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = 0.5\linewidth]{Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png}
+		\caption{Sistema práctico de absorción de vapor.}\label{F1-Sistema práctico de absorción de vapor.}
+	\end{figure}
+
+	Consultando loa figura \ref{F1-Sistema práctico de absorción de vapor.} se llega a la conclusión que un sistema simple de absorció nde vapor puede proporcionar refrigeración, pero a una eficiencia baja. Por lo tanto, los accesorios siguientess se instalan para hacer el sistema más práctico y mejorar el desempeño y funcionamiento de lap lanta.
+
+	\begin{enumerate}
+		\item Cambiador de calor.
+		
+		Un cambiador de calor se ubica entre el generador y el absorbedsor. La solución concentrad,a que bombea del absorbedor al regeenrador, se debe calentar; y la solución diluida del generador al absorbedor se debe efnriar. Esto se efectúa por unintercambiador de calor y en consecuencia el costo del calentamiento del generador y el costo de enfriamiento del absorbedor es menor.
+
+		\item Analizador.
+		
+		El analizado consiste en una serie de bandejas monjtadas arriba del generador. Su función principal es remover parcialmente parte de las partículas de agua no deseables asoociadas con el vapor de amoniaco que van hacia el condensador. Si estos vapores de aguas e permiten entrar al condensador pueden entrara a la válvula de expansión y congelarse; como resultado puede obstruir la tubería.
+
+		\item Rectificador.
+		
+		Un rectificador es un cambiador de calor enfriado por agua que condensa el vapor de agua y algo de vapor de amoniaco y lo envía de regreso al generador. Así pues, la solución final o eliminación del porcentaje de vapor de agua tiene lugar en el rectificador.
+
+	\end{enumerate}
+
+	El coeficiente de desempeño de refrigeración está definido por 
+
+	\begin{equation}
+		COP = \dfrac{\text{Calor extraído del evaporador}}{\text{Calor sum. en el generador} + \text{Trabajo realizado por la bomba}}
+	\end{equation}
+
+	
 	\section{Refrigerantes en instalaciones}
-	\Biblio{}
+	\Biblio{\cite[pág. 772 a]{Rajput2011termodinamica}}
+
+	Un refrigerante se define como cualquier sustancia que absorbe calor a través de su evaporación o condensación y lo pierde a través de su condensación en un sistema de refrigeración. El término refrigerante en el sentido más amplio también se aplica a medios de enfriamiento secundarios como las soluciones de agua fría o de salmuera. En general, los refrigerantes incluyen solo los medios de trabajo que pasan por el ciclo de evaporación, recuperación, compresión, condensación y licuefacción. Estas sustancias absorben calor en un lugar a un nivel bajo de la temperatura y lo rechazan en algún otro lugar ya con una temperatura y presión mayor. El rechazo de calor sucede a costa de cierto trabajo mecánico. Así pues, los medios fríos circulantes y los medios de enfriamiento no son refrigerantes primarios. EN los primeros días sólo se utilizaban cuatro refrigerantes: 
+
+	\begin{itemize}
+		\item Aire.
+		\item Amoniaco ($NH_3$).
+		\item Dióxido de carbono ($CO_2$).
+		\item Dióxido de azufre ($SO_2$).
+	\end{itemize}
+
+	Estos poseían propiedades químicas, físicas y termodinámicas que permitían su aplicación y servicio eficiente en el diseño práctico de equipo de refrigeración. Todos los refrigerantes cambian de un estado líquido a un estado de vapor durante el proceso.
+
+	\subsection{Clasificación de los refrigerantes}
+
+	Los refrigerantes pueden clasificarse en refrigerantes primarios y refrigerantes secundarios.
+
+	Los refrigerantes primarios son los medios de trabajo o portadores de calor que tienen una función de manera directa en el sistema de refrigeración y enfrían una sustancia mediante la absorción de calor latentes. Por ejemplo, amoniaco, dióxido de carbono, dióxido de azufre, cloruro de metlilo, cloruro de metileno, cloruro etílico, el grupo Freón, etc.
+
+	Los refrigerantes secundarios son las sustancias circulando que primero se enfrían con ayuda de los refrigerantes primarios y luego se emplean para fines de enfriamiento. Por ejemplo, hielo, dióxido de carbono sólido, etc. Estos refrigerantes enfrían sustancias por medio de absorción de su calor sensible.
+
+	Los refrigerantes primarios se agrupan de la siguiente manera:
+
+	\begin{itemize}
+		\item Compuestos de halocarburos. En este grupo se incluyen refrigerantes que contienen uno o más de tres alógenos, cloro y bromuro y se venden en el mercado con nombres de Freón, Genotrón, Isotrón y Aretón. Como los refrigerantes que pertenecen a este grupo tienen ventajas extraordinarias sobre los refrigerantes de otros grupos, tienen un campo de aplicación muy amplio para fines domésticos, comerciales e industriales.
+		\item Azeótropos. Los refrigerantes azeótropos consisten de mezclas de sustancias diferentes. Estas sustancias no se pueden separar en sus componentes mediante destilación. Poseen propiedades termodinámicas fijas y no experimentan separación con cambios de temperaturas o presión. Se comportan como sustancias simples.
+		\item Hidrocarburos. La mayoría de los refrigerantes de este grupo son compuestos orgánicos. Varios hidrocarburos se emplean con éxito en instalaciones comerciales e industriales. Casi todos estos poseen propiedades termodinámicas satisfactorias, pero son altamente inflamables.
+		\item Compuestos inorgánicos. Antes de la introducción del grupo de hidrocarburos, estos refrigerantes fueron los de uso común para todos los fines.
+		\item Compuestos orgánicos insaturados. Los refrigerantes que pertenecen a este grupo contienen etileno o propileno.
+	\end{itemize}
+
+	\subsubsection{Mezclas previsibles}
+
+	Cuando se producen mezclas de refrigerantes y aceites, no debe haber ninguna reacción química entre un refrigerante y el aceite de lubricación del compresor. La miscibilidad del aceite es muy importante y que cierta cantidad de aceite se debe sacar del cárter del compresor con el vapor refrigerante caliente para lubricar de manera adecuada los émbolos y las válvulas de descarga.
+
+	Cuando se presenta una mezcla entre el refrigerante y materiales constructivos, se debe contemplar la selección del material para contener el refrigerante. Los refrigerantes atacan algunos metales, por ejemplo, el amoniaco reacciona con el cobre, latón u otras aleaciones cuprosas en presencia de agua, por lo tanto, en sistemas con amoniaco los metales comunes utilizados son el hierro y el acero. El grupo freon no reacciona con el acero, cobre latón, zinc, estaño y aluminio, pero es corrosivo con el magnesio y el aluminio con 2\% de magnesio. Los refrigerantes del grupo freón tienden a disolver caucho natural en los empaques y sellos, pero el caucho sintético con neopreno es completamente adecuado. Los hidrocarburos hidrogenados pueden reaccionar con el zinc, pero no con el cobre, aluminio, hierro y acero.
+
+	\subsubsection{Propiedades y usos de refrigerantes comunes}
+
+	\begin{itemize}
+		\item Aire.
+		
+		El aire no tiene costo, se presente con gran disponibilidad, es completamente seguro y no es tóxico. El COP de un ciclo de aire funcionando entre temperaturas de $80^\circ C$ y $-15^\circ C$ es un 30\% del valor ideal de Carnot.
+
+		El aire fue uno de los primeros refrigerantes y se utilizó ampliamente en momentos donde se requirió un medio completamente no tóxico. Actualmente, debido a su bajo COP, se utiliza solo en zonas donde la eficiencia de funcionamiento es secundaria, como lo es la refrigeración aeronaval.
+
+		\item Amoniaco ($NH_3$).
+
+		El amoniaco es altamente tóxico e inflamable, pero tiene propiedades térmicas excelentes. Tiene el efecto refrigerante mayor por kilogramo de refrigerante, bajo desplazamiento volumétrico, es barato y bajo peso del líquido circulado por ton de refrigeración. Por todas estas razones tiene una alta eficiencia. Las presiones del evaporador y del condensador son $3.5bar$ y $13bar$ absolutas, respectivamente en condiciones de temperatura de $-15^\circ C$ Y $30^\circ C$.
+
+		Se utiliza ampliamente en sistemas de compresión alternativa industrial y comercial donde una toxicidad alta es secundaria. Principalmente, su uso se da en plantas de hielo, plantas de empaque, almacenamientos fríos grandes y pistas de patinaje, entre otros. Se utiliza ampliamente como refrigerante en sistemas de absorción.
+		
+		Algunos detalles interesantes son que, el amoniaco nunca se debe emplear con cobre, latón y otras aleaciones de cobre. En lugar se debe utilizar hierro o acero en sistemas con amoniaco. Además, para la detección de fugas se utiliza una vela de azufre que emite un color blanco y denso cuando está presente un vapor de amoniaco.
+
+		\item Dióxido de azufre ($SO_2$).
+		
+		El dióxido de azufre es incoloro, extremadamente tóxico y tiene un olor acre irritante. Sin embargo, este no es explosivo ni irritante. Tiene una gravedad específica de 1.36. Funciona a bajas presiones y tiene un calor latente de vaporización bajo.
+
+		En la actualidad se utiliza poco, sin embargo, se utilizaba en máquinas pequeñas en los primeros días de la refrigeración. 
+
+		La fuga de dióxido de azufre se puede detectar acercando amoniaco acuoso a la fuga, esto emite un humo color blanco.
+
+		\item Dióxido de carbono ($CO_2$).
+		
+		El dióxido de carbono es un gas incoloro e inoloro, y es más pesado que el aire, tiene una gravedad específica de $1.56$. No es tóxico, tampoco inflamable, explosivo ni corrosivo. Como desventaja, tiene presiones de funcionamiento extremadamente altas y un efecto refrigerante muy bajo.
+		
+		Este refrigerante ha recibido un suo limitado debido a los requerimientos de alta potencia por ton de refrigeración y las altas presiones de funcionamiento. En el pasado ha sido utilizado para refrigeración marina, para refrigeración en teatros, hoteles e instituciones debido a no ser tóxico. EN la actualidad su uso está limitado principalmente a la manufactura de hielo seco. 
+
+		\item Cloruro de metilo ($CH_3 Cl$)
+
+		El cloruro de metilo es incoloro con olor suave, dulce y no irritante. Tiene una gravedad específica líquida de 1 a presión atmosférica. No es inflamable ni tóxico.
+
+		Se ha utilizado comúnmente en aplicaciones domésticas y comerciales. Nunca se debe emplear con aluminio.
+
+		\item R11 (tricloro monofluoro metano).
+		
+		Se compone de un átomo de carbono, tres de cloruro y uno de flúor y no es corrosivo, tóxico ni inflamable. Debido a su composición disuelve caucho natural y tiene un punto de ebullición a $-24^\circ C$. Se mezcla completamente con el aceite mineral de lubricación en todas las condiciones. 
+
+		Se utiliza para una capacidad de 50ton y mayor en pequeños edificios de oficinas y fábricas pequeñas. EN las plantas que emplean este refrigerante se utiliza un compresor centrífugo. 
+
+		Para detectar sus fugas se utiliza un soplete de haluro.
+
+		\item R12 o freón 12.
+		
+		Este refrigerante no es tóxico, inflamable ni explosivo, por lo tanto es el refrigerante adecuado. Es completamente miscible con el aceite, por lo tanto simplifica el problema del retorno del aceite. Las presiones de funcionamiento del R12 en un evaporador y  condensador ante una ton estándar de refrigeración son 1.9 bar absoluta y 7.6 bar absoluta, respectivamente. SU calor latente a $-15^\circ C$ es $161.6kJ/kg$, el COP es $80\%$ del referente al ciclo Carnot. No se descompone incluso ante condiciones de funcionamiento extremas, se condensa a presión moderada y en condiciones atmosféricas.
+
+		Su uso es adecuado para aplicaciones de alta, media y baja temperatura, se utiliza en aplicaciones domésticas. Es un aislante eléctrico excelente, por lo tanto se emplea en compresores de tipo hermético.
+
+		\item R22 o freón 22.
+		
+		El refrigerante R22 es superior al R12 en muchos aspectos. EL desplazamiento del compresor por ton de refrigeración es 60\% menor que el desplazamiento con R12. Además, el R22 es miscible con aceite a la temperatura del condensador, pero trata de separarse a temperatura del evaporador cuando el sistema se utiliza en aplicaciones de baja temperatura ($-90^\circ C$); en estos casos, se deben incorporar separadores de aceite para regresar el aceite del evaporador. Las presiones del evaporador y condensador a una ton estándar de refrigeración son mayores que las de R12. ($2.9bar$ y $11.9bar$). El R22 posee un bajo calor latente a $-15^\circ C$, el cual es $89kJ/kg$. La principal desventaja del R22 es su alta temperatura de descarga, que requiere enfriamiento por agua de la cabeza y del cilindro del compresor.
+
+		El R22 se utiliza universalmente en sistema de baja temperatura comerciales e industriales.
+
+	\end{itemize}
 
 	\section{Características, comparaciones y selección}
 	\Biblio{}

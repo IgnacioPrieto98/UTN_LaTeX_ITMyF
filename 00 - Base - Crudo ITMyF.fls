@@ -436,7 +436,6 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\montserrat\ts1monts
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\montserrat\ts1montserrat-tlf.fd
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\montserrat\ts1montserrat-tlf.fd
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Regular-tlf-ts1.tfm
-OUTPUT 00 - Base - Crudo ITMyF.toc
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\montserrat\Montserrat-Bold-tlf-t1.vf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Bold-tlf-t1--base.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\montserrat\Montserrat-Regular-tlf-sc-t1.vf
@@ -449,6 +448,7 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\M
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\montserrat\Montserrat-Regular-tlf-ts1.vf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Regular-tlf-ts1--base.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\montserrat\zmo_ro7vi7.enc
+OUTPUT 00 - Base - Crudo ITMyF.toc
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\montserrat\Montserrat-Italic-tlf-t1.vf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Italic-tlf-t1--base.tfm
 INPUT .\CAP\U1-REFRIGERANTES.tex
@@ -547,6 +547,23 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt.tfm
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT .\Figuras\U1\F1-CICLO_ABSORCION_PRACTICO.png
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
 INPUT .\ANX\01-Ciclos.tex
 INPUT .\ANX\01-Ciclos.tex
 INPUT ANX\01-Ciclos.tex
@@ -569,9 +586,6 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\four
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Regular-tlf-t1.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Regular-tlf-ts1.tfm
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\montserrat\Montserrat-Regular-tlf-t1.vf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\montserrat\Montserrat-Regular-tlf-t1--base.tfm
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\fonts\vf\public\montserrat\Montserrat-Regular-tlf-t1.vf
