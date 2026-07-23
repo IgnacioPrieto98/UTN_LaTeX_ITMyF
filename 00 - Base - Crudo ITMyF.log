@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  23 JUL 2026 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  23 JUL 2026 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1102,60 +1102,60 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@depth=\count369
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-LaTeX Font Info:    Trying to load font information for T1+Montserrat-TLF on input line 27.
+LaTeX Font Info:    Trying to load font information for T1+Montserrat-TLF on input line 28.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\t1montserrat-tlf.fd
 File: T1Montserrat-TLF.fd 2019/11/07 (autoinst) Font definitions for T1/Montserrat-TLF.
 )
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 28.
  (00 - Base - Crudo ITMyF.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `"00 - Base - Crudo ITMyF.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 27.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 28.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 28.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 27.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 28.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 27.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 28.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 27.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 28.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1199,9 +1199,9 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-Package hyperref Info: Link coloring OFF on input line 27.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+Package hyperref Info: Link coloring OFF on input line 28.
 (00 - Base - Crudo ITMyF.out) (00 - Base - Crudo ITMyF.out)
 \@outlinefile=\write4
 \openout4 = `"00 - Base - Crudo ITMyF.out"'.
@@ -1233,41 +1233,41 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 27.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 27.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 28.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 28.
 \c@mv@tabular=\count376
 \c@mv@boldtabular=\count377
 <Portada/00-Portada.pdf, id=102, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
-Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
-Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 <Portada/00-Portada.pdf, id=105, page=1, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
-Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
-Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
-Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
-Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
 
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
-Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [1
 
@@ -1276,17 +1276,17 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 30.
 <Portada/00-Portada.pdf, id=128, page=2, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 2>
-Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 2>
-Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
 
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 2>
-Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [2
 
@@ -1294,33 +1294,33 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 30.
 <Portada/00-Portada.pdf, id=133, page=3, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 3>
-Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 3>
-Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
 
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 3>
-Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 30.
+Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 31.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [3
 
  <./Portada/00-Portada.pdf>]
 
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/sl' in size <12> not available
-(Font)              Font shape `T1/Montserrat-TLF/regular/it' tried instead on input line 34.
+(Font)              Font shape `T1/Montserrat-TLF/regular/it' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 34.
+(Font)              scaled to size 12.0pt on input line 35.
 [4{C:/Users/Igna_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_bapnwu.enc}
 
 ]
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 34.
+(Font)              scaled to size 24.88pt on input line 35.
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 34.
+(Font)              scaled to size 24.88pt on input line 35.
  (00 - Base - Crudo ITMyF.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1346,8 +1346,8 @@ LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/sc' will be
 
 [5{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_poz7al.enc}]
 
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 [6
 
 ]
@@ -1499,67 +1499,42 @@ LaTeX Info: Redefining \. on input line 297.
 LaTeX Info: Redefining \% on input line 297.
 [19]
 
-LaTeX Info: Redefining \. on input line 327.
-LaTeX Info: Redefining \% on input line 327.
+LaTeX Info: Redefining \. on input line 320.
+LaTeX Info: Redefining \% on input line 320.
 [20]
 
-LaTeX Info: Redefining \. on input line 353.
-LaTeX Info: Redefining \% on input line 353.
+LaTeX Info: Redefining \. on input line 342.
+LaTeX Info: Redefining \% on input line 342.
 [21]
+Overfull \hbox (44.02094pt too wide) in paragraph at lines 357--358
+\T1/Montserrat-TLF/regular/n/12 mien-to a con-di-cio-nes de to-ne-la-da es-tán-dar son $\T1/futs/m/n/12 2[]94\FML/futmi/m/it/12 lb\T1/futs/m/n/12 /\FML/futmi/m/it/12 in[]\T1/futs/m/n/12 (0[]2\FML/futmi/m/it/12 bar\T1/futs/m/n/12 )$ \T1/Montserrat-TLF/regular/n/12 y $\T1/futs/m/n/12 18[]19\FML/futmi/m/it/12 lb\T1/futs/m/n/12 /\FML/futmi/m/it/12 in[]\T1/futs/m/n/12 (1[]25\FML/futmi/m/it/12 bar\T1/futs/m/n/12 )$\T1/Montserrat-TLF/regular/n/12 .
+ []
 
-LaTeX Info: Redefining \. on input line 377.
-LaTeX Info: Redefining \% on input line 377.
 
-Package fancyhdr Warning: \headheight is too small (12.1638pt): 
-(fancyhdr)                Make it at least 12.38503pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.38503pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
 
+LaTeX Info: Redefining \. on input line 368.
+LaTeX Info: Redefining \% on input line 368.
 [22]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 384.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 384.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 384.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 384.
-LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 7.6pt on input line 384.
-
 
 LaTeX Info: Redefining \. on input line 388.
 LaTeX Info: Redefining \% on input line 388.
 [23]
-Overfull \hbox (5.12912pt too wide) in paragraph at lines 400--401
-[]\T1/Montserrat-TLF/regular/n/12 Con un co-efi-cien-te de con-duc-tan-cia al-to, pue-den me-jo-rar-se las ra-zo-nes de trans-
- []
 
-
-
-LaTeX Info: Redefining \. on input line 401.
-LaTeX Info: Redefining \% on input line 401.
-
-Package fancyhdr Warning: \headheight is too small (12.1638pt): 
-(fancyhdr)                Make it at least 12.38503pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.38503pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
-
+LaTeX Info: Redefining \. on input line 404.
+LaTeX Info: Redefining \% on input line 404.
 [24]
-
-LaTeX Info: Redefining \. on input line 417.
-LaTeX Info: Redefining \% on input line 417.
-[25]
-Overfull \hbox (1.52235pt too wide) in paragraph at lines 420--421
-\T1/Montserrat-TLF/regular/n/12 ro-mo-no-fluo-ro-me-tano, di-clo-ro-di-fluo-ro-me-tano, mo-no-clo-ro-tri-fluo-ro-me-tano y car-bo-
+Overfull \hbox (6.43343pt too wide) in paragraph at lines 407--408
+\T1/Montserrat-TLF/regular/n/12 ra-ción a con-di-cio-nes de to-ne-la-da es-tán-dar son $\T1/futs/m/n/12 0[]9802\FML/futmi/m/it/12 lb\T1/futs/m/n/12 /\FML/futmi/m/it/12 in[]$ $\T1/futs/m/n/12 (0[]068\FML/futmi/m/it/12 bar\T1/futs/m/n/12 )$ \T1/Montserrat-TLF/regular/n/12 y $\T1/futs/m/n/12 7[]86\FML/futmi/m/it/12 lb\T1/futs/m/n/12 /\FML/futmi/m/it/12 in[]$
  []
 
 
 
-LaTeX Info: Redefining \. on input line 433.
-LaTeX Info: Redefining \% on input line 433.
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
+[25]
+
+LaTeX Info: Redefining \. on input line 454.
+LaTeX Info: Redefining \% on input line 454.
 
 Package fancyhdr Warning: \headheight is too small (12.1638pt): 
 (fancyhdr)                Make it at least 12.38503pt, for example:
@@ -1569,12 +1544,23 @@ Package fancyhdr Warning: \headheight is too small (12.1638pt):
 
 [26]
 
-LaTeX Info: Redefining \. on input line 445.
-LaTeX Info: Redefining \% on input line 445.
+LaTeX Info: Redefining \. on input line 469.
+LaTeX Info: Redefining \% on input line 469.
 [27]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 472.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 472.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 472.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 472.
+LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
+(Font)              scaled to size 7.6pt on input line 472.
 
-LaTeX Info: Redefining \. on input line 464.
-LaTeX Info: Redefining \% on input line 464.
+
+LaTeX Info: Redefining \. on input line 483.
+LaTeX Info: Redefining \% on input line 483.
 
 Package fancyhdr Warning: \headheight is too small (12.1638pt): 
 (fancyhdr)                Make it at least 12.38503pt, for example:
@@ -1583,13 +1569,23 @@ Package fancyhdr Warning: \headheight is too small (12.1638pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
 
 [28]
+Overfull \hbox (5.12912pt too wide) in paragraph at lines 488--489
+[]\T1/Montserrat-TLF/regular/n/12 Con un co-efi-cien-te de con-duc-tan-cia al-to, pue-den me-jo-rar-se las ra-zo-nes de trans-
+ []
 
-LaTeX Info: Redefining \. on input line 482.
-LaTeX Info: Redefining \% on input line 482.
-[29]
+
 
 LaTeX Info: Redefining \. on input line 499.
 LaTeX Info: Redefining \% on input line 499.
+[29]
+Overfull \hbox (1.52235pt too wide) in paragraph at lines 508--509
+\T1/Montserrat-TLF/regular/n/12 ro-mo-no-fluo-ro-me-tano, di-clo-ro-di-fluo-ro-me-tano, mo-no-clo-ro-tri-fluo-ro-me-tano y car-bo-
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 513.
+LaTeX Info: Redefining \% on input line 513.
 
 Package fancyhdr Warning: \headheight is too small (12.1638pt): 
 (fancyhdr)                Make it at least 12.38503pt, for example:
@@ -1599,25 +1595,64 @@ Package fancyhdr Warning: \headheight is too small (12.1638pt):
 
 [30]
 
-LaTeX Info: Redefining \. on input line 512.
-LaTeX Info: Redefining \% on input line 512.
+LaTeX Info: Redefining \. on input line 523.
+LaTeX Info: Redefining \% on input line 523.
 [31]
 
-LaTeX Info: Redefining \. on input line 534.
-LaTeX Info: Redefining \% on input line 534.
-[32])
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
 
+Package fancyhdr Warning: \headheight is too small (12.1638pt): 
+(fancyhdr)                Make it at least 12.38503pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.38503pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
+
+[32]
+
+LaTeX Info: Redefining \. on input line 562.
+LaTeX Info: Redefining \% on input line 562.
 [33]
 
-[34
+LaTeX Info: Redefining \. on input line 580.
+LaTeX Info: Redefining \% on input line 580.
+
+Package fancyhdr Warning: \headheight is too small (12.1638pt): 
+(fancyhdr)                Make it at least 12.38503pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.38503pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
+
+[34]
+
+LaTeX Info: Redefining \. on input line 594.
+LaTeX Info: Redefining \% on input line 594.
+[35]
+
+LaTeX Info: Redefining \. on input line 606.
+LaTeX Info: Redefining \% on input line 606.
+
+Package fancyhdr Warning: \headheight is too small (12.1638pt): 
+(fancyhdr)                Make it at least 12.38503pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.38503pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
+
+[36]
+
+LaTeX Info: Redefining \. on input line 622.
+LaTeX Info: Redefining \% on input line 622.
+[37])
+
+[38]
+
+[39
 
 ]
 
-[35]
+[40] (00 - Base - Crudo ITMyF.bbl)
 
-[36] (00 - Base - Crudo ITMyF.bbl)
-
-[37
+[41
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1633,17 +1668,17 @@ Package rerunfilecheck Info: File `"00 - Base - Crudo ITMyF".out' has not change
 (rerunfilecheck)             Checksum: 28A9AD174AA90C678875258D3AF65D49;4927.
  ) 
 Here is how much of TeX's memory you used:
- 32207 strings out of 473536
- 631018 string characters out of 5714956
- 1122190 words of memory out of 5000000
- 54708 multiletter control sequences out of 15000+600000
+ 32212 strings out of 473536
+ 631048 string characters out of 5714956
+ 1122207 words of memory out of 5000000
+ 54709 multiletter control sequences out of 15000+600000
  899048 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,17n,121p,1483b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Bold.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Italic.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Regular.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on "00 - Base - Crudo ITMyF.pdf" (37 pages, 896862 bytes).
+Output written on "00 - Base - Crudo ITMyF.pdf" (41 pages, 915270 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
