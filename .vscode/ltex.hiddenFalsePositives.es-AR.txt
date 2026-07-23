@@ -1,0 +1,1 @@
+{"rule":"AGREEMENT_POSTPONED_ADJ","sentence":"^\\QPara dióxido de carbono y la serie de hidrocarburos, el único método para detectar fugas es el método del jabón previamente mencionada.\\E$"}
