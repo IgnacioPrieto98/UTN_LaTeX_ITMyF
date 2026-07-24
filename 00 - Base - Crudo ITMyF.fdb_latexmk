@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex 00 - Base - Crudo ITMyF"] 1784844815.78771 "00 - Base - Crudo ITMyF.aux" "00 - Base - Crudo ITMyF.bbl" "00 - Base - Crudo ITMyF" 1784844820.3314 0
-  "./Bibliografia.bib" 1784810800 637 587e61da1b7c27ecbf58ef9e7496515c ""
-  "00 - Base - Crudo ITMyF.aux" 1784844819 5914 e12ce1c59f5a07ae96771861e553fab5 "pdflatex"
+["bibtex 00 - Base - Crudo ITMyF"] 1784904121.04994 "00 - Base - Crudo ITMyF.aux" "00 - Base - Crudo ITMyF.bbl" "00 - Base - Crudo ITMyF" 1784904132.18058 0
+  "./Bibliografia.bib" 1784901144 1083 d11794be1b59bef66fb02279a8939353 ""
+  "00 - Base - Crudo ITMyF.aux" 1784904131 6564 82f190e3b17d5c04b39820e50ffebfc2 "pdflatex"
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   (generated)
   "00 - Base - Crudo ITMyF.bbl"
   "00 - Base - Crudo ITMyF.blg"
   (rewritten before read)
-["pdflatex"] 1784844818.30812 "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/00 - Base - Crudo ITMyF.tex" "00 - Base - Crudo ITMyF.pdf" "00 - Base - Crudo ITMyF" 1784844820.33182 0
-  "00 - Base - Crudo ITMyF.aux" 1784844819 5914 e12ce1c59f5a07ae96771861e553fab5 "pdflatex"
-  "00 - Base - Crudo ITMyF.bbl" 1784844815 348 181bf5b131edeb3c08d2c1330c6cb577 "bibtex 00 - Base - Crudo ITMyF"
-  "00 - Base - Crudo ITMyF.out" 1784844819 4927 28a9ad174aa90c678875258d3af65d49 "pdflatex"
-  "00 - Base - Crudo ITMyF.tex" 1784842138 1443 d6c0352683e431a7defa32178848d008 ""
-  "00 - Base - Crudo ITMyF.toc" 1784844819 2841 56cc73dca831998cc3bec89527b6c3c0 "pdflatex"
+["pdflatex"] 1784904129.99416 "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/00 - Base - Crudo ITMyF.tex" "00 - Base - Crudo ITMyF.pdf" "00 - Base - Crudo ITMyF" 1784904132.18111 0
+  "00 - Base - Crudo ITMyF.aux" 1784904131 6564 82f190e3b17d5c04b39820e50ffebfc2 "pdflatex"
+  "00 - Base - Crudo ITMyF.bbl" 1784904121 466 33d1a01b2e942d60a25dd2857f9bbc5f "bibtex 00 - Base - Crudo ITMyF"
+  "00 - Base - Crudo ITMyF.out" 1784904131 5808 164c35c36c80502c3ad681b4ddaecbbe "pdflatex"
+  "00 - Base - Crudo ITMyF.tex" 1784899754 1443 d6c0352683e431a7defa32178848d008 ""
+  "00 - Base - Crudo ITMyF.toc" 1784904131 3244 7b380a75568df4bbc31df5224e0b5a95 "pdflatex"
   "C:/Users/Igna_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1784673123 389748 7f72db242a5c88da9c5605077e310340 ""
   "C:/Users/Igna_/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737381610 12013393 f0b3a1c6b80e92ea724c977c5e9283ab ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -259,13 +259,13 @@
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "CAP/U1-REFRIGERANTES.tex" 1784844816 87137 a3d1381993ced02c9ef627f1dde426e4 ""
+  "CAP/U1-REFRIGERANTES.tex" 1784904129 93190 b159687c7d9c83042b24678fbb080456 ""
   "Comandos.sty" 1784672883 2183 86ac2aaef9e4d7e98fab14d2e0338d76 ""
   "Estilo.sty" 1784642328 4308 b24aa0d141a4682120bdb5fb6a7a4f53 ""
   "Figuras/U1/F1-CICLO_ABSORCION.png" 1784673722 107824 c46f8c28894777f64ec691f771b758a9 ""
   "Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png" 1784674325 32965 3ad8f2aeb1c40b0aa96ccb7d11f7dba1 ""
   "Portada/00-Portada.pdf" 1784642620 486035 f3eb4c8141c8d28c4676992e4b06ffcb ""
-  "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/00 - Base - Crudo ITMyF.tex" 1784842138 1443 d6c0352683e431a7defa32178848d008 ""
+  "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/00 - Base - Crudo ITMyF.tex" 1784899754 1443 d6c0352683e431a7defa32178848d008 ""
   (generated)
   "00 - Base - Crudo ITMyF.aux"
   "00 - Base - Crudo ITMyF.log"

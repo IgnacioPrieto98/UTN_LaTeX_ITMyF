@@ -1,7 +1,12 @@
 \begin{thebibliography}{}
 
-\bibitem[Dossat, sf]{DossatPDRefrigeracion}
-Dossat, R.~J. ({s.f.}).
+\bibitem[ASHRAE, 2017]{ashrae2017fundamentals}
+ASHRAE (2017).
+\newblock {\em Fundamentals}.
+\newblock ASHRAE.
+
+\bibitem[Dossat, 1980]{DossatPDRefrigeracion}
+Dossat, R.~J. ({1980}).
 \newblock {\em Principios de refrigeración}.
 \newblock CECSA.
 

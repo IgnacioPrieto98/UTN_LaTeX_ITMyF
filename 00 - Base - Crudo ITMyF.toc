@@ -25,8 +25,12 @@
 \contentsline {subsection}{\numberline {1.3.9}Miscibilidad del aceite}{33}{subsection.1.3.9}%
 \contentsline {subsection}{\numberline {1.3.10}Detección de fugas}{36}{subsection.1.3.10}%
 \contentsline {section}{\numberline {1.4}Impacto ambiental}{37}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Consideraciones de seguridad}{37}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Refrigerantes secundarios}{37}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Conducción de fluidos refrigerantes}{37}{section.1.7}%
-\contentsline {part}{II\hspace {1em}Anexos}{39}{part.2}%
+\contentsline {subsection}{\numberline {1.4.1}Reducción de la capa de ozono}{37}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Cambio climático global}{37}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Refrigerantes y efecto invernadero}{38}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Protocolo de montreal UNEP 2009}{39}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Consideraciones de seguridad}{39}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Refrigerantes secundarios}{39}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Conducción de fluidos refrigerantes}{39}{section.1.7}%
+\contentsline {part}{II\hspace {1em}Anexos}{41}{part.2}%
 \contentsfinish 

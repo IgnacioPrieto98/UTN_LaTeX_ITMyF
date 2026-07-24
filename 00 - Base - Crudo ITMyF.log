@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  23 JUL 2026 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  24 JUL 2026 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1237,7 +1237,7 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 28.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 28.
 \c@mv@tabular=\count376
 \c@mv@boldtabular=\count377
-<Portada/00-Portada.pdf, id=102, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=118, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
 Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
@@ -1246,7 +1246,7 @@ File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
 Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<Portada/00-Portada.pdf, id=105, page=1, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=121, page=1, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
 Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
@@ -1273,7 +1273,7 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 
 
  <./Portada/00-Portada.pdf>]
-<Portada/00-Portada.pdf, id=128, page=2, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=144, page=2, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 2>
 Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
@@ -1291,7 +1291,7 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
 [2
 
  <./Portada/00-Portada.pdf>]
-<Portada/00-Portada.pdf, id=133, page=3, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=149, page=3, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 3>
 Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 31.
@@ -1475,12 +1475,12 @@ Package fancyhdr Warning: \headheight is too small (12.1638pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.22122pt}.
 
 [16{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_ro7vi7.enc}]
-<Figuras/U1/F1-CICLO_ABSORCION.png, id=291, 495.41084pt x 169.47314pt>
+<Figuras/U1/F1-CICLO_ABSORCION.png, id=315, 495.41084pt x 169.47314pt>
 File: Figuras/U1/F1-CICLO_ABSORCION.png Graphic file (type png)
 <use Figuras/U1/F1-CICLO_ABSORCION.png>
 Package pdftex.def Info: Figuras/U1/F1-CICLO_ABSORCION.png  used on input line 220.
 (pdftex.def)             Requested size: 435.32422pt x 148.91702pt.
-<Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png, id=293, 365.11406pt x 252.19218pt>
+<Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png, id=317, 365.11406pt x 252.19218pt>
 File: Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png Graphic file (type png)
 <use Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png>
 Package pdftex.def Info: Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png  used on input line 230.
@@ -1640,19 +1640,27 @@ Package fancyhdr Warning: \headheight is too small (12.1638pt):
 
 [36]
 
-LaTeX Info: Redefining \. on input line 622.
-LaTeX Info: Redefining \% on input line 622.
-[37])
+LaTeX Info: Redefining \. on input line 628.
+LaTeX Info: Redefining \% on input line 628.
+[37]
 
+LaTeX Info: Redefining \. on input line 644.
+LaTeX Info: Redefining \% on input line 644.
 [38]
 
-[39
+LaTeX Info: Redefining \. on input line 652.
+LaTeX Info: Redefining \% on input line 652.
+[39])
+
+[40]
+
+[41
 
 ]
 
-[40] (00 - Base - Crudo ITMyF.bbl)
+[42] (00 - Base - Crudo ITMyF.bbl)
 
-[41
+[43
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1665,20 +1673,20 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `"00 - Base - Crudo ITMyF".out' has not changed.
-(rerunfilecheck)             Checksum: 28A9AD174AA90C678875258D3AF65D49;4927.
+(rerunfilecheck)             Checksum: 164C35C36C80502C3AD681B4DDAECBBE;5808.
  ) 
 Here is how much of TeX's memory you used:
- 32212 strings out of 473536
- 631048 string characters out of 5714956
- 1122207 words of memory out of 5000000
- 54709 multiletter control sequences out of 15000+600000
+ 32225 strings out of 473536
+ 631262 string characters out of 5714956
+ 1125207 words of memory out of 5000000
+ 54715 multiletter control sequences out of 15000+600000
  899048 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,17n,121p,1483b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Bold.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Italic.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Regular.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on "00 - Base - Crudo ITMyF.pdf" (41 pages, 915270 bytes).
+Output written on "00 - Base - Crudo ITMyF.pdf" (43 pages, 926747 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
