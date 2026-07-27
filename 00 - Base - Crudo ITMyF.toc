@@ -1,36 +1,50 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {part}{I\hspace {1em}Instalaciones frigoríficas}{7}{part.1}%
 \contentsline {chapter}{\numberline {1}Refrigerantes}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Refrigeración y los ciclos}{10}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Sistemas de refrigeración por aire}{10}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Sistema de refrigeración por compresión de vapor}{11}{subsection.1.1.2}%
-\contentsline {subsubsection}{Eficiencia volumétrica}{15}{Item.13}%
-\contentsline {subsubsection}{Análisis matemático de la refrigeración por compresión de vapor}{15}{Item.13}%
-\contentsline {subsection}{\numberline {1.1.3}Sistema de absorción de vapor}{16}{subsection.1.1.3}%
-\contentsline {subsubsection}{Sistema simple de absorción de vapor}{16}{subsection.1.1.3}%
-\contentsline {subsubsection}{Sistema práctico de absorción de vapor}{17}{figure.caption.3}%
-\contentsline {section}{\numberline {1.2}Refrigerantes en instalaciones}{18}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Clasificación de los refrigerantes}{19}{subsection.1.2.1}%
-\contentsline {subsubsection}{Mezclas previsibles}{19}{subsection.1.2.1}%
-\contentsline {subsubsection}{Propiedades y usos de refrigerantes comunes}{20}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Características, comparaciones y selección}{26}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Propiedades seguras}{27}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Toxicidad}{27}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Inflamabilidad y explosividad}{27}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Aspecto económico y otras consideraciones}{28}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Refrigerantes que se emplearon anteriormente}{30}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Desarrollo de fluorocarburos}{30}{subsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.3.7}Efecto de la humedad}{31}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Relaciones entre refrigerante y aceite}{32}{subsection.1.3.8}%
-\contentsline {subsection}{\numberline {1.3.9}Miscibilidad del aceite}{33}{subsection.1.3.9}%
-\contentsline {subsection}{\numberline {1.3.10}Detección de fugas}{36}{subsection.1.3.10}%
-\contentsline {section}{\numberline {1.4}Impacto ambiental}{37}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Reducción de la capa de ozono}{37}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Cambio climático global}{37}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Refrigerantes y efecto invernadero}{38}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Protocolo de montreal UNEP 2009}{39}{subsection.1.4.4}%
-\contentsline {section}{\numberline {1.5}Consideraciones de seguridad}{39}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Refrigerantes secundarios}{39}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Conducción de fluidos refrigerantes}{39}{section.1.7}%
-\contentsline {part}{II\hspace {1em}Anexos}{41}{part.2}%
+\contentsline {section}{\numberline {1.1}Refrigerantes}{10}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Historia de los refrigerantes}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Primera generación: \emph {lo que funcione}}{10}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Segunda generación: \emph {Seguridad y durabilidad}}{11}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Tercera generación: \emph {protección de la capa de ozono}}{11}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Cuarta generación: \emph {calentamiento global}}{12}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Características, comparaciones y selección}{12}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Propiedades seguras}{13}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Toxicidad}{13}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Inflamabilidad y explosividad}{13}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Aspecto económico y otras consideraciones}{14}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Refrigerantes que se emplearon anteriormente}{15}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Desarrollo de fluorocarburos}{16}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}Efecto de la humedad}{16}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}Relaciones entre refrigerante y aceite}{18}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}Miscibilidad del aceite}{18}{subsection.1.3.9}%
+\contentsline {subsection}{\numberline {1.3.10}Detección de fugas}{21}{subsection.1.3.10}%
+\contentsline {paragraph}{Detección electrónica}{22}{subsection.1.3.10}%
+\contentsline {paragraph}{Método de la burbuja}{22}{subsection.1.3.10}%
+\contentsline {paragraph}{Método de cambio de presión}{22}{subsection.1.3.10}%
+\contentsline {paragraph}{Método de tinta UV}{22}{subsection.1.3.10}%
+\contentsline {paragraph}{Fugas de amoniaco}{22}{subsection.1.3.10}%
+\contentsline {section}{\numberline {1.4}Refrigeración y los ciclos}{22}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Sistemas de refrigeración por aire}{23}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Sistema de refrigeración por compresión de vapor}{24}{subsection.1.4.2}%
+\contentsline {subsubsection}{Eficiencia volumétrica}{27}{Item.16}%
+\contentsline {subsubsection}{Análisis matemático de la refrigeración por compresión de vapor}{27}{Item.16}%
+\contentsline {subsection}{\numberline {1.4.3}Sistema de absorción de vapor}{28}{subsection.1.4.3}%
+\contentsline {subsubsection}{Sistema simple de absorción de vapor}{28}{subsection.1.4.3}%
+\contentsline {subsubsection}{Sistema práctico de absorción de vapor}{29}{figure.caption.3}%
+\contentsline {section}{\numberline {1.5}Refrigerantes en instalaciones}{30}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Clasificación de los refrigerantes}{30}{subsection.1.5.1}%
+\contentsline {subsubsection}{Mezclas previsibles}{31}{subsection.1.5.1}%
+\contentsline {subsubsection}{Propiedades y usos de refrigerantes comunes}{31}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Impacto ambiental}{37}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Reducción de la capa de ozono}{37}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Cambio climático global}{38}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Refrigerantes y efecto invernadero}{38}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Protocolo de montreal UNEP 2009}{39}{subsection.1.6.4}%
+\contentsline {section}{\numberline {1.7}Consideraciones de seguridad}{39}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Refrigerantes secundarios}{39}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Conducción de fluidos refrigerantes}{39}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Metales}{39}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Elastómeros}{40}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.3}Plásticos}{40}{subsection.1.9.3}%
+\contentsline {part}{II\hspace {1em}Anexos}{43}{part.2}%
 \contentsfinish 
