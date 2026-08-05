@@ -243,8 +243,8 @@
 		\item Cuarta cifra: indica cuantos átomos de cloro fueron reemplazados por flúor.
 	\end{itemize}
 
-	\section{Características térmicas de los refrigerantes}
-	\Biblio{\cite[pág. 774 a 775]{Rajput2011termodinamica} \cite[pág. 33, 36]{DossatPDRefrigeracion}}
+	\section{Características de un refrigerante ideal}
+	\Biblio{\cite[pág. 19]{mott2015fluidos} \cite[pág. 774 a 789]{Rajput2011termodinamica} \cite[pág. 33, 36, 68, 69, 385 a 395]{DossatPDRefrigeracion} \\ \cite[pág. 57, 158, 167, 168 y 177]{miller2006refrigeration}  \cite[pág. 800 y 802]{askeland2017materiales} \cite[pág. 2.15]{ashrae2017fundamentals} }
 
 	Las propiedades deseables de un refrigerante ideal son aquellas que permiten absorber mayor cantidad de calor realizando el menor trabajo posible, y trabajar en rangos amplios de temperatura. A estas características es posible separarlas en cuatro grupos: 
 
@@ -265,153 +265,137 @@
 	Los refrigerantes utilizados que sean aplicados en ciclos de condensación-evaporación deberán siempre tener un punto de congelación más bajo que la temperatura mínima del sistema a las presiones de trabajo.
 
 	\paragraph{Presión del condensador} La presión del condensador es el valor de presión a la cual el condensador realiza el intercambio de calor con el medio.
+
+	Este valor depende exclusivamente de la presión que se presente en el evaporador y el aumento de presión realizado por el compresor, ya que el condensador se encuentra a la salida de éste. Considerando esto, obtener una presión de condensador baja permite utilizar equipos que requieran menor resistencia y sean más económicos.
 	
 	\paragraph{Presión del evaporador} La presión del evaporador es el valor de presión a la cual el evaporador realiza el intercambio de calor con el medio.
 
-	En los sistemas de refrigeración la presión de evaporación debe estar lo más cerca de la presión atmosférica como sea posible y ser positiva. Una presión positiva se requiere a fin de eliminar la posibilidad de entrada de aire y humedad en el sistema. 
+	En los sistemas de refrigeración la presión de evaporación debe estar lo más cerca de la presión atmosférica como sea posible y ser positiva. Una presión positiva se requiere a fin de eliminar la posibilidad de entrada de aire y humedad en el sistema. Se debe tener en cuenta que las presiones bajas presentan grandes volúmenes de aspiración para el compresor. Por tal motivo, debe ser una variable a tener en cuenta.
 
 	%	\paragraph{Presiones del condensador y del evaporador} La presión de evaporación debe estar tan cerca de la atmosférica como sea posible. Si es demasiado baja, resultaría en un gran volumen de vapor de aspiración. SI es demasiado alta, las presiones globales altas, incluyendo la presión del condensador, resultarían en la necesidad de equipo más resistente y en consecuencia en un costo mayor. 
 
 	%	Una presión positiva se requiere a fin de eliminar la posibilidad de entrada de aire y la humedad en el sistema. Por lo tanto, el punto de ebullición normal de un refrigerante deberá ser menor que la temperatura del refrigerante.
 
-	\paragraph{Temperatura crítica} La temperatura de un gas puede irse aumentando hasta un punto tal que no pueda saturarse a pesar del incremento de presión aplicado. La temperautra crítica de un gas es la tempertaura más alta que úede tener un gas sin lograr su condensación a la presión a la que está sujeto.
+	\paragraph{Temperatura crítica} La temperatura crítica es el último valor de temperatura en que el vapor puede condensarse completamente mediante el aumento de presión. A partir de este valor, sin importar la presión que se presente, el fluido se presenta en estado gaseoso sin condensarse completamente. A medida que la temperatura se acerca al valor crítico, el fluido absorbe menor cantidad de calor en el cambio de estado.
+
+	La temperatura crítica de un refrigerante debe encontrarse por encima de la temperatura de condensación, idealmente presentando una gran diferencia. Esto permite mayor disipación de calor del refrigerante al medio, logrando un mejor rendimiento térmico.
 	
+	\newpage
+
+	\paragraph{Presión crítica} La presión crítica es el valor de presión mínimo que requiere el refrigerante en el umbral de temperatura crítica para condensarse. 
+
+	En los sistemas de refrigeración, una presión crítica baja representa la posibilidad de ciclos a bajas presiones, debido a que, mientras más baja la presión crítica, más bajas pueden ser las presiones de condensación y evaporación. 
 	
-	La presión crítica es la presión más baja a la cual puede una sustancia existir en el estado líquido a su temperatura crítica, o sea, la presión de saturación a la temperatura crítica.
-
-	En general, para un COP alto, la temperatura crítica debe ser muy alta tal que la línea de temperatura del condensador en un diagrama $p-h$ esté muy alejada del punto crítico. Esto asegura un efecto refrigerante razonable ya que es muy pequeña con el estado líquido antes de la expansión cerca del punto crítico. 
-
-	La presión crítica debe ser baja para proporcionar una presión de condensación baja.
-
-
+	\paragraph{Temperatura de saturación} Es la temperatura a la cual un fluido pasa de fase líquida a fase de vapor, o a la inversa, de fase vapor a fase líquida. Este valor, para valores de presión constantes, es el mínimo que puede tener el vapor y el máximo que puede tener el líquido.
 	
-	\paragraph{Alta temperatura de saturación} Es la temperatura a la cual un fluido pasa de fase líquida a fase de vapor, o a la inversa, defase de vapor a la fase líquida. Para una determinada presión, la temperatura de saturación es la temepratura máxima que el líquido puede tener y la temperautra mínima que el vapor puede tener.
+	Un refrigerante con la posibilidad de cambiar de estado, principalmente condensar, a temperaturas altas con presiones moderadas se puede aplicar a sistemas de refrigeración que trabajen disipando calor a medios de gran temperatura, logrando una mayor versatilidad. 
 
-	\paragraph{Calor latente de vaporización} El calor latente de vaporización es aquella cantidad de energía absorbida o liberada durante el proceso de cambio de fase entre líquido y vapor. Esa energía es utilizada por el fluido para aumentar la separación molecular y el fluido pase de fase líquida a vapor. Debido a que no hay aumento en la energía cinética del fluido, la temperatura del fluido permanece consatnte.
+	\paragraph{Calor latente de vaporización} El calor latente de vaporización es aquella cantidad de energía absorbida o liberada durante el proceso de cambio de fase entre líquido y vapor. Esa energía es utilizada por el fluido para aumentar la separación molecular y el fluido pase de fase líquida a vapor. Debido a que no hay aumento en la energía cinética del fluido, la temperatura del fluido permanece constante.
 
-	En los refrigerantes, mientas mayor sea este valor, menor cantidad de refrigerante será necesaria para quitar el mismo calor. Por tal motivo, un calor latente de vaporización alto resulta de mucha utilidad.
+	En los refrigerantes, mientas mayor sea este valor, menor cantidad de refrigerante será necesaria para quitar el mismo calor. Por tal motivo, en sistemas de mediano o gran tamaño, un calor latente de vaporización alto resulta de mucha utilidad para reducir el volumen del mismo. Sin embargo, en sistemas muy pequeños, donde el volumen total sea bajo de por sí, un alto calor latente podría llevar a una cantidad de refrigerante circulando que no pueda ser controlada con facilidad por modelos matemáticos o físicos. Por tal motivo, se debe tener en consideración el calor latente en sistemas pequeños.
 
 	\subsection{Propiedades químicas}
 
-	\paragraph{Toxicidad} Tomando en consideración el peligro comparativo a la vida debido a los gases y vapores. Se han dividido los compuestos en seis grupos: A1, A2, A3, B1, B2 y B3.
+	\paragraph{Toxicidad} La toxicidad representa al riesgo de intoxicación o envenenamiento por estar en contacto o aspirar el refrigerante. En la actualidad el efecto de toxicidad resulta bajo en la mayoría de refrigerantes, mas la posibilidad de daños graves o incluso la muerte existe en situaciones donde se presenta una exposición no controlada o un abuso deliberado de la inhalación de vapores concentrados. 
+	
+	La toxicidad en las instalaciones y en la selección de refrigerantes debe ser inexistente o notificada y tomada con seriedad, contemplando los elementos de seguridad, tiempos de exposición admisibles y capacitaciones correspondientes. 
 
-	\paragraph{Inflamabilidad} Los hidrocarburos son altamente explosivos e inflamables. Los fluorocarbonos no son explosivos ni inflamables. El amoniaco es explosivo en una mezcla con aire en una concentración de 16 a 25\% en volumen de amoniaco.
+	\paragraph{Inflamabilidad y explosividad} La inflamabilidad refiere a la capacidad del refrigerante de consumirse en llamas, mientras que la explosividad refiere a la capacidad del mismo de liberar energía rápidamente en forma de calor, luz, presión y/o sonido.
+	
+	Al igual que la toxicidad, la inflamabilidad debe ser inexistente o notificada y tomada con seriedad, contemplando los elementos de seguridad y capacitaciones correspondientes. 
 
-	\paragraph{Corrosión}
+	\paragraph{Corrosión}  La corrosión se puede separar en dos tipos: corrosión química y corrosión electroquímica. La corrosión química el material que entra en contacto con el refrigerante se disuelve en el medio, si el refrigerante corroe al material; por otro lado, la corrosión electroquímica, existente en los metales, se presenta cuando los átomos de metal pierden electrones y se convierten en iones.
+	
+	La corrosión en los sistemas de refrigeración debe ser inexistente para mantener el rendimiento y la seguridad del propio sistema. Para ello, se deben seleccionar correctamente los materiales de cañerías y elementos de acuerdo al refrigerante a utilizar.  
 
-	\paragraph{Estabilidad química}
+	\begin{norm}
+		\paragraph{Estabilidad química} La estabilidad química es la capacidad de una sustancia o de un sistema químico para mantener su composición y estructura molecular sin experimentar transformaciones químicas significativas cuando se encuentra bajo determinadas condiciones de temperatura, presión y entorno.
+		\CitaNorm{Chat GPT - Buscar fuente acertada.}
+	\end{norm}
 
-	\paragraph{Efecto sobre productos almacenados}
+	Una estabilidad química alta es requerida ya que los fluidos están sujetos a condiciones severas durante muchos años de servicio. La inestabilidad podría causar una formación indeseada de gases, sólidos o sustancias corrosivas. La pureza de todos los componentes cargados en el sistema también es crítica para obtener un buen rendimiento y prevenir la corrosión.
 
-	\paragraph{Irritabilidad y olor}
+	\paragraph{Efecto sobre productos almacenados} Una de las funciones principales de la refrigeración es la de conservar productos en temperaturas bajas para su uso al pasar grandes intervalos de tiempo, ya sean comestibles o no. 
+
+	Los refrigerantes en estas condiciones deben ser de características tales que no afecten a los productos almacenados viéndose reducida su conservación en caso de entrar en contacto con los mismos. 
+
+	\paragraph{Irritabilidad y olor} El olor suele ser una forma de identificar, mediante el sentido del olfato, diferentes características del ambiente. Cuando un olor es muy intenso puede llegar a ser irritable y generar inconvenientes para realizar tareas de servicio.
+	
+	Con respecto a los refrigerantes, suele preferirse que estos presenten un aroma tal que permita detectar fugas en caso de servicio, evitando ser inodoros. Se intenta que el olor sea suave para evitar irritabilidad y la contaminación sobre los productos almacenados, en la única situación en donde se prefiere un olor fuerte, tal que presente irritabilidad y requiera el uso de protecciones, es en el caso de refrigerantes que son tóxicos y/o inflamables, previniendo problemas de salud o accidentes explosivos.
 
 	\subsection{Propiedades físicas}
 
-	\paragraph{Volumen específico de vapor}
+	\paragraph{Volumen específico de vapor} El volumen específico de un sistema es el volumen ocupado por una unidad de masa. Este valor es inverso al de la densidad. 
 
-	\paragraph{Calor específico} El calor específico de cualquier sustancia es la cantidad de energía necesaria para producir un cambio de temperatura de $1^\circ C$ a un $kg$ de masa.
+	Un refrigerante con un gran volumen específico requiere un mayor volumen que otro de menor valor, para la misma cantidad de masa, temperatura y presión. Consecuentemente, los sistemas con refrigerantes de gran volumen específico requerirán equipos más grandes y compresores más grandes, lo que representará una mayor inversión inicial. 
 
-	\paragraph{Conductividad térmica} Para un coeficiente alto de transferencia de calor es deseable tener una conductividad térmica alta. El R22 tiene mejores características de transferencia de calor que el R12, el R21 es aún mejor, el R13 tiene características de transferencia de calor pobres.
+	\paragraph{Calor específico (calor sensible)} El calor específico de cualquier sustancia es la cantidad de energía necesaria para producir un cambio de temperatura de $1^\circ C$ a un $kg$ de masa.
 
-	\paragraph{Viscosidad} Para un coeficiente de transferencia de calor alto es deseable tener una viscosidad baja.
+	En los refrigerantes es deseable que, en el estado líquido, se presente un calor específico bajo. Ya que, si la relación entre el calor latente y el calor específico es baja, una porción relativamente alta del calor latente será usada para bajar la temperatura del líquido de la temperatura del condensador a la temperatura del evaporador. Esto resulta en un pequeño enfriamiento neto por unidad de masa, bajando la capacidad y eficiencia del sistema de refrigeración. Por el contrario, en el estado gaseoso, se desea un calor específico alto, permitiendo que el calor específico en temperaturas altas se disipe al ambiente con mayor facilidad.
+	
+	\paragraph{Conductividad térmica} La conductividad térmica de un medio, en este caso el refrigerante, es un valor que indica la proporción entre el flujo de calor y la sección transversal a la dirección de ese flujo y al cambio de temperatura en dirección a ese flujo.
+	
+	En los refrigerantes, un gran valor de conductividad térmica es sinónimo de un buen rendimiento, debido a que pueden mejorarse las razones de transferencia de calor, sobre todo en el caso de enfriamiento de líquidos, y reducir el tamaño y el costo del equipo de transferencia. 
 
-	\paragraph{Aislamiento eléctrico}
+	\paragraph{Viscosidad} La viscosidad es la fricción interna de un fluido, causada por la atracción molecular, que lo hace resistir la tendencia a fluir. Altas temperaturas reducen la viscosidad de los líquidos, pero aumentan la viscosidad de los gases.
+	
+	Una baja viscosidad del refrigerante permite una menor potencia de compresor, debido a las menores pérdidas de presión por la reducción de fuerzas para desplazar el fluido. Además, cuando el fluido tiene menor viscosidad, el desplazamiento y rozamiento entre las partículas del refrigerante es menor, por lo que las temperaturas no aumentan internamente por ello; permitiendo mantener las temperaturas deseadas.
 
 	\subsection{Propiedades varias}
 
-	\paragraph{Presencia de fugas}
+	\paragraph{Presencia de fugas} Las fugas en un sistema de refrigeración no son deseables pero suelen existir. Cuando el sistema trabaja con presiones positivas, las fugas culminan en una pérdida del refrigerante al ambiente; mientras que al presentarse en presiones negativas atraen al aire atmosférico al interior del sistema. Dejando al sistema fuera de funcionamiento en cualquiera de los casos.
 
-	\paragraph{Disponibilidad}
+	Los sistemas de refrigeración deben tener una detección de fugas lo más útil y sencilla posible, con el objetivo de mantener un funcionamiento correcto, bajo las condiciones ideales. Ya que una pérdida de gas refrigerante al medio podría presentar una reducción notable en la presión y la cantidad de refrigerante circulando por el sistema, casi anulando el sistema de refrigeración. O peor, el ingreso de aire húmedo al circuito de refrigeración lograría un aumento en la humedad interna, potenciando una posible condensación de agua y posterior congelación de los diferentes elementos; generando daños mecánicos y térmicos sobre los elementos del sistema. 
 
-	\paragraph{Manipulación}
+	\paragraph{Disponibilidad} La disponibilidad de los refrigerantes es un factor fundamental con respecto al equipamiento y costos de mantenimiento del sistema. Al diseñar un sistema de refrigeración se debe contemplar que no solo el refrigerante sea de fácil obtención en el mercado y de uso permitido por normas nacionales e internacionales, sino también que haya existencia de equipamiento dicho refrigerante y los límites termodinámicos requeridos para el sistema. Ya que, la selección no deliberada del mismo puede tener consecuencias funcionales y económicas significativas.  
 
-	\paragraph{Rendimiento térmico}
+	% \paragraph{Manipulación}
 
-	\paragraph{Consumo por TON de refrigeración}
-
-	\paragraph{Relación y diferencia de presión}
-
-
-	\section{Características, comparaciones y selección}
-	\Biblio{\cite[pág. 365 a 395]{DossatPDRefrigeracion} \cite[pág. 29.9 a 29.10]{ashrae2017fundamentals}}
-
-	En general, un refrigerante es cualquier cuerpo o sustancia que actúa como agente de enfriamiento absorbiendo calor de otro cuerpo o sustancia. Con respecto al ciclo de compresión-vapor, el refrigerante es el fluido de trabajo del ciclo el cual alternativamente se vaporiza y se condensa absorbiendo y cediendo calor, respectivamente. Para que un refrigerante sea apropiado y se le pueda usar en el ciclo de compresión-vapor, debe poseer ciertas propiedades químicas, físicas y termodinámicas que lo hagan seguro y económico durante su uso.
-
-	Propiamente, no existe un refrigerante ideal y por las grandes diferencias en las condiciones y necesidades de las varias aplicaciones, no hay un solo refrigerante que sea universalmente adaptable a todas las aplicaciones. Entonces, un refrigerante se aproximará al ideal, solo en tanto que sus propiedades satisfagan las condiciones y necesidades de la aplicación para lo cual va a ser utilizado.
-
-
-
-	\subsection{Propiedades seguras}
-
-	Las propiedades seguras de un refrigerante son de especial importancia en la selección del mismo. Es por esta razón que algunos fluidos que de otro modo son altamente deseables como refrigerantes, tienen uso limitado como tales. Los más importantes de estos son: el amoniaco y algunos de del grupo de los hidrocarburos.
-
-	Para tener un uso apropiado como refrigerante, el fluido deberá ser químicamente inerte hasta el grado de no ser inflamable, no explosivo y no tóxico, tanto en su estado puro como cuando están mezclados con el aire en cierta proporción; además, el fluido no deberá reaccionar desfavorablemente con el aceite lubricante o con cualquier otro material normalmente usado en la construcción del equipo de refrigeración. No deberá reaccionar desfavorablemente con la humedad, la cual, no obstante a pesar de las precauciones rigurosas que se tienen, se presenta en cierto grado este problema en todos los sistemas de refrigeración. Además, es deseable que el fluido sea de la naturaleza que no contamine en forma alguna a los productos alimenticios o a algunos otros productos almacenados en caso de que se tuviera alguna fuga en el sistema.
-
-	\subsection{Toxicidad}
-
-	Debido a que todos los fluidos no son otra cosa que aire tóxico, en el sentido que pueden causar sofocación cuando se tienen en concentraciones suficientes altas que evitan tener el oxígeno necesario para sustentar la vida, la toxicidad es un término relativo el cual tiene significancia solo cuando se especifica el grado de concentración y el tiempo de exposición requeridos para producir efectos nocivos.
-
-	La national fire underwriters ha efectuado pruebas de toxicidad con los refrigerantes más comúnmente empleados. Como resultado de ello los refrigerantes están clasificados en seis grupos de acuerdo a su grado de toxicidad, los grupos están dispuestos en orden descendiente. Aquellos que están en el grupo 1 son altamente tóxicos y son capaces de causar la muerte o daños muy serios en concentraciones relativamente pequeñas y/o en periodos muy cortos de exposición. Por otra parte, aquellos que están clasificados en el grupo 6 son muy poco tóxicos, siendo capaces de causar efectos nocivos solo en concentraciones muy grandes. Debido a que el daño causado por el último grupo es más bien debido a deficiencias de oxígeno que a efectos nocivos del fluido, para todos los fines prácticos se considera que los fluidos del grupo 6 no son tóxicos. Sin embargo, como ya se ha indicado de algunos refrigerantes, aunque no sean tóxicos cuando se mezclan con el aire en su estado normal, están sujetos a descomposición cuando están en contacto con una flama o con un elemento eléctrico de calentamiento. Los productos de descomposición así formados, son altamente tóxicos y capaces de causar efectos nocivos en pequeñas concentraciones y en corta exposición. Esto es cierto para todos los refrigerantes fluorocarburos.
-
-	\subsection{Inflamabilidad y explosividad}
-
-	Con respecto a la inflamabilidad y explosividad, casi todos los refrigerantes de uso común no son inflamables ni epxlosivos. Una notable excepción es el amoniaco y la serie de hidrocarburos. El amoniaco es ligeramente inflamable y explosivo cuando se mezcla en determinadas proporciones con el aire. Sin embargo, con las debidas precauciones, puede despreciarse el peligro involucrado con el amoniaco.
-
-	Por otra parte, la serie de los hidrocarburos son altamente inflamables y explosivo, y deben usarse como refrigerantes para algunas aplicaciones especiales bajo la vigilancia de personal experimentados. Debido a sus excelentes propiedades térmicas de la serie de hidrocarburos, frecuentemente se utilizan en aplicaciones de temperatura muy bajas. En dichas instalaciones, el peligro en que se incurre se hace mínimo por el hecho de que el equipo está constantemente atendido por personal con experiencia en el uso y manejo de materiales explosivos.
-
-	La ASSCMR\footnote{American Standar Safety Code for Mechanical Refrigeration.} da detalles de las condiciones y circunstancias bajo las cuales pueden ser usados con seguridad varios de los refrigerantes. Muchos de los códigos locales y ordenanzas que regulan el equipo de refrigeración están basadas en este código, el cual está mancomunadamente patrocinado por la ASHRAE y la ASA.
+	\paragraph{Rendimiento térmico} El rendimiento térmico en un sistema de refrigeración relaciona la cantidad de trabajo neto aplicado en relación al calor quitado del sistema. Este valor es el inverso del coeficiente de desempeño (COP).
+	\begin{equation*}
+		\eta_{t} = \dfrac{Q_{quitado}}{W_{neto}} = \dfrac{1}{COP}
+	\end{equation*} 
 	
-	El grado de peligro en que se incurre con el uso de refrigerantes tóxicos depende de varios factores, tales como la cantidad de refrigerante en relación con el tamaño del espacio dentro del cual se pueden tener fugas de refrigerante, el tipo de ocupación, de si se tengan flamas o fuego y de si el personal experimentado tenga la obligación de atender el equipo. Por ejemplo, si se tiene una cantidad muy pequeña de refrigerante altamente tóxico, representará poco peligro si se le usa en espacios relativamente grandes en donde es posible que en el caso de tener fugas, la concentración no llegue a un nivel de peligro. Además, el peligro inherente en el uso de refrigerantes tóxicos algunas veces es mitigado por el hecho de que los refrigerantes tóxicos despiden olores muy peculiares que tienden a dar aviso de su presencia. Entonces, los refrigerantes tóxicos generalmente son peligrosos para el caso de niños o de personas que por razones de enfermedad o confinamiento son incapaces de escapar de los humos. Actualmente, el amoniaco es el único refrigerante tóxico el cual es muy usado limitándose su uso a plantas paquete, fábricas de hielo y en almacenes de frío muy grandes los cuales son manejados por personal experimentado.
+	Es deseable que un refrigerante presente un rendimiento térmico lo más alto posible.
 
-	\subsection{Aspecto económico y otras consideraciones}
+	\paragraph{Consumo por TON de refrigeración} El ton de refrigeración es una medida de capacidad asignada a los sistemas de refrigeración. Este parámetro indica la habilidad de enfriar en un periodo de tiempo, en otras palabras, la potencia de refrigeración.
 
-	Naturalmente, que desde el punto de operación económica, es deseable que el refrigerante posea ciertas características físicas y térmicas de cuyo resultado se tengan los requerimientos mínimos de potencia por capacidad de refrigeración, o sea, un alto coeficiente de rendimiento. Las propiedades más importantes del refrigerante que influyen en la capacidad y la eficiencia son el calor latente de vaporización, el volumen específico de vapor, la relación de compresión y el calor específico del refrigerante tanto en estado de líquido como en estado de vapor.
+	Una tonelada de refrigeración equivale a la energía necesaria para descongelar una tonelada de hielo, repartido en un intervalo de 24 horas. Como se requiere $303856kJ$ para descongelar dicha cantidad, una tonelada de refrigeración equivale al siguiente valor de potencia:
+
+	\begin{equation}\nonumber
+		1 \, \Un{TON} = \dfrac{303856\Un{kJ}}{24 \, \Un{h} \times  3600 \Un{s/h}} = 3.51 \Un{kW} 
+	\end{equation}
+
+	Con estos conceptos aclarados, es evidente que un refrigerante ideal debe poseer un bajo consumo por tonelada de refrigeración; brindando así una reducción en la potencia consumida por la instalación.
+
+	\paragraph{Relación y diferencia de presión} La relación de compresión en un compresor presente en un sistema de refrigeración es la relación entre su presión de egreso e ingreso, o su presión de evaporación y condensación. Por otro lado, la diferencia de presión es la diferencia entre estos dos valores.
 	
-	Excepto para sistemas muy pequeños, es deseable tener un valor alto de calor latente para que sea mínimo el peso de refrigerante circulado por unidad de capacidad. Cuando se tiene un valor alto de calor latente y un volumen específico bajo en la condición de vapor, se tendrá un gran aumento de la capacidad y eficiencia del compresor. Con esto se logrará no solo disminuir el consumo de potencia, sino además, reducir el desplazamiento necesario en el compresor, lo cual permitirá el uso de equipo más pequeño y compacto. Sin embargo, en los sistemas pequeños, si el calor latente del refrigerante es muy alto, la cantidad de refrigerante en circulación será insuficiente como para tener un control exacto del líquido.
+	Contemplando esto, un refrigerante ideal debe ser aquel que trabaje con una relación de compresión mínima, debido a que esto genera un menor consumo de potencia y una alta eficiencia volumétrica. Además, una baja diferencia de presión junto a la baja relación permitirá utilizar equipo menos robusto y de menor costo.
 
-	Es deseable tener un calor específico bajo en el líquido y un calor específico alto en el vapor tanto que ambos tiendan a aumentar el efecto refrigerante por libra, el primero se logra aumentando el efecto de subenfriamiento y el último disminuyendo el efecto de sobrecalentamiento. Cuando se cumplen estas condiciones en un fluido simple, se logrará mejorar la eficiencia del cambiador de calor líquido-succión.
+	\section{Refrigerantes y humedad}
+	\Biblio{\cite[pág. 389 y 390]{DossatPDRefrigeracion}}
 
-	Hablando del efecto de la relación de compresión en el trabajo de compresión, y en consecuencia también del rendimiento; naturalmente si todos los demás factores permanecen sin cambiar, lo más deseable es uqe el refrigerante de la mínima relación de compresión. Con relaciones de compresión bajas se tendrá un consumo menor de potencia y alta eficiencia volumétrica, siendo esto último más importante en sistemas pequeños, ya que permitirá usar compresores pequeños.
+	La humedad en los sistemas de refrigeración es una variable fundamental debido a dos razones:
 
-	Es muy deseable tener una temperatura baja en la descarga adiabática. Cuando lo anterior se combina con una relación de compresión razonable, la temperatura de descarga adiabática baja, reduce la posibilidad de sobrecalentamiento del compresor y contribuye en cierto grado a tener fácil mantenimiento y larga vida del compresor. Debido a que la rapidez de las reacciones químicas se aumenta aproximadamente al doble con cada $10^\circ C$ de aumento de temperatura, la temperatura de descarga adiabática es sobre todo muy importante cuando se emplean motocompresores herméticos. Mientras que la temperatura de descarga de cualquier refrigerante disminuye siempre a medida que disminuye la relación de compresión, es fundamental reconocer que para cualquier relación de compresión específica, la temperatura de un refrigerante en la descarga puede ser significativamente mayor que la de otro refrigerante operando con la misma relación de compresión.
+	\begin{itemize}
+		\item Reacciona con los refrigerantes o lubricantes, generando compuestos corrosivos.
+		\item Precipita en forma de líquido, causando obstrucciones cuando la temperatura descienden por debajo del punto de congelación del agua.
+	\end{itemize}
 
-	Con un coeficiente de conductancia alto, pueden mejorarse las razones de transferencia de calor, sobre todo en el caso de enfriamiento de líquidos y en esa forma se puede reducir el tamaño y el costo del equipo de transferencia. También es deseable que la relación presión-temperatura del refrigerante sea tal que la presión en el evaporador siempre esté por arriba de la atmosférica. En caso de tenerse una fuga en el lado de menor presión del sistema, si la presión es menor a la atmosférica, se introducirá una considerable cantidad de aire y humedad en el sistema, mientras que si la presión vaporizante es mayor, se minimiza esta posibilidad.
+	Entrando en detalle, la humedad en diferentes grados da lugar a la formación de compuestos altamente corrosivos, generalmente ácidos, los cuales podrán reaccionar con el aceite lubricante y con otros materiales del sistema, incluyendo metales. Esta acción química da lugar a picaduras y daño en equipamiento, alteración del lubricante y formación de sedimentos, entre otras cosas. Como es previsible, todas estas características perjudiciales generan una reducción en la vida útil del equipo, aumentando la probabilidad de fallas en la mayoría de los equipos.
 
-	También es deseable tener una presión condensante razonablemente baja, ya que esto permite utilizar materiales de peso ligero en la construcción del equipo para condensación, reduciéndose así el tamaño y el costo del equipo. 
+	Por otro lado, cuando la humedad se precipita en forma de agua dentro de las cañerías del sistema de refrigeración, la misma puede congelarse si en alguna parte del recorrido la temperatura decrece por debajo del punto de congelación, acto que se presenta principalmente a la entrada del evaporador. En tal caso, la formación de hielo puede llegar a evitar el flujo del refrigerante a los diferentes equipos del sistema, reduciendo notablemente el rendimiento térmico del sistema de refrigeración. Llegando a ese extremo, el equipo adopta un comportamiento intermitente, ya que, debido a la reducción de rendimiento térmico el sistema aumenta su temperatura y el agua se descongela, por tal motivo el rendimiento vuelve a subir, lo que vuelve a congelar el agua y repetir el ciclo. 
 
-	Naturalmente, la temperatura crítica y la presión del refrigerante deben ser mayores que la temperatura y presión máximas que se tengan en el sistema. Así mismo, el punto de congelación del refrigerante debe ser satisfactoriamente menor a la temperatura mínima obtenida en el ciclo. Estos factores son especialmente importantes en la selección del refrigerante para aplicaciones a temperaturas bajas.
+	\subsection{Características}
 
-	Ya que la potencia requerida por unidad de capacidad refrigerante es casi igual para todos los refrigerantes de uso común, la eficiencia y la economía de operación generalmente no son factores decisivos en la selección del refrigerante. Son más importantes aquellas propiedades que tienden a reducir el tamaño, el peso y el costo inicial del equipo de refrigeración con el cual se permita tener operación automática y mantenimiento mínimo. Es también relevante el costo y la disponibilidad del refrigerante al hacer su selección.
-	
-	\subsection{Refrigerantes que se emplearon anteriormente}
 
-	En años anteriores, cuando la refrigeración mecánica estaba limitada a unas pocas aplicaciones de gran tamaño, los únicos refrigerantes prácticamente disponibles eran el amoniaco y el dióxido de carbono. Después, con el desarrollo de unidades automáticas pequeñas para uso comercial y doméstico, se empezaron a usar refrigerantes tales como el dióxido de azufre y el cloruro de metilo, junto con el cloruro de metileno el cual fue desarrollado para usarse con compresores centrífugos. El cloruro de metileno y el dióxido de carbono, debido a sus propiedades de seguridad, fueron muy utilizados en instalaciones grandes de aire acondicionado.
+	Aunque no es posible tener un sistema refrigerante completamente libre de humedad, la práctica común en refrigeración demanda que el contenido de humedad del sistema sea mantenido abajo del nivel que produzca efectos dañinos al sistema. El nivel mínimo de humedad que produzca efectos nocivos en el sistema no está del todo definido y varía en forma considerable de acuerdo con la naturaleza del refrigerante, la calidad del aceite lubricante y las temperaturas de funcionamiento del sistema, sobre todo la temperatura de descarga del compresor. 
 
-	Con excepción del amoniaco, todos estos refrigerantes se han dejado de usar y se encuentran en solo algunas instalaciones antiguas. Estos refrigerantes han sido remplazados por los refrigerantes fluorocarburos que son más adecuados, mismos que fueron desarrollados en los siguientes años. En la actualidad los refrigerantes fluorocarburaos son los más usados. Nuevamente, la única excepción es el amoniaco, que debido a sus excelentes propiedades térmicas, continúa usándose mucho en instalaciones tales como fábricas de hielo, pistas de patinaje, etc. Algunos otros refrigerantes tienen un uso limitado en aplicaciones especiales.
 
-	\subsection{Desarrollo de fluorocarburos}
-
-	La búsqueda de un refrigerante completamente seguro, con buenas propiedades térmicas, condujo al desarrollo de los refrigerantes fluorocarburos en la última parte de los años 20 del ciclo pasado. Los fluorocarburos (hidrocarburos fluoranatados) son un grupo de una familia de compuestos conocidos como halocarburos. La familia de compuestos halocarburos son sinterizados remplazando uno o más de los átomos de hidrógeno en moléculas de metano o de etano, los cuales son hidrocarburos puros con átomos de cloro, fluoro, y/o bromo, siendo el último grupo de la familia de los halógenos. Los halocarburos desarrollados a partir de la molécula de metano son conocidos como halocarburos de la serie del metano, así como aquellos desarrollados de la molécula de etano son referidos como halocarburos de la serie del etano.
-
-	Normalmente, la molécula de metano consiste en un átomo de carbón y cuatro átomos de hidrógeno. Si progresivamente son reemplazados los átomos de hidrógeno por átomos de cloro, los compuestos resultantes son cloruro de metilo, cloruro de metileno, cloroformo y cabón tetracloruro, respectivamente. Siendo los dos últimos las moléculas base para la serie más popular de los fluorocarburos del metano.
-
-	SI ahora los átomos de cloro en la molécula carbontetracloruro son remplazados progresivamente con átomos de fluoro, los compuestos resultantes son tricloromonofluorometano, diclorodifluorometano, monoclorotrifluorometano y carbonotetrafluoruro, respectivamente. En este mismo orden, la ASHRAE designa números estándar de refrigerante a estos copmuestos como los refrigerantes 11, 12, 13 y 14, el úlimo dígito de cada número indica el número de átomo de fluoruro en la molecula.
-
-	La estructura molecular de los refrigerantes 21 y 22, los cuales son también fluorocarburos de la serie metano, tiene la particularidad de presentar un átomo de hidrógeno en cada uno de los dos componentes, es una indicación de que estos son derivados de la molécula de cloroformo y no de la molécula de carbontetracloruro.
-
-	Con respecto a la molécula del etano, los refrigerantes 113 y 114 son los dos únicos fluorocarburos que son muy utilizados, deribados de esta molécula. La presencia de los dos átomos de carbono identifica la molécula base como el etano en vez del metáno, la cual posee solo un átomo de carbón.
-
-	\subsection{Efecto de la humedad}
-
-	Ya se ha indicado el hecho dde que al combinarse la humedad en diferentes grados, casi todos los refrigerantes más comunmente utilizados, da lugar a la formación de compuestos altametne corrosivos, generalmente aácidos, los cuales podrán reaccionar con el aceite lubricante y con otros materiales del sistema, incluyendo a los metales. Esta acción química a veces da lugar a picaduras y algunos otros daños en válvulas, sellos, chumaceras, paredes de cilindros y de algunas otras superficies pulidas. Esto también causa el deterioro en el aceite lubricante y fomenta la formación de sedimentos, lo cual tiende a obstruir las válvulas y los conductos de aceite, a rayas las superficies de las chumaceras y en general a reducir la vida útil del equipo. La corrosión debido a la humedad, contribuye también as la falla de las válvulas del compresor y en los motocompresores herméticos con frecencia causa la rotura del aislamiento del devanado del motor lo cual puede producir un corto o aterramiento del motor. 
-
-	Aunque no es posible tener un sistema refrigerante completamente libre de humedad, la práctica común en refrigeració demanda que el contenido de humedad del sisteam sea mantenido abajo del nivel que produzca efectos dañinos al sistema. El nivel mínimo de humedad que produzca efectos ncivos en el sistema no destá del todo definido y varía en forma considerable de acuerdo con la naturaleza del refrigerante, la calidad del aceite lubricante y las temperatura de funcionamiento del sistema, sobre todo la temperatura de descarga del compresor. 
-
-	La humedad en un sistema refirgerante puede existir ocmo agua libre o puede estar en solución con el refrigerante. Cuando la humedad se presenta como agual ibre, ésta se congelará formandose hielo en la válvula de control del refrigerante y/o evaporador, en el cao de que la temperatura en eleevaporador sea menor a la temperautra del punto de congelación de lagua. Es natural que la formación de hielo en el orioficio de control del refrigerante podrá evitar el flujo de refrigerante líquido a través de dicha parte y hacer que el sistema se vuelva inoperante hasta que el hielo se derrita y pase a través del orificio de control. EN tales casos, poor lo general la refrigeración es intermitente en la medida que el flujo del líquido es iniciado y detenido por la fusión y congelación alternada del hielo en el orificio de control.
 
 	Debido a que solo se tendrá agua libre en el sistema cuando la cantidad de humedad en el sistema exceda a la que el refrigerante pueda llevar en la solución, el que tenga congelamiento será siempre una señal de que el contenido de humedad del sistema está por encima del nivel mínimo que produzca corrosión. Por otra parte, la ausencia de congelamiento no puede ser considerada como que es una indicación de que el contenido de humedad del sistema esté necesariamente abajo del nivel que cause corrosión. Debido a que la corrosión puede ocurrir con algunos refrigerantes a niveles muy por debajo de aquellos caso en los cuales se tenga formación de agua libre. Además, el congelamiento nunca ocurrirá en sistema de aire condicionado o en algunos otros sistemas donde la temperatura del evaporador está por encima del punto de congelación del agua. Por esta razón, los sistemas de temperatura alta con frecuencia están más expuestos a corrosión debido a la humedad que aquellos sistemas que operan a temperaturas de evaporador más bajas, debido a las cantidades relativamente altas de humedad que puedan llevar sin que se note y por periodos de tiempo relativamente grandes.
 
-	Debido a que la habilidad de cada refrigerante en particular para llevar humedad en solución disminuye al aumentar la temperatura, se deduce que el contenido de humedad en sistemas de bajas temperaturas deberá ser mantenido a muy bajo nivel para evitar la acción de los congelamientos. Por esto, la corrosión debido a la humedad en los sistemas de baja temperatura generalmente es pequeña.
+	Debido a que la habilidad de cada refrigerante en particular para llevar humedad en solución disminuye al disminuir la temperatura, se deduce que el contenido de humedad en sistemas de bajas temperaturas deberá ser mantenido a muy bajo nivel para evitar la acción de los congelamientos. Por esto, la corrosión debido a la humedad en los sistemas de baja temperatura generalmente es pequeña.
 
 	Para los diferentes refrigerantes se tienen grandes diferencias tanto en la cantidad de humedad que pueden llevar en solución como en el efecto que la humedad produce entre ellos. Por ejemplo, para la serie de hidrocarburos tales como propano, butano, etano, etc., absorben muy poca o casi nada de humedad. Por lo tanto, cualquier contenido de humedad en tales sistemas estará en forma de agua libre y se manifestará su presencia conocida como congelamiento fuera en el control del refrigerante. Ya que esta humedad debe ser inmediatamente eliminada a fin de conservar al sistema en funcionamiento, la corrosión por humedad generalmente no construirá problema alguno cuando se usan estos refrigerantes. 
 
@@ -420,6 +404,57 @@
 	La combinación de agua y amoniaco produce agua amoniacal, que es un alcalino muy fuerte el cual ataca a los metales no ferrosos, tales como al cobre y al latón, pero tiene muy poco efecto en el hierro o acero o en cualquier otro material del sistema. Por esta razón, los sistemas que emplean amoniaco funcionan con mucho éxito aun cuando se tengan cantidades relativamente altas de humedad en el sistema.
 
 	Los refrigerantes halocarburos se hidrolizan muy ligeramente y, por lo tanto, solo forman cantidades pequeñas de ácido o de otros compuestos corrosivos. Como regla general, no se tendrá corrosión en los sistemas que usan refrigerantes halocarburos cuando el contenido de humedad es mantenido abajo del nivel que causa la congelación, en el supuesto de que los aceites lubricantes empleados sean de alta calidad y que las temperaturas en la descarga sean razonablemente bajas.
+
+	\section{Impacto ambiental}
+	\Biblio{\cite[pág. 29.1 a 29.5]{ashrae2017fundamentals}}
+
+	\ADes{¿Factores para medir el impacto ambiental? \\ La mayor parte fue desarrollada en la historia de los refrigerantes más arriba.}
+
+	Los clorofluocarburos y los hidroclorofluocarburos pueden afectar ambos a la capa de ozono y al cambi climatico, por el contrario los hidrofluocarburos pueden afectar al cambio climatico. Minimizar todas las fugas de refrigerantes al medio ambiente es importante no solo por el daño ambiental, sino también por la reducción del rendimiento de los equipos de refrigeración.
+
+	\subsection{Reducción de la capa de ozono}
+
+	La capa de ozono filtra los rayos UV provenientes del sol. La sobreexposición de estos rayos aumenta el riesgo de cáncer de pie, cataratas y daña el sistema inmune. Además, sobre los cultivos puede generar daño sensible y perjudicar producciones, así también como estresar los fotoplanktons, alterando la producción de comida marítima. Junto a esto, los plasticos y maderas presentan una degradación mayor al exponerse a rayos UV.
+
+	La reducción de la capa de ozono se ha relacionado mayormente con la presencia de cloro y bromo en la stratosfera. Los refrigerantes con estos elementos y con una larga vida en la atmósfera, pueden migrar a la estratosfera, donde las moléculas se rompen por la interacción ultravioleta de la luz o por reacciones químicas. Entre ellos están detallados los CFC y los HCFC. 
+	
+	Por tal motivo, estos refrigerantes, compuestos de CFC y HCFC, apuntan a ser retirados del mercado (protocolo Montreal UNEP 2009). En los estados unidos, la producción e importación de CFC fue baneada completamente en 1996 y el HCFC está siendo reducido, con el fin de ser quitado completamente para 2030. En 2010, para cumplir con el protocolo de Montreal, estados unidos prohibió la producción e importación de HCFC142b y HCFC 22 para usos en equipamientos nuevos de refrigeración. Aunque los refrigerantes recuperados según la AHRI standard 700 pueden continuar cumpliendo el servicio. 
+
+	\subsection{Cambio climático global}
+	
+	La temperatura global promedio es determinada por un balance de energía contemplando la energía del sol calentando la tierra y la energía radiada por la tierra al espacio. Los gases de efecto invernadero, como el dióxido de carbono o el vapor de agua, así también como algunas pequeñas partículas, atrapan el calor sobre la superficie, manteniendo la temperatura promedio de la tierra unos 34°C mayor que el valor que se presentaría si no estarían presentes, generando el efecto invernadero.
+
+	El calentamiento global, vinculado directamente con el cambio climático global, está referido al incremento en el efecto invernadero por el incremento de concentraciones de gases de efecto invernadero atribuidas a actividades humanas. La mayor GHG a tener en cuenta es dióxido de carbono soltado a la atmósfera debido a combustibles fósiles quemados para generar energía. Metano, óxido nitroso, CFCs, HCFC, HFC, eteres y olefinas de hidrógeno y fluor, perfluorocarbonos, trifluoronistrogeno, hexafloruro de azufre son también los gases de efecto invernadero.
+
+	En 1988, el programa ambiental de naciones unidas (UNEP) y la organización mundial meteorológica, establecieron el panel intergubernamental de cambio climático (IPCC)para proveer una fuente objetiva de información sobre cambio climático, sus potenciales consecuencias socioeconómicas y las formas de actuar para mitigar el cambio. Según el IPCC, la concentración de dióxido de carbono incrementó más del 40\% sobre los último 250 años, principalmente por la quema de compbustibles fósiles. Concentraciones de metano incrementaron más del 150\%, y la de óxido nitroso aproximadamente 20\%. Además, se considera que la concentraciones atmosféricas de químicos con fluor, incluyendo los gases que están conformado por fluorocarburos y hexafloruro de azufre, fueron mayores que el 2\% en gases de efecto invernadero.
+
+	\subsection{Refrigerantes y efecto invernadero}
+
+	La liberación de refrigerantes CFC y HCFC a la atmósfera constribuye a la reducción de la capa de ozono. El parámetro que indica la capacidad de reducir la capa de ozono de un refrigerante es el potencia lde reducción de ozono (ODP según sus siglas en inglés), el R11 posee un valor de 1.0. La intención es que los refrigerantes que poseean un ODP mayor a cero no sean utilizados según lo indica el protocolo de Montreal.
+
+	Otro parámetro de los refrigerantes es el potencial de calentamiento global (GWP según sus siglas en inglés). Este valor es un índice que indica la habilidad del refrigerante para atrapar energía radiante comparado con el $CO_2$, que tiene una larga vida en la atmósfera. Estas medidas de impacto al cambio climático son normalmente tomadas como equivalentes al $CO_2$.  El GWP suele ser calculado para cualquier horizonte de tiempo de integración  (ITH). Normalmente, para los criterios de regulación, se toma un GWP con un horizonte de tiempo en 100 años ($GWP_{100}$). 
+
+	La energía que se utiliza para los procesos de refrigeración usualmente es producida por combustibles fósiles, lo cual resulta en más emisión de $CO_2$, contribuyendo al calentamiento global. Este efecto, asociado con la energía consumida, usualmente es mucho mayor que el efecto directo de la emisión de refrigerante. El impacto equivalente de calentamiento global (TEWI) de un sistema de refrigeración es la suma del efecto directo generado por la emisión de refrigerante y el efecto indirecto generado por el consumo de energía del sistema. Otra medida para el análisis climatológico es el rendimiento climático del ciclo de vida (LCCP), que incluye el TEWI y añade emisiones directas e indirectas asociadas con la manufactura y el fin de ciclo del refrigerante.
+
+	El amoníaco, los hidrocarbonos, HCFC, los HFC, y los HFO tienen menores vidas en la atmósfera que los CFC, porque son destruidos en la atmósfera por debajo de la estratosfera por las reacciones de OH. Una menor vida en la atmósfera resulta en un menor ODP y $GWP_{100}$.
+
+	\subsection{Protocolo de montreal UNEP 2009}
+	
+
+	\section{Características, comparaciones y selección}
+	\Biblio{\cite[pág. 365 a 395]{DossatPDRefrigeracion} \cite[pág. 29.9 a 29.10]{ashrae2017fundamentals}}
+
+	\ADes{Relación con el aceite y lubricantes}
+
+	además, el fluido no deberá reaccionar desfavorablemente con el aceite lubricante o con cualquier otro material normalmente usado en la construcción del equipo de refrigeración.
+
+	\ADes{Relación con la humedad}
+
+	No deberá reaccionar desfavorablemente con la humedad, la cual, no obstante a pesar de las precauciones rigurosas que se tienen, se presenta en cierto grado este problema en todos los sistemas de refrigeración.
+
+	\subsection{Efecto de la humedad}
+
+	
 
 	\subsection{Relaciones entre refrigerante y aceite}
 
@@ -958,43 +993,22 @@
 
 	\end{itemize}
 
-
-
-	\section{Impacto ambiental}
-	\Biblio{\cite[pág. 29.1 a 29.5]{ashrae2017fundamentals}}
-
-	Los clorofluocarburos y los hidroclorofluocarburos pueden afectar ambos a la capa de ozono y al cambi climatico, por el contrario los hidrofluocarburos pueden afectar al cambio climatico. Minimizar todas las fugas de refrigerantes al medio ambiente es importante no solo por el daño ambiental, sino también por la reducción del rendimiento de los equipos de refrigeración.
-
-	\subsection{Reducción de la capa de ozono}
-
-	La capa de ozono filtra los rayos UV provenientes del sol. La sobreexposición de estos rayos aumenta el riesgo de cáncer de pie, cataratas y daña el sistema inmune. Además, sobre los cultivos puede generar daño sensible y perjudicar producciones, así también como estresar los fotoplanktons, alterando la producción de comida marítima. Junto a esto, los plasticos y maderas presentan una degradación mayor al exponerse a rayos UV.
-
-	La reducción de la capa de ozono se ha relacionado mayormente con la presencia de cloro y bromo en la stratosfera. Los refrigerantes con estos elementos y con una larga vida en la atmósfera, pueden migrar a la estratosfera, donde las moléculas se rompen por la interacción ultravioleta de la luz o por reacciones químicas. Entre ellos están detallados los CFC y los HCFC. 
 	
-	Por tal motivo, estos refrigerantes, compuestos de CFC y HCFC, apuntan a ser retirados del mercado (protocolo Montreal UNEP 2009). En los estados unidos, la producción e importación de CFC fue baneada completamente en 1996 y el HCFC está siendo reducido, con el fin de ser quitado completamente para 2030. En 2010, para cumplir con el protocolo de Montreal, estados unidos prohibió la producción e importación de HCFC142b y HCFC 22 para usos en equipamientos nuevos de refrigeración. Aunque los refrigerantes recuperados según la AHRI standard 700 pueden continuar cumpliendo el servicio. 
-
-	\subsection{Cambio climático global}
-	
-	La temperatura global promedio es determinada por un balance de energía contemplando la energía del sol calentando la tierra y la energía radiada por la tierra al espacio. Los gases de efecto invernadero, como el dióxido de carbono o el vapor de agua, así también como algunas pequeñas partículas, atrapan el calor sobre la superficie, manteniendo la temperatura promedio de la tierra unos 34°C mayor que el valor que se presentaría si no estarían presentes, generando el efecto invernadero.
-
-	El calentamiento global, vinculado directamente con el cambio climático global, está referido al incremento en el efecto invernadero por el incremento de concentraciones de gases de efecto invernadero atribuidas a actividades humanas. La mayor GHG a tener en cuenta es dióxido de carbono soltado a la atmósfera debido a combustibles fósiles quemados para generar energía. Metano, óxido nitroso, CFCs, HCFC, HFC, eteres y olefinas de hidrógeno y fluor, perfluorocarbonos, trifluoronistrogeno, hexafloruro de azufre son también los gases de efecto invernadero.
-
-	En 1988, el programa ambiental de naciones unidas (UNEP) y la organización mundial meteorológica, establecieron el panel intergubernamental de cambio climático (IPCC)para proveer una fuente objetiva de información sobre cambio climático, sus potenciales consecuencias socioeconómicas y las formas de actuar para mitigar el cambio. Según el IPCC, la concentración de dióxido de carbono incrementó más del 40\% sobre los último 250 años, principalmente por la quema de compbustibles fósiles. Concentraciones de metano incrementaron más del 150\%, y la de óxido nitroso aproximadamente 20\%. Además, se considera que la concentraciones atmosféricas de químicos con fluor, incluyendo los gases que están conformado por fluorocarburos y hexafloruro de azufre, fueron mayores que el 2\% en gases de efecto invernadero.
-
-	\subsection{Refrigerantes y efecto invernadero}
-
-	La liberación de refrigerantes CFC y HCFC a la atmósfera constribuye a la reducción de la capa de ozono. El parámetro que indica la capacidad de reducir la capa de ozono de un refrigerante es el potencia lde reducción de ozono (ODP según sus siglas en inglés), el R11 posee un valor de 1.0. La intención es que los refrigerantes que poseean un ODP mayor a cero no sean utilizados según lo indica el protocolo de Montreal.
-
-	Otro parámetro de los refrigerantes es el potencial de calentamiento global (GWP según sus siglas en inglés). Este valor es un índice que indica la habilidad del refrigerante para atrapar energía radiante comparado con el $CO_2$, que tiene una larga vida en la atmósfera. Estas medidas de impacto al cambio climático son normalmente tomadas como equivalentes al $CO_2$.  El GWP suele ser calculado para cualquier horizonte de tiempo de integración  (ITH). Normalmente, para los criterios de regulación, se toma un GWP con un horizonte de tiempo en 100 años ($GWP_{100}$). 
-
-	La energía que se utiliza para los procesos de refrigeración usualmente es producida por combustibles fósiles, lo cual resulta en más emisión de $CO_2$, contribuyendo al calentamiento global. Este efecto, asociado con la energía consumida, usualmente es mucho mayor que el efecto directo de la emisión de refrigerante. El impacto equivalente de calentamiento global (TEWI) de un sistema de refrigeración es la suma del efecto directo generado por la emisión de refrigerante y el efecto indirecto generado por el consumo de energía del sistema. Otra medida para el análisis climatológico es el rendimiento climático del ciclo de vida (LCCP), que incluye el TEWI y añade emisiones directas e indirectas asociadas con la manufactura y el fin de ciclo del refrigerante.
-
-	El amoníaco, los hidrocarbonos, HCFC, los HFC, y los HFO tienen menores vidas en la atmósfera que los CFC, porque son destruidos en la atmósfera por debajo de la estratosfera por las reacciones de OH. Una menor vida en la atmósfera resulta en un menor ODP y $GWP_{100}$.
-
-	\subsection{Protocolo de montreal UNEP 2009}
-
 	\section{Consideraciones de seguridad}
-	\Biblio{\cite[pág. 29.6 a 29.7]{ashrae2017fundamentals}}
+	\Biblio{\cite[pág. 29.6 a 29.10]{ashrae2017fundamentals} \cite[pág. 365 a 395, primera parte]{DossatPDRefrigeracion}}
+
+	
+
+	La national fire underwriters ha efectuado pruebas de toxicidad con los refrigerantes más comúnmente empleados. Como resultado de ello los refrigerantes están clasificados en seis grupos de acuerdo a su grado de toxicidad, los grupos están dispuestos en orden descendiente. Aquellos que están en el grupo 1 son altamente tóxicos y son capaces de causar la muerte o daños muy serios en concentraciones relativamente pequeñas y/o en periodos muy cortos de exposición. Por otra parte, aquellos que están clasificados en el grupo 6 son muy poco tóxicos, siendo capaces de causar efectos nocivos solo en concentraciones muy grandes. Debido a que el daño causado por el último grupo es más bien debido a deficiencias de oxígeno que a efectos nocivos del fluido, para todos los fines prácticos se considera que los fluidos del grupo 6 no son tóxicos. Sin embargo, como ya se ha indicado de algunos refrigerantes, aunque no sean tóxicos cuando se mezclan con el aire en su estado normal, están sujetos a descomposición cuando están en contacto con una flama o con un elemento eléctrico de calentamiento. Los productos de descomposición así formados, son altamente tóxicos y capaces de causar efectos nocivos en pequeñas concentraciones y en corta exposición. Esto es cierto 
+	para todos los refrigerantes fluorocarburos.
+
+	\subsection{Inflamabilidad y explosividad}
+
+	Por otra parte, la serie de los hidrocarburos son altamente inflamables y explosivo, y deben usarse como refrigerantes para algunas aplicaciones especiales bajo la vigilancia de personal experimentados. Debido a sus excelentes propiedades térmicas de la serie de hidrocarburos, frecuentemente se utilizan en aplicaciones de temperatura muy bajas. En dichas instalaciones, el peligro en que se incurre se hace mínimo por el hecho de que el equipo está constantemente atendido por personal con experiencia en el uso y manejo de materiales explosivos.
+
+	La ASSCMR\footnote{American Standar Safety Code for Mechanical Refrigeration.} da detalles de las condiciones y circunstancias bajo las cuales pueden ser usados con seguridad varios de los refrigerantes. Muchos de los códigos locales y ordenanzas que regulan el equipo de refrigeración están basadas en este código, el cual está mancomunadamente patrocinado por la ASHRAE y la ASA.
+	
+	El grado de peligro en que se incurre con el uso de refrigerantes tóxicos depende de varios factores, tales como la cantidad de refrigerante en relación con el tamaño del espacio dentro del cual se pueden tener fugas de refrigerante, el tipo de ocupación, de si se tengan flamas o fuego y de si el personal experimentado tenga la obligación de atender el equipo. Por ejemplo, si se tiene una cantidad muy pequeña de refrigerante altamente tóxico, representará poco peligro si se le usa en espacios relativamente grandes en donde es posible que en el caso de tener fugas, la concentración no llegue a un nivel de peligro. Además, el peligro inherente en el uso de refrigerantes tóxicos algunas veces es mitigado por el hecho de que los refrigerantes tóxicos despiden olores muy peculiares que tienden a dar aviso de su presencia. Entonces, los refrigerantes tóxicos generalmente son peligrosos para el caso de niños o de personas que por razones de enfermedad o confinamiento son incapaces de escapar de los humos. Actualmente, el amoniaco es el único refrigerante tóxico el cual es muy usado limitándose su uso a plantas paquete, fábricas de hielo y en almacenes de frío muy grandes los cuales son manejados por personal experimentado. \\ xx \\
 
 	Según lo definido por la ASHRAE en el Standard 34, los refrigerantes pueden ser clasificados de acuerdo al peligro que puede generar su uso. La clasificación de la inflamabilidad y la toxicidad se presenta en seis grupos: A1, A2, A3, B1, B2 y B3. Los refrigerantes del grupo A1 son los menos peligrosos, mientras que los del grupo B3 son los más peligrosos.
 

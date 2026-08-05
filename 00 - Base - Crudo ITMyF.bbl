@@ -5,6 +5,11 @@ ASHRAE (2017).
 \newblock {\em Fundamentals}.
 \newblock ASHRAE.
 
+\bibitem[Askeland, 2017]{askeland2017materiales}
+Askeland, D.~R. (2017).
+\newblock {\em Ciencia e ingeniería de los materiales}.
+\newblock Cengage, 7° edition.
+
 \bibitem[Calm, 2007]{calm2007next}
 Calm, J.~M. (2007).
 \newblock The next generation of refrigerants.
@@ -15,6 +20,16 @@ Calm, J.~M. (2007).
 Dossat, R.~J. ({1980}).
 \newblock {\em Principios de refrigeración}.
 \newblock CECSA.
+
+\bibitem[Miller, 2006]{miller2006refrigeration}
+Miller, R. M. .~M. (2006).
+\newblock {\em Air Conditioning and Refrigeration}.
+\newblock McGraw-Hill, 4° edition.
+
+\bibitem[Mott, 2015]{mott2015fluidos}
+Mott, R.~L. (2015).
+\newblock {\em Mecánica de fluidos}.
+\newblock Pearson, 7° edition.
 
 \bibitem[Rajput, 2011]{Rajput2011termodinamica}
 Rajput, R.~K. (2011).
