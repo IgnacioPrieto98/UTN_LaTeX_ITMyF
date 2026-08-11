@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  5 AUG 2026 12:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  11 AUG 2026 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1237,7 +1237,7 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 28.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 28.
 \c@mv@tabular=\count376
 \c@mv@boldtabular=\count377
-<Portada/00-Portada.pdf, id=190, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=198, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
 Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
@@ -1246,7 +1246,7 @@ File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
 Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<Portada/00-Portada.pdf, id=193, page=1, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=201, page=1, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
 Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
@@ -1273,7 +1273,7 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 
 
  <./Portada/00-Portada.pdf>]
-<Portada/00-Portada.pdf, id=216, page=2, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=224, page=2, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 2>
 Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
@@ -1291,7 +1291,7 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
 [2
 
  <./Portada/00-Portada.pdf>]
-<Portada/00-Portada.pdf, id=221, page=3, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=229, page=3, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 3>
 Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 31.
@@ -1372,7 +1372,7 @@ LaTeX Font Info:    Font shape `T1/Montserrat-TLF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 16.
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 17.
-<Figuras/U1/U1-Generaciones.png, id=359, 521.01628pt x 90.96776pt>
+<Figuras/U1/U1-Generaciones.png, id=371, 521.01628pt x 90.96776pt>
 File: Figuras/U1/U1-Generaciones.png Graphic file (type png)
 <use Figuras/U1/U1-Generaciones.png>
 Package pdftex.def Info: Figuras/U1/U1-Generaciones.png  used on input line 60.
@@ -1421,12 +1421,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
 [12]
-<Figuras/U1/U1-CompuestosHidrocarburos.png, id=388, 526.26846pt x 97.69055pt>
+<Figuras/U1/U1-CompuestosHidrocarburos.png, id=400, 526.26846pt x 97.69055pt>
 File: Figuras/U1/U1-CompuestosHidrocarburos.png Graphic file (type png)
 <use Figuras/U1/U1-CompuestosHidrocarburos.png>
 Package pdftex.def Info: Figuras/U1/U1-CompuestosHidrocarburos.png  used on input line 104.
 (pdftex.def)             Requested size: 483.69687pt x 89.78992pt.
-<Figuras/U1/U1-Metano.png, id=389, 68.48843pt x 95.58968pt>
+<Figuras/U1/U1-Metano.png, id=401, 68.48843pt x 95.58968pt>
 File: Figuras/U1/U1-Metano.png Graphic file (type png)
 <use Figuras/U1/U1-Metano.png>
 Package pdftex.def Info: Figuras/U1/U1-Metano.png  used on input line 118.
@@ -1436,17 +1436,17 @@ Package pdftex.def Info: Figuras/U1/U1-Metano.png  used on input line 118.
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
 [13 <./Figuras/U1/U1-CompuestosHidrocarburos.png> <./Figuras/U1/U1-Metano.png>]
-<Figuras/U1/U1-DesarrolloMetano.png, id=406, 525.00793pt x 178.57413pt>
+<Figuras/U1/U1-DesarrolloMetano.png, id=417, 525.00793pt x 178.57413pt>
 File: Figuras/U1/U1-DesarrolloMetano.png Graphic file (type png)
 <use Figuras/U1/U1-DesarrolloMetano.png>
 Package pdftex.def Info: Figuras/U1/U1-DesarrolloMetano.png  used on input line 126.
 (pdftex.def)             Requested size: 483.69687pt x 164.52452pt.
-<Figuras/U1/U1-Etano.png, id=407, 81.934pt x 85.71558pt>
+<Figuras/U1/U1-Etano.png, id=418, 81.934pt x 85.71558pt>
 File: Figuras/U1/U1-Etano.png Graphic file (type png)
 <use Figuras/U1/U1-Etano.png>
 Package pdftex.def Info: Figuras/U1/U1-Etano.png  used on input line 139.
 (pdftex.def)             Requested size: 106.4139pt x 111.33081pt.
-<Figuras/U1/U1-DesarrolloEtano.png, id=410, 469.12474pt x 203.57451pt>
+<Figuras/U1/U1-DesarrolloEtano.png, id=421, 469.12474pt x 203.57451pt>
 File: Figuras/U1/U1-DesarrolloEtano.png Graphic file (type png)
 <use Figuras/U1/U1-DesarrolloEtano.png>
 Package pdftex.def Info: Figuras/U1/U1-DesarrolloEtano.png  used on input line 147.
@@ -1456,7 +1456,7 @@ Package pdftex.def Info: Figuras/U1/U1-DesarrolloEtano.png  used on input line 1
 LaTeX Info: Redefining \. on input line 150.
 LaTeX Info: Redefining \% on input line 150.
 [14 <./Figuras/U1/U1-DesarrolloMetano.png> <./Figuras/U1/U1-Etano.png>]
-<Figuras/U1/U1-CompuestosInorganicos.png, id=420, 511.77245pt x 95.58968pt>
+<Figuras/U1/U1-CompuestosInorganicos.png, id=431, 511.77245pt x 95.58968pt>
 File: Figuras/U1/U1-CompuestosInorganicos.png Graphic file (type png)
 <use Figuras/U1/U1-CompuestosInorganicos.png>
 Package pdftex.def Info: Figuras/U1/U1-CompuestosInorganicos.png  used on input line 165.
@@ -1479,12 +1479,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Info: Redefining \. on input line 222.
 LaTeX Info: Redefining \% on input line 222.
 [16{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-<Figuras/U1/U1-OrgInsat.png, id=440, 257.56693pt x 107.98483pt>
+<Figuras/U1/U1-OrgInsat.png, id=451, 257.56693pt x 107.98483pt>
 File: Figuras/U1/U1-OrgInsat.png Graphic file (type png)
 <use Figuras/U1/U1-OrgInsat.png>
 Package pdftex.def Info: Figuras/U1/U1-OrgInsat.png  used on input line 225.
 (pdftex.def)             Requested size: 290.22107pt x 121.6754pt.
-<Figuras/U1/U1-PropenoA1234.png, id=442, 404.62796pt x 107.98483pt>
+<Figuras/U1/U1-PropenoA1234.png, id=453, 404.62796pt x 107.98483pt>
 File: Figuras/U1/U1-PropenoA1234.png Graphic file (type png)
 <use Figuras/U1/U1-PropenoA1234.png>
 Package pdftex.def Info: Figuras/U1/U1-PropenoA1234.png  used on input line 233.
@@ -1510,226 +1510,225 @@ LaTeX Info: Redefining \% on input line 339.
 LaTeX Info: Redefining \. on input line 370.
 LaTeX Info: Redefining \% on input line 370.
 [21]
+LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
+(Font)              scaled to size 8.3pt on input line 395.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 395.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 395.
+LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
+(Font)              scaled to size 7.6pt on input line 395.
 
-LaTeX Info: Redefining \. on input line 397.
-LaTeX Info: Redefining \% on input line 397.
+Overfull \hbox (2.91368pt too wide) in paragraph at lines 395--396
+[]\T1/Montserrat-TLF/regular/n/10.95 En cam-bio, ha-cien-do én-fa-sis en la com-po-si-ción, los di-fe-ren-tes re-fri-ge-ran-tes tie-nen gran-
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 396.
+LaTeX Info: Redefining \% on input line 396.
 [22]
 
-LaTeX Info: Redefining \. on input line 414.
-LaTeX Info: Redefining \% on input line 414.
+LaTeX Info: Redefining \. on input line 422.
+LaTeX Info: Redefining \% on input line 422.
 [23]
-LaTeX Font Info:    Trying to load font information for TS1+Montserrat-TLF on input line 425.
+
+LaTeX Info: Redefining \. on input line 445.
+LaTeX Info: Redefining \% on input line 445.
+[24]
+
+LaTeX Info: Redefining \. on input line 459.
+LaTeX Info: Redefining \% on input line 459.
+[25]
+LaTeX Font Info:    Trying to load font information for TS1+Montserrat-TLF on input line 477.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\ts1montserrat-tlf.fd
 File: TS1Montserrat-TLF.fd 2019/11/07 (autoinst) Font definitions for TS1/Montserrat-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 425.
+(Font)              scaled to size 10.95pt on input line 477.
 
-Overfull \hbox (4.3733pt too wide) in paragraph at lines 429--430
+Overfull \hbox (4.3733pt too wide) in paragraph at lines 481--482
 \T1/Montserrat-TLF/regular/n/10.95 me-teo-ro-ló-gi-ca, es-ta-ble-cie-ron el pa-nel in-ter-gu-ber-na-men-tal de cam-bio cli-má-ti-co (IPCC)para
  []
 
 
 
-LaTeX Info: Redefining \. on input line 434.
-LaTeX Info: Redefining \% on input line 434.
-[24{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_ro7vi7.enc}]
+LaTeX Info: Redefining \. on input line 482.
+LaTeX Info: Redefining \% on input line 482.
+[26{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_ro7vi7.enc}]
 
-LaTeX Info: Redefining \. on input line 463.
-LaTeX Info: Redefining \% on input line 463.
-[25]
-
-LaTeX Info: Redefining \. on input line 487.
-LaTeX Info: Redefining \% on input line 487.
-[26]
-
-LaTeX Info: Redefining \. on input line 507.
-LaTeX Info: Redefining \% on input line 507.
+LaTeX Info: Redefining \. on input line 503.
+LaTeX Info: Redefining \% on input line 503.
 [27]
 
-LaTeX Info: Redefining \. on input line 523.
-LaTeX Info: Redefining \% on input line 523.
+LaTeX Info: Redefining \. on input line 528.
+LaTeX Info: Redefining \% on input line 528.
 [28]
+LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 535.
 
-LaTeX Info: Redefining \. on input line 547.
-LaTeX Info: Redefining \% on input line 547.
+
+LaTeX Info: Redefining \. on input line 555.
+LaTeX Info: Redefining \% on input line 555.
 [29]
-LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 8.3pt on input line 548.
-LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 548.
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.588 	\begin{equation}
+                       \label{E1-Coeficiente de desempeÃ±o (COP)}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.588 	\begin{equation}
+                       \label{E1-Coeficiente de desempeÃ±o (COP)}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.588 	\begin{equation}
+                       \label{E1-Coeficiente de desempeÃ±o (COP)}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.588 	\begin{equation}
+                       \label{E1-Coeficiente de desempeÃ±o (COP)}
 
-
-LaTeX Info: Redefining \. on input line 578.
-LaTeX Info: Redefining \% on input line 578.
+LaTeX Info: Redefining \. on input line 606.
+LaTeX Info: Redefining \% on input line 606.
 [30]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.601 	\begin{equation}
-                       \label{E1-Coeficiente de desempeÃ±o (COP)}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.601 	\begin{equation}
-                       \label{E1-Coeficiente de desempeÃ±o (COP)}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.601 	\begin{equation}
-                       \label{E1-Coeficiente de desempeÃ±o (COP)}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.601 	\begin{equation}
-                       \label{E1-Coeficiente de desempeÃ±o (COP)}
-
-LaTeX Info: Redefining \. on input line 624.
-LaTeX Info: Redefining \% on input line 624.
-[31]
-Overfull \hbox (0.2622pt too wide) in paragraph at lines 652--653
+Overfull \hbox (0.2622pt too wide) in paragraph at lines 639--640
 []\T1/Montserrat-TLF/regular/n/10.95 Condensador. La fun-ción de un con-den-sa-dor es pro-por-cio-nar una su-per-fi-cie de trans-
  []
 
 
 
-LaTeX Info: Redefining \. on input line 656.
-LaTeX Info: Redefining \% on input line 656.
+LaTeX Info: Redefining \. on input line 640.
+LaTeX Info: Redefining \% on input line 640.
+[31]
+
+LaTeX Info: Redefining \. on input line 662.
+LaTeX Info: Redefining \% on input line 662.
 [32]
 
-LaTeX Info: Redefining \. on input line 679.
-LaTeX Info: Redefining \% on input line 679.
+LaTeX Info: Redefining \. on input line 687.
+LaTeX Info: Redefining \% on input line 687.
 [33]
-
-LaTeX Info: Redefining \. on input line 702.
-LaTeX Info: Redefining \% on input line 702.
-[34]
-Overfull \hbox (0.56528pt too wide) in paragraph at lines 711--712
+Overfull \hbox (0.56528pt too wide) in paragraph at lines 698--699
 []\T1/Montserrat-TLF/regular/n/10.95 La efi-cien-cia vo-lu-mé-tri-ca del es-pa-cio muer-to. El vo-lu-men del es-pa-cio muer-to es aquel
  []
 
 
 
-LaTeX Info: Redefining \. on input line 730.
-LaTeX Info: Redefining \% on input line 730.
+LaTeX Info: Redefining \. on input line 703.
+LaTeX Info: Redefining \% on input line 703.
+[34]
+
+LaTeX Info: Redefining \. on input line 755.
+LaTeX Info: Redefining \% on input line 755.
 [35]
-<Figuras/U1/F1-CICLO_ABSORCION.png, id=584, 495.41084pt x 169.47314pt>
+<Figuras/U1/F1-CICLO_ABSORCION.png, id=605, 495.41084pt x 169.47314pt>
 File: Figuras/U1/F1-CICLO_ABSORCION.png Graphic file (type png)
 <use Figuras/U1/F1-CICLO_ABSORCION.png>
-Package pdftex.def Info: Figuras/U1/F1-CICLO_ABSORCION.png  used on input line 771.
+Package pdftex.def Info: Figuras/U1/F1-CICLO_ABSORCION.png  used on input line 758.
 (pdftex.def)             Requested size: 435.32422pt x 148.91702pt.
-
-
-LaTeX Info: Redefining \. on input line 774.
-LaTeX Info: Redefining \% on input line 774.
-[36]
-<Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png, id=596, 365.11406pt x 252.19218pt>
+<Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png, id=606, 365.11406pt x 252.19218pt>
 File: Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png Graphic file (type png)
 <use Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png>
-Package pdftex.def Info: Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png  used on input line 781.
+Package pdftex.def Info: Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png  used on input line 768.
 (pdftex.def)             Requested size: 241.84843pt x 167.0515pt.
 
 
-LaTeX Info: Redefining \. on input line 796.
-LaTeX Info: Redefining \% on input line 796.
-[37 <./Figuras/U1/F1-CICLO_ABSORCION.png> <./Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png>]
+LaTeX Info: Redefining \. on input line 777.
+LaTeX Info: Redefining \% on input line 777.
+[36 <./Figuras/U1/F1-CICLO_ABSORCION.png> <./Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png>]
 
-LaTeX Info: Redefining \. on input line 837.
-LaTeX Info: Redefining \% on input line 837.
+LaTeX Info: Redefining \. on input line 817.
+LaTeX Info: Redefining \% on input line 817.
+[37]
+
+LaTeX Info: Redefining \. on input line 841.
+LaTeX Info: Redefining \% on input line 841.
 [38]
-
-LaTeX Info: Redefining \. on input line 861.
-LaTeX Info: Redefining \% on input line 861.
-[39]
-Overfull \hbox (16.00333pt too wide) in paragraph at lines 870--871
+Overfull \hbox (16.00333pt too wide) in paragraph at lines 857--858
 []\T1/Montserrat-TLF/regular/n/10.95 El pun-to de ebu-lli-ción del amo-nia-co a la pre-sión at-mos-fé-ri-ca es-tán-dar es de $\FMS/futm/m/n/10.95 ^^@\T1/futs/m/n/10.95 28[]\FML/futmi/m/it/10.95 F\T1/futs/m/n/10.95 (\FMS/futm/m/n/10.95 ^^@\T1/futs/m/n/10.95 33[]\FML/futmi/m/it/10.95 C\T1/futs/m/n/10.95 )$\T1/Montserrat-TLF/regular/n/10.95 .
  []
 
 
 
-LaTeX Info: Redefining \. on input line 879.
-LaTeX Info: Redefining \% on input line 879.
+LaTeX Info: Redefining \. on input line 864.
+LaTeX Info: Redefining \% on input line 864.
+[39]
+
+LaTeX Info: Redefining \. on input line 896.
+LaTeX Info: Redefining \% on input line 896.
 [40]
 
 LaTeX Info: Redefining \. on input line 915.
 LaTeX Info: Redefining \% on input line 915.
 [41]
-
-LaTeX Info: Redefining \. on input line 936.
-LaTeX Info: Redefining \% on input line 936.
-[42]
-Overfull \hbox (30.43535pt too wide) in paragraph at lines 942--943
+Overfull \hbox (30.43535pt too wide) in paragraph at lines 929--930
 []\T1/Montserrat-TLF/regular/n/10.95 El re-fri-ge-ran-te R22 tie-ne un pun-to de ebu-lli-ción a la pre-sión at-mos-fé-ri-ca de $\FMS/futm/m/n/10.95 ^^@\T1/futs/m/n/10.95 41[]4[]\FML/futmi/m/it/10.95 F\T1/futs/m/n/10.95 (\FMS/futm/m/n/10.95 ^^@\T1/futs/m/n/10.95 40[]8[]\FML/futmi/m/it/10.95 C\T1/futs/m/n/10.95 )$\T1/Montserrat-TLF/regular/n/10.95 .
  []
 
 
 
-LaTeX Info: Redefining \. on input line 955.
-LaTeX Info: Redefining \% on input line 955.
-[43]
-Overfull \hbox (53.80031pt too wide) in paragraph at lines 958--959
+LaTeX Info: Redefining \. on input line 938.
+LaTeX Info: Redefining \% on input line 938.
+[42]
+Overfull \hbox (53.80031pt too wide) in paragraph at lines 945--946
 \T1/Montserrat-TLF/regular/n/10.95 pec-ti-va-men-te. Aun-que el des-pla-za-mien-to del com-pre-sor por ton es al-go al-to ($\T1/futs/m/n/10.95 100[]76\FML/futmi/m/it/10.95 ft[]\T1/futs/m/n/10.95 /\FML/futmi/m/it/10.95 min ton$\T1/Montserrat-TLF/regular/n/10.95 ),
  []
 
 
-Overfull \hbox (59.22827pt too wide) in paragraph at lines 966--967
+Overfull \hbox (59.22827pt too wide) in paragraph at lines 953--954
 \T1/Montserrat-TLF/regular/n/10.95 sio-nes de eva-po-ra-ción y con-den-sa-ción a con-di-cio-nes de to-ne-la-da es-tán-dar son $\T1/futs/m/n/10.95 6[]75\FML/futmi/m/it/10.95 lb\T1/futs/m/n/10.95 /\FML/futmi/m/it/10.95 in[]\T1/futs/m/n/10.95 (0[]89\FML/futmi/m/it/10.95 bar\T1/futs/m/n/10.95 )$
  []
 
 
 
-LaTeX Info: Redefining \. on input line 983.
-LaTeX Info: Redefining \% on input line 983.
-[44]
-Overfull \hbox (43.03885pt too wide) in paragraph at lines 984--985
+LaTeX Info: Redefining \. on input line 969.
+LaTeX Info: Redefining \% on input line 969.
+[43]
+Overfull \hbox (43.03885pt too wide) in paragraph at lines 971--972
 []\T1/Montserrat-TLF/regular/n/10.95 El R502 a la pre-sión ba-ro-mé-tri-ca es-tán-dar a una tem-pe-ra-tu-ra de ebu-lli-ción de $\FMS/futm/m/n/10.95 ^^@\T1/futs/m/n/10.95 49[]8[]\FML/futmi/m/it/10.95 F\T1/futs/m/n/10.95 (\FMS/futm/m/n/10.95 ^^@\T1/futs/m/n/10.95 45[]4[]\FML/futmi/m/it/10.95 C\T1/futs/m/n/10.95 )$
  []
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 1009.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 1009.
-LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 7.6pt on input line 1009.
 
 
-LaTeX Info: Redefining \. on input line 1010.
-LaTeX Info: Redefining \% on input line 1010.
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
+LaTeX Info: Redefining \. on input line 995.
+LaTeX Info: Redefining \% on input line 995.
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1037.
-LaTeX Info: Redefining \% on input line 1037.
-[46]
+LaTeX Info: Redefining \. on input line 1016.
+LaTeX Info: Redefining \% on input line 1016.
+[45]
 
-LaTeX Info: Redefining \. on input line 1060.
-LaTeX Info: Redefining \% on input line 1060.
-[47
+LaTeX Info: Redefining \. on input line 1045.
+LaTeX Info: Redefining \% on input line 1045.
+[46
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1060 
+l.1045 
        ]
 
-LaTeX Info: Redefining \. on input line 1061.
-LaTeX Info: Redefining \% on input line 1061.
-[48])
+LaTeX Info: Redefining \. on input line 1048.
+LaTeX Info: Redefining \% on input line 1048.
+[47])
 
-[49]
+[48]
 
-[50
+[49
 
 ]
 
-[51]
+[50] (00 - Base - Crudo ITMyF.bbl)
 
-[52] (00 - Base - Crudo ITMyF.bbl)
-
-[53
+[51
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1742,20 +1741,20 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `"00 - Base - Crudo ITMyF".out' has not changed.
-(rerunfilecheck)             Checksum: E82ECEB6D608A085A18C84AEBA479412;9441.
+(rerunfilecheck)             Checksum: 5988645431F61D2A146B2076F78AB9CD;9967.
  ) 
 Here is how much of TeX's memory you used:
- 32399 strings out of 473536
- 635887 string characters out of 5714956
+ 32403 strings out of 473536
+ 635957 string characters out of 5714956
  1134222 words of memory out of 5000000
- 54835 multiletter control sequences out of 15000+600000
+ 54837 multiletter control sequences out of 15000+600000
  931404 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,17n,121p,1774b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Bold.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-BoldItalic.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Italic.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Regular.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on "00 - Base - Crudo ITMyF.pdf" (53 pages, 1749480 bytes).
+Output written on "00 - Base - Crudo ITMyF.pdf" (51 pages, 1747697 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
- 466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 787 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
+ 482 words of extra memory for PDF output out of 10000 (max. 10000000)
 

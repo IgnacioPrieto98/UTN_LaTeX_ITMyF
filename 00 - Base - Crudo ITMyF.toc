@@ -42,40 +42,42 @@
 \contentsline {paragraph}{Consumo por TON de refrigeración}{21}{subsection.1.4.4}%
 \contentsline {paragraph}{Relación y diferencia de presión}{22}{equation.1.1}%
 \contentsline {section}{\numberline {1.5}Refrigerantes y humedad}{22}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Características}{22}{subsection.1.5.1}%
-\contentsline {section}{\numberline {1.6}Impacto ambiental}{23}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Reducción de la capa de ozono}{24}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Cambio climático global}{24}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Refrigerantes y efecto invernadero}{24}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Protocolo de montreal UNEP 2009}{25}{subsection.1.6.4}%
-\contentsline {section}{\numberline {1.7}Características, comparaciones y selección}{25}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Efecto de la humedad}{25}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Relaciones entre refrigerante y aceite}{25}{subsection.1.7.2}%
-\contentsline {subsection}{\numberline {1.7.3}Miscibilidad del aceite}{26}{subsection.1.7.3}%
-\contentsline {subsection}{\numberline {1.7.4}Detección de fugas}{28}{subsection.1.7.4}%
-\contentsline {paragraph}{Detección electrónica}{29}{subsection.1.7.4}%
-\contentsline {paragraph}{Método de la burbuja}{30}{subsection.1.7.4}%
-\contentsline {paragraph}{Método de cambio de presión}{30}{subsection.1.7.4}%
-\contentsline {paragraph}{Método de tinta UV}{30}{subsection.1.7.4}%
-\contentsline {paragraph}{Fugas de amoniaco}{30}{subsection.1.7.4}%
-\contentsline {section}{\numberline {1.8}Refrigeración y los ciclos}{30}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Sistemas de refrigeración por aire}{31}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Sistema de refrigeración por compresión de vapor}{31}{subsection.1.8.2}%
-\contentsline {subsubsection}{Eficiencia volumétrica}{35}{Item.16}%
+\contentsline {subsection}{\numberline {1.5.1}Comportamiento de los refrigerantes}{22}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Refrigerantes y lubricantes}{23}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Clasificación de lubricantes}{23}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Miscibilidad del aceite}{23}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Recuperación de aceite}{24}{subsection.1.6.3}%
+\contentsline {section}{\numberline {1.7}Impacto ambiental}{26}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Reducción de la capa de ozono}{26}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Cambio climático global}{26}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Refrigerantes y efecto invernadero}{27}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Protocolo de montreal UNEP 2009}{27}{subsection.1.7.4}%
+\contentsline {section}{\numberline {1.8}Características, comparaciones y selección}{27}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Relaciones entre refrigerante y aceite}{28}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Detección de fugas}{28}{subsection.1.8.2}%
+\contentsline {paragraph}{Detección electrónica}{29}{subsection.1.8.2}%
+\contentsline {paragraph}{Método de la burbuja}{29}{subsection.1.8.2}%
+\contentsline {paragraph}{Método de cambio de presión}{29}{subsection.1.8.2}%
+\contentsline {paragraph}{Método de tinta UV}{29}{subsection.1.8.2}%
+\contentsline {paragraph}{Fugas de amoniaco}{29}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}Refrigeración y los ciclos}{30}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Sistemas de refrigeración por aire}{30}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Sistema de refrigeración por compresión de vapor}{31}{subsection.1.9.2}%
+\contentsline {subsubsection}{Eficiencia volumétrica}{34}{Item.16}%
 \contentsline {subsubsection}{Análisis matemático de la refrigeración por compresión de vapor}{35}{Item.16}%
-\contentsline {subsection}{\numberline {1.8.3}Sistema de absorción de vapor}{36}{subsection.1.8.3}%
-\contentsline {subsubsection}{Sistema simple de absorción de vapor}{36}{subsection.1.8.3}%
-\contentsline {subsubsection}{Sistema práctico de absorción de vapor}{37}{figure.caption.14}%
-\contentsline {section}{\numberline {1.9}Refrigerantes en instalaciones}{38}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Clasificación de los refrigerantes}{38}{subsection.1.9.1}%
-\contentsline {subsubsection}{Mezclas previsibles}{39}{subsection.1.9.1}%
-\contentsline {subsubsection}{Propiedades y usos de refrigerantes comunes}{39}{subsection.1.9.1}%
-\contentsline {section}{\numberline {1.10}Consideraciones de seguridad}{45}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Inflamabilidad y explosividad}{45}{subsection.1.10.1}%
-\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{46}{section.1.11}%
-\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{46}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}Metales}{47}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {1.12.2}Elastómeros}{47}{subsection.1.12.2}%
-\contentsline {subsection}{\numberline {1.12.3}Plásticos}{47}{subsection.1.12.3}%
-\contentsline {part}{II\hspace {1em}Anexos}{51}{part.2}%
+\contentsline {subsection}{\numberline {1.9.3}Sistema de absorción de vapor}{35}{subsection.1.9.3}%
+\contentsline {subsubsection}{Sistema simple de absorción de vapor}{36}{subsection.1.9.3}%
+\contentsline {subsubsection}{Sistema práctico de absorción de vapor}{36}{figure.caption.14}%
+\contentsline {section}{\numberline {1.10}Refrigerantes en instalaciones}{37}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Clasificación de los refrigerantes}{38}{subsection.1.10.1}%
+\contentsline {subsubsection}{Mezclas previsibles}{38}{subsection.1.10.1}%
+\contentsline {subsubsection}{Propiedades y usos de refrigerantes comunes}{39}{subsection.1.10.1}%
+\contentsline {section}{\numberline {1.11}Consideraciones de seguridad}{44}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}Inflamabilidad y explosividad}{45}{subsection.1.11.1}%
+\contentsline {section}{\numberline {1.12}Refrigerantes secundarios}{46}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Conducción de fluidos refrigerantes}{46}{section.1.13}%
+\contentsline {subsection}{\numberline {1.13.1}Metales}{46}{subsection.1.13.1}%
+\contentsline {subsection}{\numberline {1.13.2}Elastómeros}{46}{subsection.1.13.2}%
+\contentsline {subsection}{\numberline {1.13.3}Plásticos}{46}{subsection.1.13.3}%
+\contentsline {part}{II\hspace {1em}Anexos}{49}{part.2}%
 \contentsfinish 
