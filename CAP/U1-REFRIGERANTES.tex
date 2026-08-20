@@ -628,7 +628,7 @@
 
 	De esta expresión pueden desprenderse dos valores de COP. de refrigearción (COP$_R$) y de calefacción (COP$_C$).
 
-	\begin{equation}\nonumber
+	\begin{equation}\label{E1-Coeficiente de desempeño (COP)}
 		\text{COP}_{R} = \dfrac{\text{calor quitado}}{\text{Trabajo neto}} \hspace{2cm} \text{COP}_{C} = \dfrac{\text{calor cedido}}{\text{Trabajo neto}}
 	\end{equation}
 
@@ -652,23 +652,122 @@
 
 	\subsection{Ciclos principales}
 
-	A partir de los procesos de compresión, condensación, expansión y evaporación, es posible describir tres ciclos principales:
+	A partir de los procesos de compresión, condensación, expansión y evaporación, es posible describir cuatro ciclos principales:
 
 	\begin{itemize}
-		\item Ciclo de refrigeración por aire.
+		\item Ciclo Carnot inverso.
+		\item Ciclo Brayton inverso.
+		% \item Ciclo de refrigeración por aire.
 		\item Ciclo de refrigeración por compresión de vapor.
 		\item Ciclo de refrigeración por absorción.
 	\end{itemize}
 
-	\paragraph{Refrigeración por aire}
+	Estos ciclos van a ser representados sobre diagramas $T-s$ y/o $p-h$, en los cuales se suele expresar la campana de cambio de estado, teniendo en un extremo líquido saturado y en el otro vapor saturado; y uniendo ambas curvas en el punto crítico.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = \linewidth]{Figuras/U1/Diagramas.png}
+		\caption{Diagramas de $T-s$ y $p-h$ y sus curvas de propiedades constantes.}
+	\end{figure}
+
+	\paragraph{Ciclo Carnot Inverso}
+
+	El ciclo Carnot inverso se compone de dos procesos isotérmicos, los cuales suceden durante la compresión y la evaporación; y dos procesos isoentrópicos; los cuales suceden durante la evaporación y la condensación. 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = \linewidth]{Figuras/U1/Carnot.png}
+		\caption{Ciclo Carnot Inverso.}
+	\end{figure}
+
+	Para cumplir con un ciclo Carnot inverso se debe presentar un compresor y turbina o válvula de expansión que no intercambien calor con el medio. Mientras que los intercambiadores de calor del evaporador y el condensador sólo pueden intercambiar calor latente. 
+
+	Al cumplir con estas características, el ciclo Carnot inverso presenta el mejor rendimiento posible. Este parámetro se puede determinar según la relación entre el calor y el trabajo desarrollada en la ecuación \eqref{E1-Coeficiente de desempeño (COP)}.
+
+	\begin{equation}\tag{\ref{E1-Coeficiente de desempeño (COP)}}
+		\text{COP}_R = \dfrac{\text{calor quitado}}{\text{Trabajo neto}}
+	\end{equation}
+
+	Tanto el calor quitado como el trabajo neto pueden obtenerse a partir de la primera y segunda ley de la termodinámica. Comenzando con los procesos isotérmicos, los cuales no presentan variación de volumen ni presión, es posible expresar el calor quitado como la variación de entropía:
+	
+	\begin{equation}\nonumber
+		\Delta Q_{2 \rightarrow 3} = (s_2 - s_3)T_2 = (s_2 - s_3)T_3   	
+	\end{equation}
+	\begin{equation}\nonumber
+		\Delta Q_{4 \rightarrow 1} = (s_1 - s_4)T_1 = (s_1 - s_4)T_4
+	\end{equation}
+
+	Y, como el trabajo en las máquinas térmicas en un ciclo cerrado está expresado como el inverso de la variación de calor:\footnote{Se aplica el cálculo de áreas como el valor mayor menos el valor menor así el área queda con signo positivo.}
+
+	\begin{equation}\nonumber
+		W_N = - \left(\Delta Q_{2 \rightarrow 3} - \Delta Q_{4 \rightarrow 1}\right) = - \left((s_2 - s_3)T_2 - (s_1 - s_4)T_1\right)
+	\end{equation}
+	Como $s_3 = s_4$ y $s_1 = s_2$:
+	\begin{equation}\nonumber
+		W_N = - \left((s_2 - s_3)T_2 - (s_1 - s_4)T_1\right) = - \left[(s_2 - s_3) (T_2 - T_1)\right] = \left(s_2 - s_3\right) \left(T_1 - T_2\right)
+	\end{equation}
+
+	Remplazando el trabajo y el calor quitado en la expresión del COP:
+
+	\begin{equation}\label{E1-COP para un ciclo carnot inverso}
+		\text{COP}_{R} = \dfrac{\cancel{(s_2 - s_3)} \, T_2}{\cancel{(s_2 - s_3)} \left(T_1 - T_2\right)} = \dfrac{T_2}{T_1 - T_2}
+	\end{equation}
+	\begin{equation}\label{E1-COPc para un ciclo carnot inverso}
+		\text{COP}_C = \dfrac{T_1}{T_1 - T_2}	
+	\end{equation}
+
+	Para llevar a la realidad a un ciclo Carnot, se presentan muchas dificultades. Entre ellas, no es factible realizar una compresión y una expansión isoentrópica debido a que serían procesos de muy baja velocidad. Además, como la compresión se debe realizar a partir de una mezcla de líquido y vapor, la complejidad de éste resulta grande ya que tiene que poder realizar el proceso utilizando ambas fases. Por tal motivo, este ciclo es utilizado como una comparación a un concepto ideal, pero que no posible llevarlo a la realidad.
+
+	\paragraph{Ciclo Rankine inverso} El ciclo Rankine inverso se compone de un proceso adiabático de compresión; un proceso isoentrópico, de expansión; y dos procesos isobaricos, los cuales suceden durante la evaporación y la condensación.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = \linewidth]{Figuras/U1/Rankine.png}
+		\caption{Ciclo Rankine inverso.}
+	\end{figure}
+
+	El ciclo Rankine inverso, también conocido como ciclo simple de compresión de vapor, está compuesto por dos intercambiadores que trabajen a presión constante, una válvula de expansión que trabaje con entalpía constante ($h = u + pv$) y un compresor que sea adiabático.
+
+	Como su ciclo es muy parecido al ciclo Carnot, su coeficiente de rendimiento resulta próximo al del ciclo carnot. Para determinarlo nuevamente se hace uso de la expresión definida en la ecuación \eqref{E1-Coeficiente de desempeño (COP)}:
+
+	\begin{equation}\tag{\ref{E1-Coeficiente de desempeño (COP)}}
+		\text{COP}_R = \dfrac{\text{calor quitado}}{\text{Trabajo neto}}
+	\end{equation}
+
+	En el ciclo Rankine se puede determinar el calor a partir de la diferencia de entalpía entre los puntos extremos del proceso:
+
+	\begin{equation}
+		Q_{2\rightarrow 2' \rightarrow 3} = h_3 - h_2
+	\end{equation}
+
+	\begin{equation}
+		Q_{4 \rightarrow 1} = h_1 - h_4
+	\end{equation}
+
+	Junto a esto, aplicando el segundo principio de la termodinámica
+
+	\begin{equation}
+		W_N + Q_{4 \rightarrow 1} = Q_{2\rightarrow 2' \rightarrow 3}
+	\end{equation}
+
+	\begin{equation}
+		W_N + (h_1 - h_4) = (h_3 - h_2)
+	\end{equation}
+
+
+	Con estos parámetros, el rendimiento del ciclo Rankine inverso resulta:
+
+	\begin{equation}
+		COP_R = \dfrac{h_1 - h_4}{h_1 - h_2}
+	\end{equation}
 
 	%¿Qué quiero desarrollar acá?
+	% - Tipos de procesos que componen al ciclo y en que partes.
 	% - Componentes del ciclo.
 	% - Rendimiento del ciclo.
 	% - Diferencias entre el comportamiento real y el ideal.
 	% - Aplicaciones comunes.
 	% - Refrigerantes que se aplican.
-	% - 
 
 
 
@@ -703,7 +802,7 @@
 
 	La medición del desempeño de los sistemas de refrigeración se mide a partir de un coeficiente de desempeño ($COP$), que se define como la relación del calor absorbido por el refrigerante mientras pasa por el evaporador con respecto al trabajo requerido para comprimir el refrigerante mientras pasa por el compresor.
 
-	\begin{equation}\label{E1-Coeficiente de desempeño (COP)}
+	\begin{equation}\tag{\ref{E1-Coeficiente de desempeño (COP)}}
 		COP = \dfrac{\text{Calor neto quitado}}{\text{Trabajo de expansión}} = \dfrac{Q_L}{W_{neto}}
 	\end{equation}
 
