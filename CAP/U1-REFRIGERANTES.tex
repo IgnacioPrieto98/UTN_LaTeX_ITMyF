@@ -736,11 +736,11 @@
 
 	En el ciclo Rankine se puede determinar el calor a partir de la diferencia de entalpía entre los puntos extremos del proceso:
 
-	\begin{equation}
+	\begin{equation}\nonumber
 		Q_{2\rightarrow 2' \rightarrow 3} = h_3 - h_2
 	\end{equation}
 
-	\begin{equation}
+	\begin{equation}\nonumber
 		Q_{4 \rightarrow 1} = h_1 - h_4
 	\end{equation}
 
@@ -764,13 +764,13 @@
 
 	Por lo tanto, si $h_4 = h_3$
 
-	\begin{equation}
+	\begin{equation}\nonumber
 		\left|W_N\right| = (h_3 - h_2) + (h_1 - h_4) =  (h_4 - h_2) + (h_1 - h_4) = h_1 - h_2
 	\end{equation}
 
 	Con los valores de trabajo y calor determinados, es posible hallar el coeficiente de rendimiento como:
 
-	\begin{equation}
+	\begin{equation}\label{E1-COP para un ciclo Rankine inverso}
 		\text{COP}_{R} = \dfrac{h_1 - h_4}{h_1 - h_2}
 	\end{equation}
 	
@@ -780,6 +780,22 @@
 	Además, aunque se supone que la compresión es isentrópica, sin haber intercambio de calor entre el fluido y el medio, si existe un intercambio entre la camisa del cilindro del compresor y el refrigerante, esto es así porque cuando el fluido ingresa del evaporador, la temperatura de la camisa es mayor que la del refrigerante, y cuando el mismo sale del compresor, la temperatura del refrigerante es mayor que la de la camisa; generando de este modo un intercambio de calor. Por este motivo, la compresión se suele definir como un proceso que no es ni isentrópico ni politrópico.
 
 	Con respecto al comportamiento de las presiones, las válvulas de aspiración y descarga del compresor se accionan por una diferencia de presión, por lo que la presión de aspiración deberá ser menor que la presión a la salida del evaporador y la presión a la salida del compresor deberá ser mayor que la presión del condensador. Con ello, la caída de presión en las tuberías largas de los conductores o las diferencias de alturas entre los equipos también pueden resultar en variaciones de presión en los procesos idealmente isobáricos.
+
+	
+	El ciclo Rankine inverso, debido a su gran rendimiento y versatilidad de temperaturas se aplica en la gran mayoría de sistemas con una gran gama de refrigerantes. 
+
+	De todos los ciclos, el ciclo rankine es el más importante desde el punto de vista de su utilidad comercial y doméstica, siendo la forma más práctica de refrigeración. 
+
+	
+
+
+	%¿Qué quiero desarrollar acá?
+	% - Tipos de procesos que componen al ciclo y en que partes.
+	% - Componentes del ciclo.
+	% - Rendimiento del ciclo.
+	% - Diferencias entre el comportamiento real y el ideal.
+	% - Aplicaciones comunes.
+	% - Refrigerantes que se aplican.
 
 	\paragraph{Ciclo Brayton inverso} El ciclo Brayon inverso se compone de dos procesos isobáricos, los cuales son la evaporación y la condensación; y dos procesos isoentrópicos, los cuales son la compresión y la expansión. 
 
@@ -810,17 +826,15 @@
 		W_N =  \left(h_1 - h_4\right) + \left(h_3 - h_2\right) = h_1 - h_2 + h_3 - h_4
 	\end{equation}
 
-	Por lo tanto, detemrinada esta relación, se obtiene que el coeficiente de desempeño del sistema es:
+	Por lo tanto, determinada esta relación, se obtiene que el coeficiente de desempeño del sistema es:
 
-	\begin{equation}
+	\begin{equation}\label{E1-COP para un ciclo Brayton inverso}
 		\text{COP}_R = \dfrac{h_1 - h_4}{h_1 - h_2 + h_3 - h_4}
 	\end{equation}
 
 	En la práctica, debido a los procesos sencillos que presenta el sistema, no existen muchas variantes del análisis teórico con el análisis real.
 
-	\paragraph{Ciclo de absorción}
-
-
+	El sistema del ciclo Brayton inverso suele utilizarse con aire como refrigerante. Tiene aplicaciones limitadas, su uso se contempla principalmente en situaciones donde el peso del sistema es una variable más significativa que el coeficiente de desempeño del mismo. Además, estos sistemas tienen la particularidad de poder ser abiertos o cerrados, pudiendo o no tomar aire del medio ambiente como refrigerante y luego liberarlo al finalizar el ciclo.
 
 	%¿Qué quiero desarrollar acá?
 	% - Tipos de procesos que componen al ciclo y en que partes.
@@ -830,143 +844,115 @@
 	% - Aplicaciones comunes.
 	% - Refrigerantes que se aplican.
 
+	\paragraph{Ciclo de absorción} El ciclo de absorción está compuesto de una dos isobaras, una de condensación y otra de evaporación; una isoentálpica, de expansión; y un sistema de aumento de presión a partir de bombeo de fluidos.
 
+	Para cumplir con el ciclo de absorción se debe presentar una válvula de expansión isoentálpica, dos intercambiadores de calor a presión constante y un sistema de absorción, bombeo y generación. Este último sistema consiste en un contenedor de fluido miscible con el refrigerante y encargado de absorberlo, una bomba que eleve la presión del fluido, un contenedor generador, que eleve la temperatura del fluido luego de llegar de la bomba y se encargue de separar el refrigerante del líquido, y luego una válvula que permita el retorno del fluido bombeado al contenedor generador de vuelta al contenedor absorbedor.
 
-	\newpage
+	El ciclo de absorción tiene la particularidad de que su trabajo en la compresión es menor que el de un ciclo Rankine debido a que el bombeo de un líquido requiere mucho menos trabajo que la compresión de vapor entre las mismas presiones. Sin embargo, como requiere una entrada de calor hacia el generador, para elevar la temperatura del fluido, el coeficiente de desempeño no se diferencia en gran medida comparándolo con los otros ciclos. Aplicando la expresión \eqref{E1-Coeficiente de desempeño (COP)}
 
-	La refrigeración suele producirse en una de las tres formas siguientes:
+	\begin{equation}\tag{\ref{E1-Coeficiente de desempeño (COP)}}
+		\text{COP}_R = \dfrac{\text{calor quitado}}{\text{Trabajo neto}}
+	\end{equation}
+
+	El trabajo neto puede expresarse como la suma del trabajo de la bomba, $W_B$, y el calor generador, $Q_G$, por el calentador. Que si bien este último no es trabajo, sino calor, es una energía a aportar al sistema para lograr su correcto funcionamiento.
+
+	\begin{equation}\nonumber
+		W_N = W_B + Q_G
+	\end{equation}
+
+	Mientras que el calor quitado será, como se ha determinado antes para los demás intercambios isobáricos:
+
+	\begin{equation}\nonumber
+		Q_{1\rightarrow 2} = h_1 - h_4
+	\end{equation}
+
+	Llegando a un coeficiente de desempeño equivalente a:
+
+	\begin{equation}\label{E1-COP para un ciclo de absorción}
+		COP_R = \dfrac{h_1 - h_4}{W_B + Q_G}
+	\end{equation}
+
+	Analizando el concepto en la realidad, el sistema de absorción requiere de ciertos accesorios para aumentar su eficiencia. Estos accesorios son:
 
 	\begin{itemize}
-		\item Por fusión de un sólido.
-		\item Por sublimación de un sólido.
-		\item Por evaporación de un líquido.
+		\item Cambiador de calor. Este se ubica entre el generador y el absorbedor. La solución concentrada, que se bombea del absorbedor al generador, se debe calentar; y la solución diluida del generador al absorbedor se debe enfriar. Esto se efectúa por un cambiador de calor y, en consecuencia, el costo del calentamiento en el generador y el costo del enfriamiento en el absorbedor disminuyen.
+		\item Analizador. Un analizador consiste de una serie de bandejas montadas arriba del generador. Su función principal es remover parcialmente parte de las partículas de fluido no deseables asociadas con el vapor de refrigerante que van hacia el condensador. Si estos vapores entran al condensador pueden generar obstrucción por congelación (principalmente si es agua).
+		\item Rectificador. Un rectificador es un cambiador de calor enfriador por agua que condensa el fluido de absorción y algo de vapor de refrigerante y lo reenvía de nuevo al generador.
 	\end{itemize}
 
-	En la tabla \ref{T1-Clasificación de los sistemas de refrigeración} puede verse una clasificación de los sistemas de refrigeración.
-	
+	El analizador suele disponerse a la salida del generador, en serie y antes del rectificador; por el contrario, el cambiador de calor se debe colocar entre el generador y el absorbedor. 
+
+	El ciclo de absorción es muy particular debido a que tiene que disponerse de un refrigerante y un fluido que sean miscibles a bajas presiones y temperaturas, pero cuando la mezcla se comprime y calienta, aquel que funciona como refrigerante debe separarse y desplazarse por el sistema de refrigeración. Por tal motivo, se utiliza con amoníaco y agua como líquido miscible.
+
+	%¿Qué quiero desarrollar acá?
+	% - Tipos de procesos que componen al ciclo y en que partes.
+	% - Componentes del ciclo.
+	% - Rendimiento del ciclo.
+	% - Diferencias entre el comportamiento real y el ideal.
+	% - Aplicaciones comunes.
+	% - Refrigerantes que se aplican.
+
+	\subsection{Factores principales de ciclos de refrigeración}
+
+	Los factores que afectan al desempeño de ciclo de refrigeración son:
+
+	\paragraph{Presión del cambio de estado} La disminución de la presión en el cambio de estado reduce el efecto refrigerante. Esto es así debido a que la evaporación o condensación se realizarán a una temperatura menor, reduciendo así el gradiente térmico entre los medios que intercambian calor.  
+
+	\paragraph{Sobrecalentamiento de vapor} El sobrecalentamiento sobre el vapor saturado aumenta el efecto refrigerante pero también el trabajo requerido en el compresor. Y como el aumento del trabajo es mayor que el aumento del efecto refrigerante, el COP disminuye.
+
+	\paragraph{Subenfriamiento del líquido} El subenfriamiento del líquido aumenta el efecto refrigerante debido a que permite una mayor diferencia de temperatura entre el medio y el refrigerante. Sin embargo, si este es producido por un medio que requiera la aplicación de un trabajo, significará una reducción del COP.
+
+	\paragraph{Temperatura de vaporización y de condensación} El COP de los ciclos varía según la temperatura de vaporización y la temperatura de condensación. La capacidad y el COP mejoran conforme la diferencia entre estas dos temperaturas disminuye. 
+
+	\section{Selección de refrigerantes}
+	\Biblio{\cite[pág. 9 a ]{national2016guiarefrig}}
+
+	La selección de refrigerantes depende de la capacidad de refrigeración deseada, las temperaturas, la disponibilidad, su ODP y su GWP, la reacción, corrosión, toxicidad e inflamabilidad, entre otros parámetros. A continuación se desarrollan opciones para algunos en función de las temperaturas, capacidades, y los refrigerantes que eran utilizados previamente.
+
+	\subsection{Refrigeración a media o baja temperatura (Eq. de R502)}
+
 	\begin{table}[H]
 		\centering
 		\small
-		\caption{Clasificación de los sistemas de refrigeración.}\label{T1-Clasificación de los sistemas de refrigeración}
-		\begin{tabular}{C{0.05\linewidth} C{0.3\linewidth} C{0.05\linewidth} C{0.3\linewidth}}
-			Tipo & Sistema de refrigeración & Tipo & Sistema de refrigeración \\
+		\begin{tabular}{C{0.15\linewidth} C{0.35\linewidth} C{0.2\linewidth} C{0.15\linewidth}}
+			Refrigerante & Composición (porcentaje) & Relleno respecto a R502 & Lubricante \\
 			\hline
-			\multirow{6}{*}{\rotatebox{90}{Comunes}}& Por hielo & \multirow{6}{*}{\rotatebox{90}{Especiales}} & En cascada  \\
-			& Por aire &  & Mixto \\
-			& Por compresión de vapor & & En tubo vortex \\
-			& Por absorción de vapor & & Termoeléctrica \\
-			&&& De chorro de vapor \\
-			&& & Por adsorción \\
+			R402A & 125/290/22 \, (60\%, 2\%, 38\%) & 95\% a 100\% & AB o mezcla de AM y AB. \\
+			R402B & 125/290/22 \, (38\%, 2\%, 60\%) & 95\% a 100\% & AB o mezcla de AM y AB. \\
+			R404A & 125/143a/134a \, (44\%, 52\%, 4\%) & 85\% a 90\% & Polyester \\
 			\hline
+			% \multicolumn{4}{C{.7\linewidth}}{\footnotesize{AM: Aceites minerales \; AB: alquibenceno.}}
 		\end{tabular}
 	\end{table}
 
-	La medición del desempeño de los sistemas de refrigeración se mide a partir de un coeficiente de desempeño ($COP$), que se define como la relación del calor absorbido por el refrigerante mientras pasa por el evaporador con respecto al trabajo requerido para comprimir el refrigerante mientras pasa por el compresor.
+	% \begin{table}[H]
+	% 	\centering
+	% 	\begin{tabular}{C{0.15\linewidth} C{0.15\linewidth} C{0.15\linewidth}}
+			
+	% 	\end{tabular}
+	% \end{table}
 
-	\begin{equation}\tag{\ref{E1-Coeficiente de desempeño (COP)}}
-		COP = \dfrac{\text{Calor neto quitado}}{\text{Trabajo de expansión}} = \dfrac{Q_L}{W_{neto}}
-	\end{equation}
+	\newpage
 
-	La potencia nominal estándar de una  máquina de refrigeración se obtiene por la cantidad de calor extraído en un intervalo de tiempo, definida en unidades de toneladas de refrigeración ($\Un{TR}$). 
+	\subsection{Eficiencia volumétrica}
 
-	\subsection{Sistemas de refrigeración por aire}
 
-	El ciclo de refrigeración por aire es uno de los primeros métodos desarrollados, posee un bajo $COP$ y altos costos de operación. Sin embargo, debido a su bajo peso, es aplicado en sistemas refrigerados en donde el peso es una variable importante. 
 
-	El fluido refrigerante en los sistemas de refrigeración por aire es aire, el cual en todo momento se presenta en estado gaseoso. Según la hermeticidad del sistema se clasifican en:
-	\begin{itemize}
-		\item Sistemas cerrados: el aire está contenido dentro de los conductos o partes componentes del sistema en todo momento. 
-		\item Sistemas abiertos: el aire fluye libremente sobre el ambiente a refrigerar, absorbe calor y luego atraviesa el sistema mecánico para cumplir con el ciclo.
-	\end{itemize}
+	% \subsection{Sistema de refrigeración por compresión de vapor}
 
-	Los sistemas cerrados, sobre los abiertos, tienen como ventaja principal el manejo de presiones mayores a la presión atmosférica, lo que consecuentemente permite una reducción del tamaño de los equipos y el control de la humedad interna del sistema. 
-
-	Los ciclos frigoríficos de los sistemas de refrigeración que permiten obtener sistemas refrigerados son el ciclo Carnot y el ciclo Brayton.
-
-	\subsection{Sistema de refrigeración por compresión de vapor}
-
-	De todos los sistemas de refrigeración, el sistema de compresión de vapor es el sistema más importante desde el punto de vista de su utilidad comercial y doméstica. Es la forma más práctica de refrigeración. En este sistema el fluido de trabajo es un vapor uqe se evapora y se condensa con facilidad o cambia alternadamente entre las fases de vapor y líquida sin salir de la planta refrigerante. Durante la evaporación, absorbe el calor del cuerpo frío. Este calor se utiliza ya que es calor latente para convertirlo de líquido a vapor. Al condensarlo, enfriarlo o licuarlo, rechaza el calor hacia un cuerpo externo, creando de esta manera un efecto de enfriamiento en el fluido de trabajo. Este sistema de refrigeración actúa como una bomba de calor latente dado que bombea su calor latente del cuerpo frío y lo suministra a un cuerpo externo o medio de enfriamiento. El principio con el que funciona el sistema de compresión de vapor se aplica a todos los vapores para los que se dispone de tablas de propiedades termodinámicas.
-
-	EL ciclo que compone un sistema de compresión de vapor es idéntico a un ciclo rankine inverso, compuesto por:
-
-	\begin{itemize}
-		\item Compresión.
-		\item Condensación.
-		\item Expansión.
-		\item Vaporización.
-	\end{itemize}
-
-	El vapor a baja temperatura y presión entra al compresor en donde se comprime isentrópicamente y luego su temperatura y presión aumentan considerablemente. Este vapor, después de salir del compresor, entra al condensador donde se condensa como un líquido a alta presión y se colecta en un tanque receptor. Del tanque receptor pasa a través de una válvula de expansión, donde se estrangula hasta una presión menor y tiene una baja temperatura. Después de pasar por la válvula de expansión por último pasa al evaporador  donde extrae el calor de los alrededores o del fluido circulando siendo refrigerado y se vaporiza en un vapor a baja presión.
+	% En este sistema el fluido de trabajo es un vapor que se evapora y se condensa con facilidad o cambia alternadamente entre las fases de vapor y líquida sin salir de la planta refrigerante. Durante la evaporación, absorbe el calor del cuerpo frío. Este calor se utiliza ya que es calor latente para convertirlo de líquido a vapor. Al condensarlo, enfriarlo o licuarlo, rechaza el calor hacia un cuerpo externo, creando de esta manera un efecto de enfriamiento en el fluido de trabajo. Este sistema de refrigeración actúa como una bomba de calor latente dado que bombea su calor latente del cuerpo frío y lo suministra a un cuerpo externo o medio de enfriamiento. El principio con el que funciona el sistema de compresión de vapor se aplica a todos los vapores para los que se dispone de tablas de propiedades termodinámicas.
 	
+	% El vapor a baja temperatura y presión entra al compresor en donde se comprime isentrópicamente y luego su temperatura y presión aumentan considerablemente. Este vapor, después de salir del compresor, entra al condensador donde se condensa como un líquido a alta presión y se colecta en un tanque receptor. Del tanque receptor pasa a través de una válvula de expansión, donde se estrangula hasta una presión menor y tiene una baja temperatura. Después de pasar por la válvula de expansión por último pasa al evaporador  donde extrae el calor de los alrededores o del fluido circulando siendo refrigerado y se vaporiza en un vapor a baja presión.
 	
-	Las ventajas principales de un sistema de compresión a vapor sobre el sistema de refrigeración por aire son:
+	% Las ventajas principales de un sistema de compresión a vapor sobre el sistema de refrigeración por aire son:
 
-	\begin{itemize}
-		\item Valor de COP alto debido a que el ciclo de trabajo es próximo al ciclo Carnot.
-		\item Cuando se utiliza a nivel del suelo, el costo de operación de un sistema de refrigeración de vapor es solo un quinto del sistema de refrigeración de aire.
-		\item Para el mismo efecto refrigerante, el tamaño del evaporador es más pequeño.
-		\item La temperatura requerida del evaporador se puede alcanzar simplemente ajustando la válvula de estrangulación de la misma unidad.
-	\end{itemize}
+	% \begin{itemize}
+	% 	\item Valor de COP alto debido a que el ciclo de trabajo es próximo al ciclo Carnot.
+	% 	\item Cuando se utiliza a nivel del suelo, el costo de operación de un sistema de refrigeración de vapor es solo un quinto del sistema de refrigeración de aire.
+	% 	\item Para el mismo efecto refrigerante, el tamaño del evaporador es más pequeño.
+	% 	\item La temperatura requerida del evaporador se puede alcanzar simplemente ajustando la válvula de estrangulación de la misma unidad.
+	% \end{itemize}
 
-	Las desventajas son su alto costo inicial y la inflamabilidad, fuga de vapores y toxicidad; aunque ellas van evolucionando y mejorando con el tiempo.
-
-	Los diversos elementos que componen un sistema de refrigeración por vapor se desarrollan a continuación:
-
-	\begin{itemize}
-		\item Compresor. La función de un compresor es remover el vapor del evaporador, y aumentar su temperatura y presión hasta un punto tal que el vapor se pueda condensar con el medio de condensación disponible.
-		\item Condensador. La función de un condensador es proporcionar una superficie de transferencia de calor a través de que el calor pasa del vapor refrigerante caliente al medio de condensación.
-		\item Tanque receptor. Un tanque receptor se utiliza para proporcionar almacenamiento para un líquido condensador tal que esté disponible un suministro constante de líquido hacia el evaporador según se requiera.
-		\item Conducto de descarga. Un conducto de gas caliente o de descarga suministra el vapor a alta presión y temperatura de descarga del compresor al condensador.
-		\item Conductor de líquido. Un conducto de líquido transporta el refrigerante líquido del tanque receptor al control de flujo de refrigerante.
-		\item Válvula de expansión. Su función es dosificar la cantidad apropiada de refrigerante hacia el evaporador y reducir la presión del líquido entrante al evaporador de manera que el líquido se vaporizará en el evaporador a la temperatura baja deseada y tomará una suficiente cantidad de calor.
-		\item Evaporador. Un evaporador proporciona una superficie de transferencia de calor a través de la que el calor puede pasar del espacio al refrigerador hacia el refrigerante vaporizado.
-		\item Conducto de aspiración. El conductor de aspiración transporta el vapor a baja presión del evaporador hacia la entrada del compresor.
-	\end{itemize}
-	
-	El ciclo de refrigeración de un sistema de refrigeración por vapor puede ser de alguno de los tres siguientes casos:
-	
-	\begin{enumerate}
-		\item Vapor saturado al final de la compresión. En este caso el vapor entra en el cilindro del compresor siendo una mezcla de vapor y líquido. Esta configuración del sistema posee dos inconvenientes, uno de ellos es la necesidad de poseer un compresor que maneje las mezclas y el otro es su bajo rendimiento.
-		\item Vapor sobrecalentado al final de la compresión. Si la compresión de vapor continua después de que se ha secado, el vapor estará sobrecalentado, saliendo de la campana de mezcla. Aquí el calor quitado es mayor, pero nuevamente la compresión sigue siendo una mezcla entre líquido y vapor, a menos que la compresión comience en calidad 1.
-		\item Vapor húmedo luego de la compresión. 
-	\end{enumerate}
-
-	Los factores que afectan al desempeño de compresión de vapor son los siguientes:
-
-	\begin{enumerate}
-		\item Efecto de la presión de aspiración. El efecto de una disminución en la presión de aspiración reduce el efecto refrigerante, debido a la temperatura menor que se presenta durante la evaporación del fluido. Por lo tanto, una disminución de la presión me representa una disminución notable en el rendimiento frigorífico.
-		\item Efecto de la presión de suministro. El efecto de la presión de suministro, o aumentar la presión a la salida del compresor, es similar al de disminuir la presión de aspiración. La única diferencia es que el efecto de disminuir la presión de aspiración es más predominante que el efecto de aumentar la presión de descarga.
-		\item Efecto de sobrecalentamiento. El efecto de sobrecalentamiento consiste en aumentar el efecto refrigerante, pero este aumento es a costa de un aumento en la cantidad de trabajo empleada para obtener el límite superior. Dado que el aumento en la cantidad de trabajo es mayor que el aumento en el efecto refrigerante, el efecto global del sobrecalentamiento reduce el valor del COP.
-		\item Subenfriamiento del líquido. El subenfriamiento es el proceso de enfriar el refrigerante líquido a una temperatura menor que la de condensación para una presión dada. como es evidente, el efecto del subenfriamiento es aumentar el efecto refrigerante. Por lo tanto, el subenfriamiento resulta en un aumento dle COP a condición que no se gaste energía adicional para obtener el refrigerante frío adicional requerido. Este subenfriamiento se puede obtener según:
-		\begin{itemize}
-			\item Insertando un serpentín especial entre el condensador y la válvula de expansión.
-			\item Circulando una mayor cantidad de agua de enfriamiento a través del condensador.
-			\item Utilizando un enfriador de agua en vez de la circulación principal.
-		\end{itemize}
-		\item Efecto de la temperatura de aspiración y la temperatura del condensador. El desempeño del ciclo refrigerante de compresión de vapor varía considerablemente tanto con la temperatura de vaporización como con la temperatura de condensación. DE las dos, la temperatura de vaporización tiene mayor efecto. Se ha observado que la capacidad y el desempeño del refrigerante mejoran conforme a la temperatura de vaporización aumenta y la temperatura de evaporación disminuye. Por tal motivo, se debe diseñar siempre para que funcione a la mayor temperatura de vaporización y a la menor temperatura de condensación posible.
-	\end{enumerate}
-	
-	El ciclo real de compresión de vapor difiere del ciclo teórico de muchas maneras debido a las razones siguientes:
-
-	\begin{enumerate}
-		\item Con frecuencia, el líquido refrigerante se subenfría antes de que se deje entrar a la válvula de expansión, y por lo general el gas saliente del evaporador se sobrecalienta algunos grados antes de que entre al compresor. Este sobrecalentamiento puede ocurrir como resultado del tipo de control de la expansión utilizado o mediante una captación del calor en el conducto de aspiración entre el evaporador y el compresor.
-		\item La compresión, aunque suele ser isentrópica, en realidad puede demostrarse que no es isentrópica ni politrópica.
-		\item Las válvulas de aspiración y de descarga del compresor se accionan por una diferencia de presión y este proceso requiere que la presión de aspiración real dentro del compresor sea ligeramente menor que la presión del evaporador y que la presión de descarga sea mayor que la presión del condensador.
-		\item Aunque se supone que la compresión es isentrópica no hay transferencia de calor entre el refrigerante y las paredes del cilindro, las paredes de este se encuentran más calientes que los gases entrantes al evaporador y más frías que los gases comprimidos descargados al condensador.
-		\item La caída de presión en las tuberías largas de los conductores de aspiración y de líquido y cualesquiera diferencias verticales en la carga creadas por la ubicación del evaporador y el condensador en elevaciones diferentes.
-	\end{enumerate}
-
-	A continuación se describen los procesos:
-
-	\begin{itemize}
-		\item[1-2-3] Este proceso representa el paso de un refrigerante a través del evaporador representando con 1-2 la ganancia de calor latente de vaporización, y 2-3, la ganancia de sobrecalentamiento antes de la entrada al compresor. Estos dos procesos tienden a las condiciones de presión constante.
-		\item[3-4-5-6-7-8] Esta ruta/proceso representa el paso del vapor refrigerante desde la entrada hasta la descarga del compresor. La ruta 3-4 representa la acción de estrangulación que ocurre durante el paso a través de las válvulas de aspiración, y la ruta 7-8 representa la estrangulación durante el paso a través de las válvulas de escape. Estas dos acciones se acompañan por un aumento en la entropía y por una ligera caída en la temperatura.
-		La compresión del refrigerante sucede a lo largo de la ruta 5-6, que en realidad no es isentrópica ni politrópica. Las transferencias indicadas por las rutas 4-5 y 6-7 ocurren, en esencia, a presión constante.
-		\item[8-9-10-11] Este proceso representa el paso de refrigerante a través del condensador en donde 8-9 indica la remoción de sobrecalor, 9-10 indica la remoción de calor latente y 10-11 indica la remoción de calor líquido o subenfriamiento.
-		\item[11-1] Este proceso representa el paso del refrigerante a través de la válvula de expansión, tanto teórica como prácticamente en una ruta adiabática reversible. 
-	\end{itemize}
-
-	\subsubsection{Eficiencia volumétrica}
 
 	Un compresión que teóricamente es perfecto no tendría un espacio muerto ni pérdidas de ningún tipo y bombearía en cada carrera una cantidad de refrigerante igual al desplazamiento del émbolo. Ningún compresor real puede hacer esto, ya que es imposible construir un compresor sin válvulas de aspiración y descarga, que no tenga sobrecalentamiento de los gases de aspiración al hacer contacto con las paredes y redes del cilindro, o sin fugas de gas que pasen el émbolo o las válvulas. Todos estos factores afectan el volumen de gas bombeado o la capacidad del compresor, algunos de ellos afectan los requerimientos de potencia por tonelada de refrigeración desarrollada.
 

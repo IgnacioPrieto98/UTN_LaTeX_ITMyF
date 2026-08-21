@@ -1,6 +1,6 @@
-PWD c:\Users\Igna_\OneDrive\Desktop\Desarrollo LaTeX\UTN_LaTeX_ITMyF
+PWD d:\Documentos\00 - Archivos LaTeX\Instalaciones TMF - Latex
 INPUT C:\Users\Igna_\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Igna_\OneDrive\Desktop\Desarrollo LaTeX\UTN_LaTeX_ITMyF\00 - Base - Crudo ITMyF.tex
+INPUT d:\Documentos\00 - Archivos LaTeX\Instalaciones TMF - Latex\00 - Base - Crudo ITMyF.tex
 OUTPUT 00 - Base - Crudo ITMyF.log
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\base\book.cls
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\base\book.cls
@@ -33,13 +33,13 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.de
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
@@ -100,9 +100,15 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
@@ -334,8 +340,6 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\mweights\mweights.s
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\fontaxes\fontaxes.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\fontaxes\fontaxes.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\fontaxes\fontaxes.sty
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\figureversions\figureversions.sty
-INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\figureversions\figureversions.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkeyval.tex
@@ -384,6 +388,9 @@ INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT .\Portada\00-Portada.pdf
+INPUT .\Portada\00-Portada.pdf
+INPUT .\Portada\00-Portada.pdf
 INPUT .\Portada\00-Portada.pdf
 INPUT .\Portada\00-Portada.pdf
 INPUT .\Portada\00-Portada.pdf
