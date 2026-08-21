@@ -656,10 +656,10 @@
 
 	\begin{itemize}
 		\item Ciclo Carnot inverso.
+		\item Ciclo Rankine inverso.
 		\item Ciclo Brayton inverso.
 		% \item Ciclo de refrigeración por aire.
-		\item Ciclo de refrigeración por compresión de vapor.
-		\item Ciclo de refrigeración por absorción.
+		\item Ciclo por absorción.
 	\end{itemize}
 
 	Estos ciclos van a ser representados sobre diagramas $T-s$ y/o $p-h$, en los cuales se suele expresar la campana de cambio de estado, teniendo en un extremo líquido saturado y en el otro vapor saturado; y uniendo ambas curvas en el punto crítico.
@@ -746,20 +746,81 @@
 
 	Junto a esto, aplicando el segundo principio de la termodinámica
 
-	\begin{equation}
-		W_N + Q_{4 \rightarrow 1} = Q_{2\rightarrow 2' \rightarrow 3}
+	\begin{equation}\nonumber
+		W_N = Q_{entrada} - Q_{salida} 
 	\end{equation}
 
-	\begin{equation}
-		W_N + (h_1 - h_4) = (h_3 - h_2)
+	Como el trabajo es saliente, el calor de entrada es saliente y el calor de salida es entrante, los signos se alteran de modo que:
+
+	\begin{equation}\nonumber
+		-\left|W_N\right| = -\left|Q_{entrada}\right| - \left|Q_{salida}\right| 
 	\end{equation}
 
+	Donde, si se remplazan los valores de calor determinados anteriormente
 
-	Con estos parámetros, el rendimiento del ciclo Rankine inverso resulta:
+	\begin{equation}\nonumber
+		-\left|W_N\right| = -(h_3 - h_2) - (h_1 - h_4) 
+	\end{equation}
+
+	Por lo tanto, si $h_4 = h_3$
 
 	\begin{equation}
-		COP_R = \dfrac{h_1 - h_4}{h_1 - h_2}
+		\left|W_N\right| = (h_3 - h_2) + (h_1 - h_4) =  (h_4 - h_2) + (h_1 - h_4) = h_1 - h_2
 	\end{equation}
+
+	Con los valores de trabajo y calor determinados, es posible hallar el coeficiente de rendimiento como:
+
+	\begin{equation}
+		\text{COP}_{R} = \dfrac{h_1 - h_4}{h_1 - h_2}
+	\end{equation}
+	
+	En la práctica el ciclo Rankine inverso difiere del teórico de varias maneras. Con respecto a las temperaturas, con frecuencia el líquido refrigerante se subenfría antes de que se deje entrar a la válvula de expansión y se sobrecalienta algunos grados antes de que entre al compresor. 
+	
+	
+	Además, aunque se supone que la compresión es isentrópica, sin haber intercambio de calor entre el fluido y el medio, si existe un intercambio entre la camisa del cilindro del compresor y el refrigerante, esto es así porque cuando el fluido ingresa del evaporador, la temperatura de la camisa es mayor que la del refrigerante, y cuando el mismo sale del compresor, la temperatura del refrigerante es mayor que la de la camisa; generando de este modo un intercambio de calor. Por este motivo, la compresión se suele definir como un proceso que no es ni isentrópico ni politrópico.
+
+	Con respecto al comportamiento de las presiones, las válvulas de aspiración y descarga del compresor se accionan por una diferencia de presión, por lo que la presión de aspiración deberá ser menor que la presión a la salida del evaporador y la presión a la salida del compresor deberá ser mayor que la presión del condensador. Con ello, la caída de presión en las tuberías largas de los conductores o las diferencias de alturas entre los equipos también pueden resultar en variaciones de presión en los procesos idealmente isobáricos.
+
+	\paragraph{Ciclo Brayton inverso} El ciclo Brayon inverso se compone de dos procesos isobáricos, los cuales son la evaporación y la condensación; y dos procesos isoentrópicos, los cuales son la compresión y la expansión. 
+
+	Para presentar un ciclo Brayton inverso se debe contar con dos intercambiadores de calor que se encarguen de enfriar y calentar el refrigerante, un compresor y un expansor. 
+
+	El rendimiento del ciclo Brayton inverso es muy bajo en comparación a sus pares, para determinarlo se aplica lo desarrollado anteriormente partiendo de la expresión \eqref{E1-Coeficiente de desempeño (COP)}.
+
+	\begin{equation}\tag{\ref{E1-Coeficiente de desempeño (COP)}}
+		\text{COP}_R = \dfrac{\text{calor quitado}}{\text{Trabajo neto}}
+	\end{equation}
+
+	Para determinar los calores, quitado y cedido, se analiza la primera ley de la termodinámica:
+
+	\begin{equation}\nonumber
+		Q_{4-1} = h_1 - h_4
+	\end{equation}
+	\begin{equation}\nonumber
+		Q_{2-3} = h_3 - h_2
+	\end{equation}
+
+	Con estos parámetros, el trabajo neto realizado estará dado por la suma del trabajo del compresor y el expansor (el cual tendrá un trabajo positivo), resultando en
+
+	\begin{equation}\nonumber
+		-\left|W_N\right| = -\left|Q_{entrada}\right| - \left|Q_{salida}\right| = - \left(h_1 - h_4\right) - \left(h_3 - h_2\right)
+	\end{equation}
+
+	\begin{equation}\nonumber
+		W_N =  \left(h_1 - h_4\right) + \left(h_3 - h_2\right) = h_1 - h_2 + h_3 - h_4
+	\end{equation}
+
+	Por lo tanto, detemrinada esta relación, se obtiene que el coeficiente de desempeño del sistema es:
+
+	\begin{equation}
+		\text{COP}_R = \dfrac{h_1 - h_4}{h_1 - h_2 + h_3 - h_4}
+	\end{equation}
+
+	En la práctica, debido a los procesos sencillos que presenta el sistema, no existen muchas variantes del análisis teórico con el análisis real.
+
+	\paragraph{Ciclo de absorción}
+
+
 
 	%¿Qué quiero desarrollar acá?
 	% - Tipos de procesos que componen al ciclo y en que partes.

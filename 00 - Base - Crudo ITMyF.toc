@@ -62,42 +62,44 @@
 \contentsline {subsection}{\numberline {1.8.2}Ciclos principales}{28}{subsection.1.8.2}%
 \contentsline {paragraph}{Ciclo Carnot Inverso}{29}{figure.caption.14}%
 \contentsline {paragraph}{Ciclo Rankine inverso}{30}{equation.1.5}%
-\contentsline {subsection}{\numberline {1.8.3}Sistemas de refrigeración por aire}{31}{subsection.1.8.3}%
-\contentsline {subsection}{\numberline {1.8.4}Sistema de refrigeración por compresión de vapor}{32}{subsection.1.8.4}%
-\contentsline {subsubsection}{Eficiencia volumétrica}{35}{Item.13}%
-\contentsline {subsubsection}{Análisis matemático de la refrigeración por compresión de vapor}{35}{Item.13}%
-\contentsline {subsection}{\numberline {1.8.5}Sistema de absorción de vapor}{36}{subsection.1.8.5}%
-\contentsline {subsubsection}{Sistema simple de absorción de vapor}{36}{subsection.1.8.5}%
-\contentsline {subsubsection}{Sistema práctico de absorción de vapor}{37}{figure.caption.21}%
-\contentsline {section}{\numberline {1.9}Refrigerantes en instalaciones}{38}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Clasificación de los refrigerantes}{38}{subsection.1.9.1}%
-\contentsline {subsubsection}{Mezclas previsibles}{39}{subsection.1.9.1}%
-\contentsline {subsubsection}{Propiedades y usos de refrigerantes comunes}{39}{subsection.1.9.1}%
-\contentsline {section}{\numberline {1.10}Consideraciones de seguridad}{45}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Inflamabilidad y explosividad}{45}{subsection.1.10.1}%
-\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{46}{section.1.11}%
-\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{46}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}Metales}{47}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {1.12.2}Elastómeros}{47}{subsection.1.12.2}%
-\contentsline {subsection}{\numberline {1.12.3}Plásticos}{47}{subsection.1.12.3}%
-\contentsline {part}{II\hspace {1em}Anexos}{49}{part.2}%
-\contentsline {chapter}{\numberline {A}Ciclos de refrigeración}{51}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Parámetros principales de ciclos}{52}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Presión}{52}{subsection.Alph1.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Energía interna}{52}{subsection.Alph1.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Entropía}{53}{subsection.Alph1.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Entalpía}{53}{subsection.Alph1.1.4}%
-\contentsline {section}{\numberline {A.2}1° Ley en flujos cerrados}{54}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}1° Ley de la termodinámica}{54}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Proceso isocórico (V = cte)}{54}{subsection.Alph1.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Proceso isobárico (P = cte)}{54}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Proceso isotérmico (T = cte)}{55}{subsection.Alph1.2.4}%
-\contentsline {subsection}{\numberline {A.2.5}Proceso adiabático (Q = Cte)}{55}{subsection.Alph1.2.5}%
-\contentsline {section}{\numberline {A.3}Gráficos termodinámicos fundamentales}{56}{section.Alph1.3}%
-\contentsline {subsection}{\numberline {A.3.1}Diagrama T-s}{56}{subsection.Alph1.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Diagrama p-v}{56}{subsection.Alph1.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Diagrama p-h}{57}{subsection.Alph1.3.3}%
-\contentsline {section}{\numberline {A.4}Ciclo Carnot inverso}{58}{section.Alph1.4}%
-\contentsline {section}{\numberline {A.5}Ciclo Rankine inverso}{58}{section.Alph1.5}%
-\contentsline {section}{\numberline {A.6}Ciclo Brayton inverso}{59}{section.Alph1.6}%
+\contentsline {paragraph}{Ciclo Brayton inverso}{31}{equation.1.9}%
+\contentsline {paragraph}{Ciclo de absorción}{31}{equation.1.10}%
+\contentsline {subsection}{\numberline {1.8.3}Sistemas de refrigeración por aire}{32}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Sistema de refrigeración por compresión de vapor}{33}{subsection.1.8.4}%
+\contentsline {subsubsection}{Eficiencia volumétrica}{36}{Item.13}%
+\contentsline {subsubsection}{Análisis matemático de la refrigeración por compresión de vapor}{36}{Item.13}%
+\contentsline {subsection}{\numberline {1.8.5}Sistema de absorción de vapor}{37}{subsection.1.8.5}%
+\contentsline {subsubsection}{Sistema simple de absorción de vapor}{37}{subsection.1.8.5}%
+\contentsline {subsubsection}{Sistema práctico de absorción de vapor}{38}{figure.caption.22}%
+\contentsline {section}{\numberline {1.9}Refrigerantes en instalaciones}{39}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Clasificación de los refrigerantes}{39}{subsection.1.9.1}%
+\contentsline {subsubsection}{Mezclas previsibles}{40}{subsection.1.9.1}%
+\contentsline {subsubsection}{Propiedades y usos de refrigerantes comunes}{40}{subsection.1.9.1}%
+\contentsline {section}{\numberline {1.10}Consideraciones de seguridad}{46}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Inflamabilidad y explosividad}{46}{subsection.1.10.1}%
+\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{47}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{47}{section.1.12}%
+\contentsline {subsection}{\numberline {1.12.1}Metales}{48}{subsection.1.12.1}%
+\contentsline {subsection}{\numberline {1.12.2}Elastómeros}{48}{subsection.1.12.2}%
+\contentsline {subsection}{\numberline {1.12.3}Plásticos}{48}{subsection.1.12.3}%
+\contentsline {part}{II\hspace {1em}Anexos}{51}{part.2}%
+\contentsline {chapter}{\numberline {A}Ciclos de refrigeración}{53}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Parámetros principales de ciclos}{54}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Presión}{54}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Energía interna}{54}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Entropía}{55}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Entalpía}{55}{subsection.Alph1.1.4}%
+\contentsline {section}{\numberline {A.2}1° Ley en flujos cerrados}{56}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}1° Ley de la termodinámica}{56}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Proceso isocórico (V = cte)}{56}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Proceso isobárico (P = cte)}{56}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Proceso isotérmico (T = cte)}{57}{subsection.Alph1.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}Proceso adiabático (Q = Cte)}{57}{subsection.Alph1.2.5}%
+\contentsline {section}{\numberline {A.3}Gráficos termodinámicos fundamentales}{58}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.3.1}Diagrama T-s}{58}{subsection.Alph1.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Diagrama p-v}{58}{subsection.Alph1.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Diagrama p-h}{59}{subsection.Alph1.3.3}%
+\contentsline {section}{\numberline {A.4}Ciclo Carnot inverso}{60}{section.Alph1.4}%
+\contentsline {section}{\numberline {A.5}Ciclo Rankine inverso}{60}{section.Alph1.5}%
+\contentsline {section}{\numberline {A.6}Ciclo Brayton inverso}{61}{section.Alph1.6}%
 \contentsfinish 
