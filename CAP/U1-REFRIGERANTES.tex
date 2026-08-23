@@ -16,9 +16,7 @@
 	\section{Refrigerantes}
 	\Biblio{\cite[pág. 231 y 772 a 780]{Rajput2011termodinamica}}
 
-	\begin{defs}
-		Un \textbf{refrigerante} se define como cualquier sustancia que absorbe calor a través de su evaporación o condensación y lo pierde a través de su condensación solidificación en un sistema de refrigeración.
-	\end{defs}
+	Un \textbf{refrigerante} se define como cualquier sustancia que absorbe calor a través de su evaporación o condensación y lo pierde a través de su condensación solidificación en un sistema de refrigeración.
 
 	Los refrigerantes logran el intercambio de calor siempre a partir de un medio mecánico, de modo que se cumpla la segunda ley de la termodinámica, la cual define que \emph{el calor, por sí mismo, no puede fluir de un cuerpo más frío a uno más caliente.}
 
@@ -243,7 +241,7 @@
 		\item Cuarta cifra: indica cuantos átomos de cloro fueron reemplazados por flúor.
 	\end{itemize}
 
-	\section{Características de un refrigerante ideal}
+	\section{Características de un refrigerante ideal}\label{S1-Características de un refrigerante ideal}
 	\Biblio{\cite[pág. 19]{mott2015fluidos} \cite[pág. 774 a 789]{Rajput2011termodinamica} \cite[pág. 33, 36, 68, 69, 385 a 395]{DossatPDRefrigeracion} \\ \cite[pág. 57, 158, 167, 168 y 177]{miller2006refrigeration}  \cite[pág. 800 y 802]{askeland2017materiales} \cite[pág. 2.15]{ashrae2017fundamentals} }
 
 	Las propiedades deseables de un refrigerante ideal son aquellas que permiten absorber mayor cantidad de calor realizando el menor trabajo posible, y trabajar en rangos amplios de temperatura. A estas características es posible separarlas en cuatro grupos: 
@@ -905,376 +903,94 @@
 	\paragraph{Temperatura de vaporización y de condensación} El COP de los ciclos varía según la temperatura de vaporización y la temperatura de condensación. La capacidad y el COP mejoran conforme la diferencia entre estas dos temperaturas disminuye. 
 
 	\section{Selección de refrigerantes}
-	\Biblio{\cite[pág. 9 a ]{national2016guiarefrig}}
+	\Biblio{\cite{national2016guiarefrig}}
 
-	La selección de refrigerantes depende de la capacidad de refrigeración deseada, las temperaturas, la disponibilidad, su ODP y su GWP, la reacción, corrosión, toxicidad e inflamabilidad, entre otros parámetros. A continuación se desarrollan opciones para algunos en función de las temperaturas, capacidades, y los refrigerantes que eran utilizados previamente.
+	A continuación se clasifican los refrigerantes según tres categorías principales:
 
-	\subsection{Refrigeración a media o baja temperatura (Eq. de R502)}
+	\begin{itemize}
+		\item Refrigeración a media o baja temperatura.
+		\item Acondicionamiento de aire.
+		\item Refrigeración a muy baja temperatura.
+	\end{itemize}
+
+	Dentro de cada grupo presente en las tablas \ref{T1-Refrigeración para media o baja temperatura}, \ref{T1-Refrigeración para acondicionamiento de aire} y \ref{T1-Refrigeración para muy bajas temperaturas}; se dispone de un detalle de la aplicación y el lubricante que requiere cada uno de ellos. 
+
+	Estas listas son recomendaciones, mas la elección de los refrigerantes debe realizarse considerando también las características de un refrigerante ideal desarrolladas en la sección \ref{S1-Características de un refrigerante ideal}.
+
+	\subsection{Refrigeración a media o baja temperatura}
 
 	\begin{table}[H]
 		\centering
-		\small
-		\begin{tabular}{C{0.15\linewidth} C{0.35\linewidth} C{0.2\linewidth} C{0.15\linewidth}}
-			Refrigerante & Composición (porcentaje) & Relleno respecto a R502 & Lubricante \\
+		\caption{Refrigerantes para refrigeración a media o baja temperatura.}\label{T1-Refrigeración para media o baja temperatura} 
+		\footnotesize
+		\begin{tabular}{C{0.1\linewidth} C{0.1\linewidth} M{0.36\linewidth} M{0.36\linewidth}}
+			Ref. & Remplaza & \Tcen{Detalle} & \Tcen{Lubricación} \\
 			\hline
-			R402A & 125/290/22 \, (60\%, 2\%, 38\%) & 95\% a 100\% & AB o mezcla de AM y AB. \\
-			R402B & 125/290/22 \, (38\%, 2\%, 60\%) & 95\% a 100\% & AB o mezcla de AM y AB. \\
-			R404A & 125/143a/134a \, (44\%, 52\%, 4\%) & 85\% a 90\% & Polyester \\
+			R134a & R12 & Electrodomésticos, refrigeración (comercial y autónoma), enfriadoras centrífugas y aire acondicionado para automóviles. & Poliéster en equipos estacionarios y poliglicoles alcalinos en equipos de automóviles. \\
+			R401A & R12 & Refrigeración de expansión directa para uso comercial e industrial a bajas temperaturas. & Combinaciones de aceite mineral y alquinobencenos o con poliésteres. \\
+			R401B & R12 & Refrigeración de expansión directa para uso comercial e industrial a bajas temperaturas y sistemas de aire acondicionado remplazando R12. & Combinaciones de aceite mineral y alquinobencenos o con poliésteres. \\
+			R402A & R502 & Refrigeración comercial e industrial en bajas temperaturas & Aceite mineral, alquinobencenos o poliésteres. \\
+			R402B & R502 & Máquinas de hielo & Aceite mineral, alquinobencenos o poliésteres. \\
+			R404A & R502 y R22 & Refrigeración comercial e industrial a medias y bajas temperaturas. Máquinas de hielo. &  Poliésteres. \\
+			R407A & R22 & Refrigeración comercial e industrial a medias y bajas temperaturas. &  Poliésteres. \\
+			R407C & R22 & Refrigeración comercial e industrial a temperaturas medias. Acondicionamiento de aire comercial y residencial. & Poliésteres. \\
+			R408A & R502 & Refrigeración industrial a media y baja temperatura. & Aceite mineral, alquinobencenos o poliésteres. \\
+			R409A & R12 & Refrigeración industrial a media y baja temperatura. Acondicionamiento de aire con sistemas no centrífugos. & Aceite mineral, alquinobencenos o poliésteres. \\
+			R417C & R12 & Refrigeración a media y baja temperatura. &  Poliésteres o aceites minerales/alquinobencenos con aditivos para mejorar circulación. \\
+			R422B & R22 & Refrigeración comercial e industrial a temperaturas media. Acondicionamiento de aire. & Poliésteres o aceites minerales/alquinobencenos con aditivos para mejorar circulación. \\ 
+			R422C & R502 y R22 & Refrigeración comercial e industrial a temperaturas media. & Poliésteres o aceites minerales/alquinobencenos con aditivos para mejorar circulación. \\
+			R422D & R22 &   Refrigeración comercial e industrial a temperaturas media y baja. Acondicionamiento de aire. & Poliésteres o aceites minerales/alquinobencenos con aditivos para mejorar circulación. \\ 
+			R507 & R502 y R22 & Refrigeración comercial e industrial a medias y bajas temperaturas. Máquinas de hielo. & Poliésteres. \\
 			\hline
-			% \multicolumn{4}{C{.7\linewidth}}{\footnotesize{AM: Aceites minerales \; AB: alquibenceno.}}
 		\end{tabular}
 	\end{table}
 
-	% \begin{table}[H]
-	% 	\centering
-	% 	\begin{tabular}{C{0.15\linewidth} C{0.15\linewidth} C{0.15\linewidth}}
-			
-	% 	\end{tabular}
-	% \end{table}
+	\subsection{Acondicionamiento de aire}
 
-	\newpage
-
-	\subsection{Eficiencia volumétrica}
-
-
-
-	% \subsection{Sistema de refrigeración por compresión de vapor}
-
-	% En este sistema el fluido de trabajo es un vapor que se evapora y se condensa con facilidad o cambia alternadamente entre las fases de vapor y líquida sin salir de la planta refrigerante. Durante la evaporación, absorbe el calor del cuerpo frío. Este calor se utiliza ya que es calor latente para convertirlo de líquido a vapor. Al condensarlo, enfriarlo o licuarlo, rechaza el calor hacia un cuerpo externo, creando de esta manera un efecto de enfriamiento en el fluido de trabajo. Este sistema de refrigeración actúa como una bomba de calor latente dado que bombea su calor latente del cuerpo frío y lo suministra a un cuerpo externo o medio de enfriamiento. El principio con el que funciona el sistema de compresión de vapor se aplica a todos los vapores para los que se dispone de tablas de propiedades termodinámicas.
-	
-	% El vapor a baja temperatura y presión entra al compresor en donde se comprime isentrópicamente y luego su temperatura y presión aumentan considerablemente. Este vapor, después de salir del compresor, entra al condensador donde se condensa como un líquido a alta presión y se colecta en un tanque receptor. Del tanque receptor pasa a través de una válvula de expansión, donde se estrangula hasta una presión menor y tiene una baja temperatura. Después de pasar por la válvula de expansión por último pasa al evaporador  donde extrae el calor de los alrededores o del fluido circulando siendo refrigerado y se vaporiza en un vapor a baja presión.
-	
-	% Las ventajas principales de un sistema de compresión a vapor sobre el sistema de refrigeración por aire son:
-
-	% \begin{itemize}
-	% 	\item Valor de COP alto debido a que el ciclo de trabajo es próximo al ciclo Carnot.
-	% 	\item Cuando se utiliza a nivel del suelo, el costo de operación de un sistema de refrigeración de vapor es solo un quinto del sistema de refrigeración de aire.
-	% 	\item Para el mismo efecto refrigerante, el tamaño del evaporador es más pequeño.
-	% 	\item La temperatura requerida del evaporador se puede alcanzar simplemente ajustando la válvula de estrangulación de la misma unidad.
-	% \end{itemize}
-
-
-	Un compresión que teóricamente es perfecto no tendría un espacio muerto ni pérdidas de ningún tipo y bombearía en cada carrera una cantidad de refrigerante igual al desplazamiento del émbolo. Ningún compresor real puede hacer esto, ya que es imposible construir un compresor sin válvulas de aspiración y descarga, que no tenga sobrecalentamiento de los gases de aspiración al hacer contacto con las paredes y redes del cilindro, o sin fugas de gas que pasen el émbolo o las válvulas. Todos estos factores afectan el volumen de gas bombeado o la capacidad del compresor, algunos de ellos afectan los requerimientos de potencia por tonelada de refrigeración desarrollada.
-
-	La eficiencia volumétrica se define como la relación del volumen real de gas en el compresor en cada carrera con respecto al desplazamiento del émbolo. Si solo se considera el efecto del volumen del espacio muerto, la expresión resultante se puede denominar como eficiencia volumétrica del espacio muerto. La expresión que se utiliza para agrupar en una constante todos los factores de eficiencia se puede denominar eficiencia volumétrica total.
-
-	\begin{itemize}
-		\item La eficiencia volumétrica del espacio muerto. El volumen del espacio muerto es aquel que se presenta entre el extremo del cilindro y el émbolo cuando el mismo está en su punto superior. EL volumen de espacio muerto se expresa como un porcentaje de desplazamiento del émbolo.
-		
-		Durante la carrear de aspiración, el vapor aspirado en el espacio muerto a la presión de descarga se expande a lo largo del desplazamiento hacia el punto muerto inferior y la válvula de aspiración se abre lentamente cuando la presión ha caído hasta la presión de aspiración. Por lo tanto, el volumen real aspirado será el volumen barrido una vez se abrió la válvula de aspiración. La relación entre el volumen real de vapor aspirado con respecto al desplazamiento del émbolo se define como la eficiencia volumétrica del espacio muerto.
-
-		\item Eficiencia volumétrica total. La eficiencia volumétrica total de un compresor se obtiene mejor mediante mediciones reales de laboratorio de la cantidad de refrigerante comprimido y suministrado al condensador. Es muy difícil de predecir los efectos de aspiración de agua, de calentamiento de las paredes del cilindro y de las fugas del émbolo para permitir cualquier grado de precisión en la mayoría de los casos. La eficiencia volumétrica total se puede calcular aproximadamente si se conocen la caída de presión a través de las válvulas de aspiración y la temperatura de los gases al final de la carrera de aspiración, y si se supone que no hay fugas en el émbolo durante la compresión. 
-	\end{itemize}
-
-	\subsubsection{Análisis matemático de la refrigeración por compresión de vapor}
-
-	\begin{itemize}
-		\item Efecto refrigerante. El efecto refrigerante es la cantidad de calor absorbido por el refrigerante en su recorrido a través del evaporador. Este se determina según la expresión:
-		\begin{equation}
-			Q_{evap} = (h_2 - h_1) \Un{kJ/kg}
-		\end{equation}
-
-		Además del calor latente de vaporización se puede incluir cualquier calor de sobrecalor absorbido en el evaporador. 
-
-		\item La masa de refrigerante circulado se puede calcular la cantidad de calor entre el efecto refrigerante.
-		
-		\begin{equation}
-			m = \dfrac{1\Un{Ton/s}}{Q_{evap}\Un{Ton/kg}} 
-		\end{equation}
-
-		Donde $1Ton = 1400kJ$.
-
-		\item El desplazamiento teórico por ton de refrigeración del émbolo se puede determinar multiplicando la masa del refrigerante que debe circular por el volumen específico del gas refrigerante, en su entrada al compresor.
-		
-		\item Potencia teórica requerida. La potencia teórica por ton de refrigeración es la potencia que teóricamente se necesita para comprimir el refrigerante. Aquí, las eficiencias volumétrica y mecánica no se toma en consideración. La potencia se puede calcular como:
-		
-		\begin{itemize}
-			\item Compresión isentrópica:
-			\begin{equation}
-				P = m(h_3 - h_2) \Un{kW}
-			\end{equation}
-
-			\item Compresión según $pV^n = cte$:
-			\begin{equation}
-				P = m\left[\dfrac{n}{n-1} \dfrac{p_3 v_3 - p_2 v_2}{1000} - (h_3 - h_2)\right] \Un{kJ}
-			\end{equation}
-		
-		\end{itemize}
-
-		\item Calor removido a través del condensador. El calor removido a través del condensador incluye el calor removido como calor latente, sobrecalor o subenfriamiento. Esto equivale al calor absorbido en el evaporador más el trabajo de compresión.
-		
-		\begin{equation}
-			Q = \dot{m} (h_3 - h_4) \Un{kJ/s}
-		\end{equation}
-
-	\end{itemize}
-
-	\subsection{Sistema de absorción de vapor}
-
-	En un sistema de absorción de vapor el refrigerante se absorbe al salir del evaporador, en donde el medio absorbente es un sólido o un líquido. A fin de que la secuencia de efectos sea continua, es necesario que el refrigerante se separe del absorbente y luego se condense antes de regresar al evaporador. La separación se efectúa por la aplicación de calor directo en un generador. La solubilidad del refrigerante y del absorbente debe ser la adecuada. Una planta que utiliza amoniaco como refrigerante y agua como absorbente es el mejor ejemplo y se describirá a continuación.
-
-	\subsubsection{Sistema simple de absorción de vapor}
-
-	Analizando la figura \ref{F1-Sistema simple de absorción de vapor.} donde se muestra un sistema simple de absorción. La solubilidad del amoniaco en agua a bajas temperaturas y presiones es mayor que a altas temperaturas y presiones. El vapor de amoniaco que sale del evaporador en el punto 2 se absorbe con facilidad en la solución caliente a baja temperatura en el absorbedor. Este proceso se acompaña por un rechazo de calor. El amoniaco en la solución de agua se bombea hasta la presión superior y se calienta en el generador. DEbido a la solubilidad reducida del amoniaco en agua a la presión y temperatura superior, el vapor se remueve de la solución y luego el vapor pasa al condensador en agua a la presión y temperatura superior, el vapor se remueve de la solución. Luego el vapor pasa al condensador y el amoniaco debilitado en la solución de agua se regresa al absorbedor.
-
-	\begin{figure}[H]
+	\begin{table}[H]
 		\centering
-		\includegraphics[width = 0.9\linewidth]{Figuras/U1/F1-CICLO_ABSORCION.png}
-		\caption{Sistema simple de absorción de vapor.}\label{F1-Sistema simple de absorción de vapor.}
-	\end{figure}
+		\caption{Refrigerantes para acondicionamiento de aire.}\label{T1-Refrigeración para acondicionamiento de aire}
+		\footnotesize
+		\begin{tabular}{C{0.1\linewidth} C{0.1\linewidth} M{0.36\linewidth} M{0.36\linewidth}}
+			Ref. & Remplaza & \Tcen{Detalle} & \Tcen{Lubricación} \\
+			\hline
+			R407C & R22 & Refrigeración comercial e industrial a temperaturas medias. Acondicionamiento de aire comercial y residencial. & Poliésteres. \\
+			R410A & R22 & Acondicionamiento de aire y bombas de calor. Solo para equipamiento nuevo, no como recarga de equipos para R22. & Poliésteres. \\
+			R414B & R12 & Refrigeración industrial y comercial de media o baja temperatura y aire acondicionado. & Alquinobencenos, aceites minerales o poliésteres. \\
+			R422B & R22 & Refrigeración comercial e industrial a temperaturas media. Acondicionamiento de aire. & Poliésteres o aceites minerales/alquinobencenos con aditivos para mejorar circulación. \\ 
+			R422D & R22 &   Refrigeración comercial e industrial a temperaturas media y baja. Acondicionamiento de aire. & Poliésteres o aceites minerales/alquinobencenos con aditivos para mejorar circulación. \\ 
+			R123 & - & Enfriadores centrífugos grandes y baja presión. & Alquinobencenos o aceites minerales. \\ 
+			R124 & - & Acondicionamiento de aire de grandes ambientes. & Alquinobencenos o aceites minerales. \\
+			\hline
+		\end{tabular}
+	\end{table}
 
-	En este sistema el trabajo realizado en la compresión es menor que en un ciclo de compresión de vapor, ya que el bombeo de un líquido requiere mucho menos trabajo que la compresión de vapor entre las mismas presiones, pero se requiere una entrada de calor hacia el generador, el calor se puede suministra mediante cualquier forma convincente, por ejemplo, calentamiento por vapor o gas.
+	\subsection{Refrigeración a muy baja temperatura}
 
-	\subsubsection{Sistema práctico de absorción de vapor}
-
-	\begin{figure}[H]
+	\begin{table}[H]
 		\centering
-		\includegraphics[width = 0.5\linewidth]{Figuras/U1/F1-CICLO_ABSORCION_PRACTICO.png}
-		\caption{Sistema práctico de absorción de vapor.}\label{F1-Sistema práctico de absorción de vapor.}
-	\end{figure}
-
-	Consultando loa figura \ref{F1-Sistema práctico de absorción de vapor.} se llega a la conclusión que un sistema simple de absorció nde vapor puede proporcionar refrigeración, pero a una eficiencia baja. Por lo tanto, los accesorios siguientess se instalan para hacer el sistema más práctico y mejorar el desempeño y funcionamiento de lap lanta.
-
-	\begin{enumerate}
-		\item Cambiador de calor.
-		
-		Un cambiador de calor se ubica entre el generador y el absorbedsor. La solución concentrad,a que bombea del absorbedor al regeenrador, se debe calentar; y la solución diluida del generador al absorbedor se debe efnriar. Esto se efectúa por unintercambiador de calor y en consecuencia el costo del calentamiento del generador y el costo de enfriamiento del absorbedor es menor.
-
-		\item Analizador.
-		
-		El analizado consiste en una serie de bandejas monjtadas arriba del generador. Su función principal es remover parcialmente parte de las partículas de agua no deseables asoociadas con el vapor de amoniaco que van hacia el condensador. Si estos vapores de aguas e permiten entrar al condensador pueden entrara a la válvula de expansión y congelarse; como resultado puede obstruir la tubería.
-
-		\item Rectificador.
-		
-		Un rectificador es un cambiador de calor enfriado por agua que condensa el vapor de agua y algo de vapor de amoniaco y lo envía de regreso al generador. Así pues, la solución final o eliminación del porcentaje de vapor de agua tiene lugar en el rectificador.
-
-	\end{enumerate}
-
-	El coeficiente de desempeño de refrigeración está definido por 
-
-	\begin{equation}
-		COP = \dfrac{\text{Calor extraído del evaporador}}{\text{Calor sum. en el generador} + \text{Trabajo realizado por la bomba}}
-	\end{equation}
-
-	
-	\section{Refrigerantes en instalaciones}
-	\Biblio{\cite[pág. 772 a 780]{Rajput2011termodinamica} \cite[pág. 395 a 399]{DossatPDRefrigeracion}}
-
-	
-
-	Un refrigerante se define como cualquier sustancia que absorbe calor a través de su evaporación o condensación y lo pierde a través de su condensación en un sistema de refrigeración. El término refrigerante en el sentido más amplio también se aplica a medios de enfriamiento secundarios como las soluciones de agua fría o de salmuera. En general, los refrigerantes incluyen solo los medios de trabajo que pasan por el ciclo de evaporación, recuperación, compresión, condensación y licuefacción. Estas sustancias absorben calor en un lugar a un nivel bajo de la temperatura y lo rechazan en algún otro lugar ya con una temperatura y presión mayor. El rechazo de calor sucede a costa de cierto trabajo mecánico. Así pues, los medios fríos circulantes y los medios de enfriamiento no son refrigerantes primarios. EN los primeros días sólo se utilizaban cuatro refrigerantes: 
-
-	\begin{itemize}
-		\item Aire.
-		\item Amoniaco ($NH_3$).
-		\item Dióxido de carbono ($CO_2$).
-		\item Dióxido de azufre ($SO_2$).
-	\end{itemize}
-
-	Estos poseían propiedades químicas, físicas y termodinámicas que permitían su aplicación y servicio eficiente en el diseño práctico de equipo de refrigeración. Todos los refrigerantes cambian de un estado líquido a un estado de vapor durante el proceso.
-
-	\subsection{Clasificación de los refrigerantes}
-
-	Los refrigerantes pueden clasificarse en refrigerantes primarios y refrigerantes secundarios.
-
-	Los refrigerantes primarios son los medios de trabajo o portadores de calor que tienen una función de manera directa en el sistema de refrigeración y enfrían una sustancia mediante la absorción de calor latentes. Por ejemplo, amoniaco, dióxido de carbono, dióxido de azufre, cloruro de metlilo, cloruro de metileno, cloruro etílico, el grupo Freón, etc.
-
-	Los refrigerantes secundarios son las sustancias circulando que primero se enfrían con ayuda de los refrigerantes primarios y luego se emplean para fines de enfriamiento. Por ejemplo, hielo, dióxido de carbono sólido, etc. Estos refrigerantes enfrían sustancias por medio de absorción de su calor sensible.
-
-	Los refrigerantes primarios se agrupan de la siguiente manera:
-
-	\begin{itemize}
-		\item Compuestos de halocarburos. En este grupo se incluyen refrigerantes que contienen uno o más de tres alógenos, cloro y bromuro y se venden en el mercado con nombres de Freón, Genotrón, Isotrón y Aretón. Como los refrigerantes que pertenecen a este grupo tienen ventajas extraordinarias sobre los refrigerantes de otros grupos, tienen un campo de aplicación muy amplio para fines domésticos, comerciales e industriales.
-		\item Azeótropos. Los refrigerantes azeótropos consisten de mezclas de sustancias diferentes. Estas sustancias no se pueden separar en sus componentes mediante destilación. Poseen propiedades termodinámicas fijas y no experimentan separación con cambios de temperaturas o presión. Se comportan como sustancias simples.
-		\item Hidrocarburos. La mayoría de los refrigerantes de este grupo son compuestos orgánicos. Varios hidrocarburos se emplean con éxito en instalaciones comerciales e industriales. Casi todos estos poseen propiedades termodinámicas satisfactorias, pero son altamente inflamables.
-		\item Compuestos inorgánicos. Antes de la introducción del grupo de hidrocarburos, estos refrigerantes fueron los de uso común para todos los fines.
-		\item Compuestos orgánicos insaturados. Los refrigerantes que pertenecen a este grupo contienen etileno o propileno.
-	\end{itemize}
-
-	\subsubsection{Mezclas previsibles}
-
-	Cuando se producen mezclas de refrigerantes y aceites, no debe haber ninguna reacción química entre un refrigerante y el aceite de lubricación del compresor. La miscibilidad del aceite es muy importante y que cierta cantidad de aceite se debe sacar del cárter del compresor con el vapor refrigerante caliente para lubricar de manera adecuada los émbolos y las válvulas de descarga.
-
-	Cuando se presenta una mezcla entre el refrigerante y materiales constructivos, se debe contemplar la selección del material para contener el refrigerante. Los refrigerantes atacan algunos metales, por ejemplo, el amoniaco reacciona con el cobre, latón u otras aleaciones cuprosas en presencia de agua, por lo tanto, en sistemas con amoniaco los metales comunes utilizados son el hierro y el acero. El grupo freon no reacciona con el acero, cobre latón, zinc, estaño y aluminio, pero es corrosivo con el magnesio y el aluminio con 2\% de magnesio. Los refrigerantes del grupo freón tienden a disolver caucho natural en los empaques y sellos, pero el caucho sintético con neopreno es completamente adecuado. Los hidrocarburos hidrogenados pueden reaccionar con el zinc, pero no con el cobre, aluminio, hierro y acero.
-
-	\subsubsection{Propiedades y usos de refrigerantes comunes}
-
-	\begin{itemize}
-		\item Aire.
-		
-		El aire no tiene costo, se presente con gran disponibilidad, es completamente seguro y no es tóxico. El COP de un ciclo de aire funcionando entre temperaturas de $80^\circ C$ y $-15^\circ C$ es un 30\% del valor ideal de Carnot.
-
-		El aire fue uno de los primeros refrigerantes y se utilizó ampliamente en momentos donde se requirió un medio completamente no tóxico. Actualmente, debido a su bajo COP, se utiliza solo en zonas donde la eficiencia de funcionamiento es secundaria, como lo es la refrigeración aeronaval.
-
-		\item Amoniaco ($NH_3$).
-
-		El amoniaco es altamente tóxico e inflamable, pero tiene propiedades térmicas excelentes. Tiene el efecto refrigerante mayor por kilogramo de refrigerante, bajo desplazamiento volumétrico, es barato y bajo peso del líquido circulado por ton de refrigeración. Por todas estas razones tiene una alta eficiencia. Las presiones del evaporador y del condensador son $3.5bar$ y $13bar$ absolutas, respectivamente en condiciones de temperatura de $-15^\circ C$ Y $30^\circ C$.
-
-		Se utiliza ampliamente en sistemas de compresión alternativa industrial y comercial donde una toxicidad alta es secundaria. Principalmente, su uso se da en plantas de hielo, plantas de empaque, almacenamientos fríos grandes y pistas de patinaje, entre otros. Se utiliza ampliamente como refrigerante en sistemas de absorción.
-		
-		Algunos detalles interesantes son que, el amoniaco nunca se debe emplear con cobre, latón y otras aleaciones de cobre. En lugar se debe utilizar hierro o acero en sistemas con amoniaco. Además, para la detección de fugas se utiliza una vela de azufre que emite un color blanco y denso cuando está presente un vapor de amoniaco.
-
-		EL amoniaco es el único refrigerante fuera de los fluorocarburos que se usa bastante en la actualidad. Aunque es tóxico, algo inflamable y explosivo en ciertas condiciones, sus excelentes propiedades térmicas lo hacen ser un refrigerante ideal para fábricas de hielo, plantas empacadoras, pistas de patinaje, grandes almacenes de enfriamiento, etc. donde se cuenta con los servicios de personal experimentado  y donde su naturaleza tóxica es de poca consecuencia.
-
-		El amoniaco es el refrigerante que tiene mas alto efecto refrigerante por libra, el cual, a pesar de su volumen específico alto en la condición de vapor, tiene una gran capacidad refrigerante con relativamente un desplazamiento pequeño del pistón.
-
-		El punto de ebullición del amoniaco a la presión atmosférica estándar es de $-28^\circ F (-33^\circ C)$. Las presiones en el evaporador y el condensador a las condiciones de tonelada estándar de $5^\circ F (-15^\circ C)$ y  $86^\circ F (30^\circ C)$ son de $34.27lb/in^2 (2.37bar)$ y $169.2lb/in^2 (11.67bar)$. respectivamente, las cuales son moderadas, de tal manera que pueden usarse materiales de peso ligero en la construcción del equipo refrigerante. SIn embargo, la temperatura adiabática en la descarga es relativamente alta, siendo de $210^\circ F (99^\circ C)$ para las condiciones de toneladas estándar, por lo cual es adecuado tener enfriamiento con agua tanto en el cabezal como en el cilindro del compresor. DEbe también evitarse tener sobrecalentamiento alto en la succión para los sistemas de amoniaco.
-
-		Aunque el anhidro de amoniaco puro no es corrosivo para todos los metales normalmente usados en los sistemas de refrigeración, en la presencia de humedad, el amoniaco se vuelve corrosivo para los metales no ferrosos,  tales como el cobre y el latón. Evidentemente que estos metales no deben emplearse en los sistemas de amoniaco.
-
-		EL amoniaco no es miscible con el aceite y por lo mismo no se diluye en el aceite del cárter del cigüeñal del compresor. Sin embargo, deben hacerse los arreglos necesarios para eliminar el aceite del evaporador y deberá usarse un separador de aceite en el tubo de descarga de los sistemas de amoniaco.
-
-		En los sistemas de amoniaco pueden usarse velas de azufre para detectar las fugas, con lo cual se produce un humo blanco denso enb la presencia del vapor de amoniaco, o también puede aplicarse una solución de jabón poniéndola alrededor de las juntas en la tubería, en cuyo caso la fuga se manifestaría mediante la aparición de burbujas.
-
-		El amoniaco es fácil de conseguir y es el más barato de los refrigerantes comúnmente empleados. Estos dos hechos, junto con su estabilidad química, afinidad por el agua y no miscibilidad por el aceite, hacen al amoniaco ser un refrigerante ideal para ser usado en sistemas muy grandes donde la toxicidad no es un factor importante. Debido a su coeficiente de transferencia de calor relativamente alto y al consecuente mejoramiento de la razón de transferencia de calor, es el amoniaco particularmente adecuado para grandes instalaciones de enfriamiento de líquido. Al amoniaco se le usa con compresores reciprocantes tipo abierto, rotatorios y centrífugos. 
-
-		\item Dióxido de azufre ($SO_2$).
-		
-		El dióxido de azufre es incoloro, extremadamente tóxico y tiene un olor acre irritante. Sin embargo, este no es explosivo ni irritante. Tiene una gravedad específica de 1.36. Funciona a bajas presiones y tiene un calor latente de vaporización bajo.
-
-		En la actualidad se utiliza poco, sin embargo, se utilizaba en máquinas pequeñas en los primeros días de la refrigeración. 
-
-		La fuga de dióxido de azufre se puede detectar acercando amoniaco acuoso a la fuga, esto emite un humo color blanco.
-
-		\item Dióxido de carbono ($CO_2$).
-		
-		El dióxido de carbono es un gas incoloro e inoloro, y es más pesado que el aire, tiene una gravedad específica de $1.56$. No es tóxico, tampoco inflamable, explosivo ni corrosivo. Como desventaja, tiene presiones de funcionamiento extremadamente altas y un efecto refrigerante muy bajo.
-		
-		Este refrigerante ha recibido un suo limitado debido a los requerimientos de alta potencia por ton de refrigeración y las altas presiones de funcionamiento. En el pasado ha sido utilizado para refrigeración marina, para refrigeración en teatros, hoteles e instituciones debido a no ser tóxico. EN la actualidad su uso está limitado principalmente a la manufactura de hielo seco. 
-
-		\item Cloruro de metilo ($CH_3 Cl$)
-
-		El cloruro de metilo es incoloro con olor suave, dulce y no irritante. Tiene una gravedad específica líquida de 1 a presión atmosférica. No es inflamable ni tóxico.
-
-		Se ha utilizado comúnmente en aplicaciones domésticas y comerciales. Nunca se debe emplear con aluminio.
-
-		\item R11 (tricloro monofluoro metano).
-		
-		Se compone de un átomo de carbono, tres de cloruro y uno de flúor y no es corrosivo, tóxico ni inflamable. Debido a su composición disuelve caucho natural y tiene un punto de ebullición a $-24^\circ C$. Se mezcla completamente con el aceite mineral de lubricación en todas las condiciones. 
-
-		Se utiliza para una capacidad de 50ton y mayor en pequeños edificios de oficinas y fábricas pequeñas. EN las plantas que emplean este refrigerante se utiliza un compresor centrífugo. 
-
-		Para detectar sus fugas se utiliza un soplete de haluro.
-		
-		El R11 es un flurocarburo de la serie del metano que tiene punto de ebullición de valor $74.7^\circ F (23.7^\circ C)$ a presión atmosférica. Las presiones de funcionamiento a condiciones de tonelada estándar son $2.94lb/in^2 (0.2bar)$ y $18.19lb/in^2 $ $  (1.25bar)$. DEbido al pequeño valor de las presiones de funcionamiento y al desplazamiento del compresor relativamente alto, el R11 se emplea con compresores centrífugos, sobre todo en sistema de aire acondicionado para pequeñas oficinas en edificios, fábricas, tiendas de departamentos, teatros, etc. El R11 es ampliamente utilizado como refrigerante secundario y como solvente.
-
-		Al igual que otros refrigerantes fluorocarburos, el R11 no es corrosivo ni tóxico y, no es inflamable, pero disuelve al hule natural. Para detectar sus fugas se usa una antorcha halida.
-
-		\item R12 o freón 12.
-		
-		Este refrigerante no es tóxico, inflamable ni explosivo, por lo tanto es el refrigerante adecuado. Es completamente miscible con el aceite, por lo tanto simplifica el problema del retorno del aceite. Las presiones de funcionamiento del R12 en un evaporador y  condensador ante una ton estándar de refrigeración son 1.9 bar absoluta y 7.6 bar absoluta, respectivamente. SU calor latente a $-15^\circ C$ es $161.6kJ/kg$, el COP es $80\%$ del referente al ciclo Carnot. No se descompone incluso ante condiciones de funcionamiento extremas, se condensa a presión moderada y en condiciones atmosféricas.
-
-		Su uso es adecuado para aplicaciones de alta, media y baja temperatura, se utiliza en aplicaciones domésticas. Es un aislante eléctrico excelente, por lo tanto se emplea en compresores de tipo hermético.
-
-		Es probable que el refrigerante R12 en la actualidad sea el más ampliamente usado. Es un refrigerante seguro en el sentido que no es tóxico, no es inflamable y no es explosivo. Además, es un compuesto altamente estable que es muy difícil de que falle aun bajo condiciones extremas de operación. Sin embargo, al ponerlo en contacto con una flama abierta o con un elemento de calefacción eléctrica, el R12 se descompone en productos que son altamente tóxicos.
-
-		Además de sus propiedades de seguridad, el hecho de que el R12 se condensa a una presión moderada bajo condiciones atmosféricas normales y que tenga una temperatura de ebullición de $-21.6^\circ F (-29.8^\circ C)$ a presión atmosférica, hace que este refrigerante sea muy apropiado para usarse en aplicaciones de alta, media y baja temperatura y con los tres tipos de compresores. EL R12 se le ha usado para enfriar salmuera a temperaturas bajas, como de $-110^\circ F (-80^\circ C)$ utilizando para ello compresores centrífugos de pasos múltiples.
-		
-		El hecho de que el R12 sea miscible en aceite bajo todas las condiciones de operación, no solo simplifica el problema del retorno del aceite, sino que también tiende a aumentar la eficiencia y la capacidad del sistema, en tanto que la acción solvente del refrigerante mantenga al evaporador y al condensador libres de partículas de aceite, que de otra manera tendería a reducir la capacidad  de transferencia de calor de esas dos unidades. 
-
-		Aunque el efecto refrigerante por libra de R12 es relativamente pequeño en comparación con los demás refrigerantes populares, esto no es necesariamente una desventaja seria, de hecho, para los sistemas pequeños, el hecho de hacer circular un peso grande de R12 es una gran ventaja que permite llevar un control más preciso del líquido. En sistemas de gran capacidad, la desventaja del bajo valor de calor latente se ve compensada por la densidad alta que tiene en el evaporador, de tal manera que el desplazamiento del compresor requerido por tonelada de refrigeración no es mucho más grande que lo requerido por otros refrigerantes comunes. También la potencia requerida por tonelada de capacidad es comparablemente favorable con la requerida por los otros refrigerantes comunes.
-
-		Se usa la antorcha de halida para detectar fugas.
-
-		\item R13 o freón 13.
-		
-		El refrigerante R13 fue desarrollado para usarse en aplicaciones de temperatura ultra baja, generalmente en el paso inferior de dos o tres pasos de un sistema en cascada.
-
-		La temperatura de ebullición del R13 es $-144.5^\circ F (-98^\circ C)$ a la presión atmosférica. La temperatura en el evaporador baja hasta $-150^\circ F (-100^\circ C)$ la temperatura crítica es $83.9^\circ F (28.9^\circ C)$. Al refrigerante R13 se le puede usar con los tres tipos de compresores debido a que su presión de condensación y desplazamiento del compresor son de valor moderado.
-
-		El refrigerante R13 es un refrigerante seguro, no es miscible con el aceite, para detectar fugas se debe aplicar una antorcha halida.
-
-		\item R22 o freón 22.
-		
-		El refrigerante R22 es superior al R12 en muchos aspectos. EL desplazamiento del compresor por ton de refrigeración es 60\% menor que el desplazamiento con R12. Además, el R22 es miscible con aceite a la temperatura del condensador, pero trata de separarse a temperatura del evaporador cuando el sistema se utiliza en aplicaciones de baja temperatura ($-90^\circ C$); en estos casos, se deben incorporar separadores de aceite para regresar el aceite del evaporador. Las presiones del evaporador y condensador a una ton estándar de refrigeración son mayores que las de R12. ($2.9bar$ y $11.9bar$). El R22 posee un bajo calor latente a $-15^\circ C$, el cual es $89kJ/kg$. La principal desventaja del R22 es su alta temperatura de descarga, que requiere enfriamiento por agua de la cabeza y del cilindro del compresor.
-
-		El R22 se utiliza universalmente en sistemas de baja temperatura comerciales e industriales.
-
-		El refrigerante R22 tiene un punto de ebullición a la presión atmosférica de \FC{-41.4}{-40.8}. Originalmente fue desarrollado como refrigerante para temperatura baja. Se le ha usado extensamente en congeladores domésticos y de granjas y en sistemas comerciales e industriales de baja temperatura, las temperaturas del evaporador son tan bajas como \FC{-125}{-87}. Actualmente se le usa sobre todo en acondicionadores de aire tipo paquete, por las limitaciones de espacio resulta una gran ventaja el valor relativamente pequeño del desplazamiento del compresor.
-
-		Tanto las presiones de operación como la temperatura adiabática de la descarga son mayores para el R22 que para el R12. Los requerimientos de potencia son aproximadamente iguales.
-
-		Debido a que la temperatura en la descarga del R22 es alta, la temperatura sobrecalentada en la succión debe conservarse en su valor mínimo, sobre todo cuando se usan unidades herméticas motor-compresor. En aplicaciones de temperatura baja, donde las relaciones de compresión son altas, se recomienda tener en enfriamiento con agua al cabezal y a los cilindros del compresor a fin de evitar sobrecalentamiento en el compresor. Los condensadores enfriados con aire empleados con el refrigerante R22, deben ser de tamaño generoso.
-
-		Aunque el R22 es miscible con aceite en la sección de condensación a menudo suele separarse del aceite en el evaporador. La temperatura exacta a la cual ocurre la separación varía considerablemente con el tipo de aceite y con la cantidad de aceite mezclado con el refrigerante. Sin embargo, no se han tenido dificultades en el retorno del aceite después del evaporador cuando se tiene el diseño adecuado del serpentín del evaporador y de la tubería de succión. Se usan separadores de aceite cuando se utilizan evaporadores inundados y deberán tomarse medidas especiales para asegurarse del retorno del aceite desde el evaporador. Los separadores de aceite deberán usarse siempre en las aplicaciones de baja temperatura. 
-
-		La principal desventaja del R22 sobre el R12 es que el R12 requiere un desplazamiento menor del compresor, siendo aproximadamente de 60\% del requerido para el R22. Por lo tanto, para un desplazamiento específico del compresor, la capacidad de refrigerante será aproximadamente 60\% mayor con R22 que con R12. Además, los tamaños de las tuberías por lo general son menores para el R22 que para el R12.
-
-		La habilidad del refrigerante R22 para absorber la humedad es  considerablemente mayor que la del refrigerante R12 y, por lo tanto, se tienen menos problemas de congelamiento en los sistemas que usan R22.  Aunque algunos consideran que ello es una ventaja, esto es cuestionable por ser indeseable tener cualquier cantidad de humedad en el sistema refrigerante.
-
-		Siendo un fluorocarburo, el R22 es un refrigerante seguro. Se puede usar antorcha de halida para detectar fugas.
-
-		\item R113.
-		
-		El R113 a la presión atmosférica hierve a \FC{117.6}{47.5} las presiones de operación a condiciones de tonelada estándar son $0.9802 lb/in^2 $ $ (0.068bar)$ y $7.86 lb/in^2 $ $(0.208bar)$, respectivamente. Aunque el desplazamiento del compresor por ton es algo alto ($100.76ft^3/min \, ton$), la potencia requerida por tonelada se compara favorablemente con los demás refrigerantes comunes. Con este refrigerante se necesita usar compresor centrífugo por sus baja presiones de operación y por el desplazamiento grande requerido.
-
-		Aunque principalmente se le usa en acondicionamiento de aire de confort también es empleado en procesos industriales de agua y salmuera hasta para \FC{0}{-18}.
-
-		El R113 es un refrigerante seguro y se usa la antorcha halida para detectar fugas.
-
-		\item R114.
-
-		El R114, a presión atmosférica tiene su punto de ebullición de \FC{38.4}{3.6}. Las presiones de evaporación y condensación a condiciones de tonelada estándar son $6.75 lb/in^2 (0.89bar)$ y  $36.27 lb/in^2 (2.5bar)$ respectivamente. El desplazamiento requerido de compresor es relativamente bajo para una presión refrigerante baja ($19.59ft^3/min \, ton$) y  la potencia requerida se compara favorablemente con la de los otros refrigerantes comunes.
-		
-		Al R114 se le usa en compresores centrífugos en instalaciones muy grandes de acondicionamiento de aire comercial e industrial y para procesos industriales de enfriamiento de agua de hasta \FC{-70}{-57}. Se le usa con compresores rotatorios tipo aspa, en refrigeradores domésticos y en enfriadores pequeños de agua potable.
-
-		Al igual que para el R22, el R114 es miscible en el aceite a las condiciones uqe se tienen en la sección de condensación, pero se separa del aceite en el evaporador. Sin embargo, debido al tipo de equipo usado con el R114 y las condiciones bajo las cuales se usa, el retorno de aceite no genera ningún tipo de problema.
-
-		EL R114 es un refrigerante seguro. Se emplea la antorcha halida para detectar fugas.
-
-		\item R500. 
-		
-		El R500 es una mezcla azeotrópica de refrigerante R12 (73.8\% en peso) y R152a (26.2\% en peso). A la presión atmosférica su punto de ebullición es \FC{-28}{-33}. Las presiones en el evaporador y condensador a condiciones estándar son  $16.4 lb/in^2 $ manométricas y  $113.4 lb/in^2$ manométricas, respectivamente. Aunque los requerimientos de potencia del R500 son aproximadamente iguales a los del R12 y R22, el desplazamiento requerido del compresor se encuentra entre medio del R22 y el R12.
-
-		La principal ventaja del R500 está en el hecho de que su sustitución por el R12 presenta un aumento en la capacidad del compresor de aproximadamente 18\%. Esto hace posible usar el mismo compresor conectado directamente ya sea a 50 o 60hz de frecuencia con poco o ningún cambio en la capacidad de refrigerante o en los requerimientos de potencia.
-
-		\item R502.
-		
-		El R502 es una mezcla azeotrópica de 42.8\% de R22 y 51.2\% de R115. Desarrollado originalmente como refrigerante de temperatura baja para reemplazar al R22 en algunas aplicaciones de temperatura baja y relación de compresión alta, el R502 ha sido ampliamente usado en un rango de temperaturas para almacenamiento congelado y frío y en algunas aplicaciones de aire acondicionado de confort, sobre todo donde se utilizan bombas de calor. La ventaja particular del R502 sobre el R22 es la temperatura adiabática baja que se tiene en la descarga, de \FC{99}{37.2}, comparada cn la de \FC{128}{53.3} a las condiciones de tonelada estándar. SIn embargo, tanto el desplazamiento del compresor como la capacidad por unidad de refrigerante son algo menores para el R502, así como las presiones de operación, aunque estas últimas permanecen en rangos moderados.
-		
-		El R502 a la presión barométrica estándar a una temperatura de ebullición de \FC{-49.8}{-45.4} y una temperatura crítica de \FC{179.9}{91.78}. No es inflamable y tampoco es tóxico y es baja su miscibilidad con el aceite. Se puede usar la antorcha halida para detectar fugas.
-
-		\item R503.
-		
-		El refrigerante R503 es una mezcla azeotrópica de 40.1\% de R23 y 59.9 de R13. A la presión barométrica estándar tiene una temperatura de ebullición de \FC{-127.6}{88.7} y una temperatura crítica de \FC{67.1}{19.5}.
-
-		El R503 es un refrigerante relativamente nuevo que puede reemplazar al R13 en el rango de temperatura de \FC{-100}{-73} hasta \FC{-150}{-101}. Con una temperatura en el evaporador de \FC{-120}{-84.4} y una temperatura de condensación de \FC{20}{6.67}, el desplazamiento requerido de compresor para el R503 es aproximadamente el 64\% del requerido por el R13 para la misma capacidad de refrigerante. SIn embargo, la presión de condensación es mayor para el R503, que para el R13.
-
-		El R503 se usa en compresores reciprocantes en el paso inferior de un sistema de cascada, empleándose R12, R22 o R502 en el paso superior.
-
-	\end{itemize}
-
-	
-	\section{Consideraciones de seguridad}
-	\Biblio{\cite[pág. 29.6 a 29.10]{ashrae2017fundamentals} \cite[pág. 365 a 395, primera parte]{DossatPDRefrigeracion}}
-
-	
-
-	La national fire underwriters ha efectuado pruebas de toxicidad con los refrigerantes más comúnmente empleados. Como resultado de ello los refrigerantes están clasificados en seis grupos de acuerdo a su grado de toxicidad, los grupos están dispuestos en orden descendiente. Aquellos que están en el grupo 1 son altamente tóxicos y son capaces de causar la muerte o daños muy serios en concentraciones relativamente pequeñas y/o en periodos muy cortos de exposición. Por otra parte, aquellos que están clasificados en el grupo 6 son muy poco tóxicos, siendo capaces de causar efectos nocivos solo en concentraciones muy grandes. Debido a que el daño causado por el último grupo es más bien debido a deficiencias de oxígeno que a efectos nocivos del fluido, para todos los fines prácticos se considera que los fluidos del grupo 6 no son tóxicos. Sin embargo, como ya se ha indicado de algunos refrigerantes, aunque no sean tóxicos cuando se mezclan con el aire en su estado normal, están sujetos a descomposición cuando están en contacto con una flama o con un elemento eléctrico de calentamiento. Los productos de descomposición así formados, son altamente tóxicos y capaces de causar efectos nocivos en pequeñas concentraciones y en corta exposición. Esto es cierto 
-	para todos los refrigerantes fluorocarburos.
-
-	\subsection{Inflamabilidad y explosividad}
-
-	Por otra parte, la serie de los hidrocarburos son altamente inflamables y explosivo, y deben usarse como refrigerantes para algunas aplicaciones especiales bajo la vigilancia de personal experimentados. Debido a sus excelentes propiedades térmicas de la serie de hidrocarburos, frecuentemente se utilizan en aplicaciones de temperatura muy bajas. En dichas instalaciones, el peligro en que se incurre se hace mínimo por el hecho de que el equipo está constantemente atendido por personal con experiencia en el uso y manejo de materiales explosivos.
-
-	La ASSCMR\footnote{American Standar Safety Code for Mechanical Refrigeration.} da detalles de las condiciones y circunstancias bajo las cuales pueden ser usados con seguridad varios de los refrigerantes. Muchos de los códigos locales y ordenanzas que regulan el equipo de refrigeración están basadas en este código, el cual está mancomunadamente patrocinado por la ASHRAE y la ASA.
-	
-	El grado de peligro en que se incurre con el uso de refrigerantes tóxicos depende de varios factores, tales como la cantidad de refrigerante en relación con el tamaño del espacio dentro del cual se pueden tener fugas de refrigerante, el tipo de ocupación, de si se tengan flamas o fuego y de si el personal experimentado tenga la obligación de atender el equipo. Por ejemplo, si se tiene una cantidad muy pequeña de refrigerante altamente tóxico, representará poco peligro si se le usa en espacios relativamente grandes en donde es posible que en el caso de tener fugas, la concentración no llegue a un nivel de peligro. Además, el peligro inherente en el uso de refrigerantes tóxicos algunas veces es mitigado por el hecho de que los refrigerantes tóxicos despiden olores muy peculiares que tienden a dar aviso de su presencia. Entonces, los refrigerantes tóxicos generalmente son peligrosos para el caso de niños o de personas que por razones de enfermedad o confinamiento son incapaces de escapar de los humos. Actualmente, el amoniaco es el único refrigerante tóxico el cual es muy usado limitándose su uso a plantas paquete, fábricas de hielo y en almacenes de frío muy grandes los cuales son manejados por personal experimentado. \\ xx \\
-
-	Según lo definido por la ASHRAE en el Standard 34, los refrigerantes pueden ser clasificados de acuerdo al peligro que puede generar su uso. La clasificación de la inflamabilidad y la toxicidad se presenta en seis grupos: A1, A2, A3, B1, B2 y B3. Los refrigerantes del grupo A1 son los menos peligrosos, mientras que los del grupo B3 son los más peligrosos.
-
-	Con respecto a las clases A y B, estas representan el límite de exposición ocupacional que poseen; los refrigerantes de clase A poseen un límite de exposición ocupacional de 400ppm o mayor, mientras que los de clase B poseen un límite de exposición ocupacional menor a 400ppm.
-
-	Pro otro lado, con respecto a la numeración:
-
-	\begin{itemize}
-		\item Clase 1: no generan propagación de flama en el aire a $60^\circ C$ y $101.3kPa$.
-		\item Clase 2: exhiben propagación de flama en el aire a $60^\circ C$ y $101.3kPa$, donde su límite de ignición es mayor que $0.10kg/m^3$ a $23^\circ C$ y $101.3kPa$, y el calor de combustión es menor que $19000kJ/kg$.
-		\item Variante clase 2L: son aquellos refrigerantes clase 2 que presentan una velocidad máxima de quemado no mayor a $100mm/s$ a $23^\circ C$ y $101.3kPa$.
-		\item Clase 3: exhiben propagación de flama en el aire a $60^\circ C$ y $101.3kPa$, donde su límite de ignición es menor o igual que $0.10kg/m^3$ a $23^\circ C$ y $101.3kPa$, o el calor de combustión es mayor que $19000kJ/kg$.
-	\end{itemize}
-
-	Con respecto a la mezcla de refrigerantes, se debe tomar la clasificación de seguridad de aquel refrigerante que posea la peor clasificación. 
+		\caption{Refrigerantes para muy bajas temperaturas.}\label{T1-Refrigeración para muy bajas temperaturas}
+		\footnotesize
+		\begin{tabular}{C{0.1\linewidth} C{0.1\linewidth} M{0.36\linewidth} M{0.36\linewidth}}
+			Ref. & Remplaza & \Tcen{Detalle} & \Tcen{Lubricación} \\
+			\hline
+			R23 & R13 y R503 & Refrigeración a muy bajas temperaturas & Poliésteres. Normalmente se utilizan aditivos que mejoran la circulación del refrigerante. \\
+			R403B & R13 y R503 & Refrigeración a muy bajas temperaturas con un sistema de una sola etapa. & Aceite mineral, alquinobencenos o poliésteres. \\
+			R508B & R13 y R503 & Refrigeración a muy bajas temperaturas en sistemas de cascadas (etapas múltiples). & Poliésteres. Normalmente se utilizan aditivos que mejoran la circulación del refrigerante. \\
+			\hline
+		\end{tabular}
+	\end{table}
+
+		\section{Consideraciones de seguridad}
+	\Biblio{\cite[pág. 29.6 a 29.10]{ashrae2017fundamentals} \cite{ashrae2019SSrefrigerationsistems}}
+
+	Los refrigerantes, según su inflamabilidad y su toxicidad están clasificados por la ASHRAE 34 en seis grupos: A1, A2, A3, B1, B2 y B3. Dentro de esta clasificación destacan valores: A y B; y 1,2 y 3.
+
+	Los valores A y B hacen referencia a su toxicidad, donde el tipo A expresa que el refrigerante posee un límite de exposición no menor que $400ppm$, mientras que los refrigerantes del tipo B poseen un límite de exposición menor a $400ppm$.
+
+	Por otro lado, los valores del 1 al 3 definen que tan inflamable es el refrigerante. Cuando se habla de un refrigerante clase 1, se entiende que este no generar propagación de flama en el aire en condiciones de $60^\circ C$ y $101.3kPa$; los refrigerantes clase 2 exiben propagación de flama en esas condiciones, donde su límite de ignición es mayor que $0.10kg/m^3$ y el calor de combustión es menor que $19MJ/kg$; por último, los refrigerantes de clase 3 exiben propagación de flama en el aire a $60^\circ C$ y $101.3kPa$, donde el límite de ignición es menor o igual a $0.10kg/m^3$ o el calor de combustión es mayor que $19MJ/kg$.
+
+	Cuando los refrigerantes son mezclas, se debe tomar la clasificación de seguridad de aquel refrigerante que posea la peor de ellas. 
 
 	\section{Refrigerantes secundarios}
 	\Biblio{}
@@ -1301,11 +1017,11 @@
 
 	La hinchazón lineal de algunos elastómeros frente a la presencia del líquido de refrigerantes compuestos por HCFC y HFC es un factor a tener en cuenta. Estos factores, junto con el grado de dureza, la resistencia a la tracción y el grado de extracción, permiten definir la selección correcta del elastómero. Cuando existen otros fluidos junto al refrigerante, por ejemplo lubricantes, la combinación de estos y la acción que tengan sobre el elastómero debe ser considerada. 
 
-	Otro inconveniente presente en los elastómeros es la permeabilidad frente a los fluidos. Ya que, en caso de no ser realmente permeables puede existir una fuba del propio refrigerante o presentarse un ingreso de humedad al propio sistema de refrigeración. La construcción de mangueras multicapas es utilizada significativamente para reducir el ingreso de agua y la pérdida de refrigerante. Una construcción típica de una manguera podría consistir en una cubierta exterior de elastómero de clorobutilo para reducir la entrada de agua, una capa de poliamida para reducir el refrigerante filtrado y un tubo interior de cloropreno. 
+	Otro inconveniente presente en los elastómeros es la permeabilidad frente a los fluidos. Ya que, en caso de no ser realmente permeables puede existir una fuga del propio refrigerante o presentarse un ingreso de humedad al propio sistema de refrigeración. La construcción de mangueras multicapas es utilizada significativamente para reducir el ingreso de agua y la pérdida de refrigerante. Una construcción típica de una manguera podría consistir en una cubierta exterior de elastómero de clorobutilo para reducir la entrada de agua, una capa de poliamida para reducir el refrigerante filtrado y un tubo interior de cloropreno. 
 
 	\subsection{Plásticos}
 
-	EL efecto del refrigerante a un material plástico debe ser analizado estrictamente bajo las condiciones de uso previsto, incluyendo la presencia de lubricantes. Los plásticos son generalmente mezclas de dos o más elementos, por lo que es difícil de predecir el efecto del refrigerante sobre el plástico. La masa y los cambios visuales frente al refrigerante pueden ser utilizados como referencia, pero los cambios en las propiedades internas del plástico deben ser examinadas. Los refrigerantes y lubricantes tuvieron poco efecto sobre la mayoría de los plásticos, aunque el acrilonitrilo-butadieno-estireno, el óxido de polifenileno y el policarbonato se vieron afectados lo suficiente como para ser considerados incompatibles.
+	El efecto del refrigerante a un material plástico debe ser analizado estrictamente bajo las condiciones de uso previsto, incluyendo la presencia de lubricantes. Los plásticos son generalmente mezclas de dos o más elementos, por lo que es difícil de predecir el efecto del refrigerante sobre el plástico. La masa y los cambios visuales frente al refrigerante pueden ser utilizados como referencia, pero los cambios en las propiedades internas del plástico deben ser examinadas. Los refrigerantes y lubricantes tuvieron poco efecto sobre la mayoría de los plásticos, aunque el acrilonitrilo-butadieno-estireno, el óxido de polifenileno y el policarbonato se vieron afectados lo suficiente como para ser considerados incompatibles.
 
 	Se evaluó la compatibilidad de los refrigerantes R-134a y R-1234yf con los plásticos típicos utilizados en los sistemas de aire acondicionado automotriz. Cinco plásticos (poliéster, nailon, epoxi, tereftalato de polietileno y poliamida) se pusieron en contacto en tubos sellados que contenían los refrigerantes y el lubricante PAG, y se mantuvieron a 100 °C durante dos semanas. Veinticuatro horas después de finalizar la prueba, se evaluaron los cambios de masa y apariencia de los plásticos, obteniéndose esencialmente las mismas calificaciones positivas de ambos refrigerantes con los plásticos.
 

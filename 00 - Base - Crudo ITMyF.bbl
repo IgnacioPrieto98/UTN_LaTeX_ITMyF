@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[ANSI, 2019]{ashrae2019SSrefrigerationsistems}
+ANSI, A.~. (2019).
+\newblock {\em ASHRAE 15 - Safety Standard for Refrigeration Sistems}.
+\newblock ASHRAE, 2019 edition.
+
 \bibitem[ASHRAE, 2017]{ashrae2017fundamentals}
 ASHRAE (2017).
 \newblock {\em Fundamentals}.
@@ -31,15 +36,15 @@ Mott, R.~L. (2015).
 \newblock {\em Mecánica de fluidos}.
 \newblock Pearson, 7° edition.
 
+\bibitem[{NATIONAL REFRIGERANT TM}, 2016]{national2016guiarefrig}
+{NATIONAL REFRIGERANT TM} (2016).
+\newblock {\em Refrigerants Reference Guide}.
+\newblock NATIONAL REFRIGERANT, 6° edition.
+
 \bibitem[Rajput, 2011]{Rajput2011termodinamica}
 Rajput, R.~K. (2011).
 \newblock {\em Ingeniería termodinámica}.
 \newblock Cengage Learning, 3 edition.
-
-\bibitem[REFRIGERANT, 2016]{national2016guiarefrig}
-REFRIGERANT, N. (2016).
-\newblock {\em Refrigerants Reference Guide}.
-\newblock NATIONAL REFRIGERANT, 6° edition.
 
 \bibitem[Whitten, 2016]{Whitten2016quimica}
 Whitten, W.~K. (2016).
