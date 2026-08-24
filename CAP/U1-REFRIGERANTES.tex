@@ -16,9 +16,9 @@
 	\section{Refrigerantes}
 	\Biblio{\cite[pág. 231 y 772 a 780]{Rajput2011termodinamica}}
 
-	Un \textbf{refrigerante} se define como cualquier sustancia que absorbe calor a través de su evaporación o condensación y lo pierde a través de su condensación solidificación en un sistema de refrigeración.
+	Un \textbf{refrigerante} se define como cualquier sustancia que absorbe calor a través de su evaporación o condensación y lo pierde a través de su condensación o solidificación en un sistema de refrigeración.
 
-	Los refrigerantes logran el intercambio de calor siempre a partir de un medio mecánico, de modo que se cumpla la segunda ley de la termodinámica, la cual define que \emph{el calor, por sí mismo, no puede fluir de un cuerpo más frío a uno más caliente.}
+	Los refrigerantes están vinculados a un medio mecánico y climatizan ambientes a partir de ellos, de modo que se cumpla la segunda ley de la termodinámica, la cual define que \emph{el calor, por sí mismo, no puede fluir de un cuerpo más frío a uno más caliente.}
 
 	Los refrigerantes pueden clasificarse según la influencia sobre el medio a refrigerar, según su composición o según el entorno a enfriar. Tomando esta última clasificación se definen como:
 
@@ -981,22 +981,83 @@
 		\end{tabular}
 	\end{table}
 
-		\section{Consideraciones de seguridad}
+	\section{Consideraciones de seguridad}
 	\Biblio{\cite[pág. 29.6 a 29.10]{ashrae2017fundamentals} \cite{ashrae2019SSrefrigerationsistems}}
 
 	Los refrigerantes, según su inflamabilidad y su toxicidad están clasificados por la ASHRAE 34 en seis grupos: A1, A2, A3, B1, B2 y B3. Dentro de esta clasificación destacan valores: A y B; y 1,2 y 3.
 
 	Los valores A y B hacen referencia a su toxicidad, donde el tipo A expresa que el refrigerante posee un límite de exposición no menor que $400ppm$, mientras que los refrigerantes del tipo B poseen un límite de exposición menor a $400ppm$.
 
-	Por otro lado, los valores del 1 al 3 definen que tan inflamable es el refrigerante. Cuando se habla de un refrigerante clase 1, se entiende que este no generar propagación de flama en el aire en condiciones de $60^\circ C$ y $101.3kPa$; los refrigerantes clase 2 exiben propagación de flama en esas condiciones, donde su límite de ignición es mayor que $0.10kg/m^3$ y el calor de combustión es menor que $19MJ/kg$; por último, los refrigerantes de clase 3 exiben propagación de flama en el aire a $60^\circ C$ y $101.3kPa$, donde el límite de ignición es menor o igual a $0.10kg/m^3$ o el calor de combustión es mayor que $19MJ/kg$.
+	Por otro lado, los valores del 1 al 3 definen que tan inflamable es el refrigerante. Cuando se habla de refrigerantes clase 1, se entiende que este no generar propagación de flama en el aire en condiciones de $60^\circ C$ y $101.3kPa$; los refrigerantes clase 2 exhiben propagación de flama en esas condiciones, donde su límite de ignición es mayor que $0.10kg/m^3$ y el calor de combustión es menor que $19MJ/kg$; por último, los refrigerantes de clase 3 exhiben propagación de flama en el aire a $60^\circ C$ y $101.3kPa$, donde el límite de ignición es menor o igual a $0.10kg/m^3$ o el calor de combustión es mayor que $19MJ/kg$.
 
 	Cuando los refrigerantes son mezclas, se debe tomar la clasificación de seguridad de aquel refrigerante que posea la peor de ellas. 
 
 	\section{Refrigerantes secundarios}
-	\Biblio{}
+	\Biblio{\cite[pág. 13.1 a 13.2]{ashrae2014refrigeration}}
+
+	Un refrigerante secundario es un líquido usado como fluidos de transferencia de calor que ganan o pierden energía térmica sin cambiar de estado. Para muy bajas temperaturas, el refrigerante debe tener un punto de congelación adecuado por debajo de la temperatura del medio u objeto a enfriar. Estos refrigerantes son comúnmente llamados salmueras. 
+
+	\subsection{Selección de un refrigerante secundario}
+
+	Para la selección de un refrigerante secundario se debe tener en cuenta la compatibilidad con los otros materiales en el sistema, a las presiones y temperaturas de trabajo. El refrigerante deberá también ser compatible con el medio ambiente y cumplir con las regulaciones de seguridad. Por último, sería ideal que el refrigerante sea económico y fácil de remplazar. 
+
+	Con respecto a los intervalos de temperatura entre el objeto a refrigerar, es deseable que el cuerpo y el refrigerante secundario tenga una diferencia mínima de $3^\circ C$, mientras que es ideal que ese intervalo sea siempre $8^\circ C$. Se debe considerar que, cuando el refrigerante se somete a las temperaturas más bajas, su viscosidad tiene que permitir que fluya e intercambie correctamente el calor.
+	
+	En ciertas ocasiones, para evitar la presión de vaporización en los sistemas, suele disponerse en los sistemas de refrigeración con refrigerantes secundarios una presurización con nitrógeno seco en un tanque de expansión o algún gas que no sea miscible con el refrigerante.
+
+	\subsection{Carga y caudal del refrigerante secundario}
+	
+	El refrigerante secundario se dispone usualmente en el retorno de la línea de vapor del enfriador. Por tal motivo, el caudal definido en la bomba está definido por la densidad de la temperatura de retorno. El flujo másico por una determinada carga térmica está basada en el rango de temperatura deseada y el coeficiente de intercambio de calor requerido a la temperatura media global.
+
+	Para determinar el intercambio de calor, la caída de presión, la densidad, el calor específico, la viscosidad y la conductividad térmica, se deberán tener en cuenta los parámetros promedios del refrigerante en el intercambiador de calor. Cuando el refrigerante secundario se enfría, la película más viscosa reduce la tasa de transferencia de calor y aumenta la caída de presión en comparación con lo esperado a la temperatura global. Cuando el refrigerante secundario se calienta, la película menos viscosa se aproxima a la tasa de transferencia de calor y la caída de presión esperadas a la temperatura global.
+
+	Cuanto mayor sea la turbulencia y la mezcla entre el fluido principal y la película, mejor será la transferencia de calor y mayor la caída de presión. Cuando la velocidad del refrigerante secundario en los tubos de un dispositivo de transferencia de calor produce un flujo laminar, la transferencia de calor puede mejorarse insertando cintas espirales o turbuladores de resorte que promueven la mezcla entre el fluido principal y la película. Esto generalmente aumenta la caída de presión. La superficie interna también puede ranurarse en espiral o mejorarse con otros dispositivos. Dado que la tecnología de transferencia de calor está en constante evolución, utilice el intercambiador de calor más rentable para lograr una transferencia de calor y una caída de presión óptimas. Recientemente, se han utilizado evaporadores de placas y marcos e intercambiadores de calor de carcasa y tubos para manejar salmueras de alta viscosidad. Al seleccionar el fluido y los intercambiadores de calor, deben considerarse los costos energéticos del bombeo del refrigerante secundario.
+
+	\subsection{Energía de bombeo}
+
+	El consumo de energía de bombeo está en función del refrigerante secundario seleccionado, la carga y el rango de temperatura en el cual el calor es intercambiado, la presión de la bomba, la eficiencia eléctrica y el factor de potencia. Las bombas centrífugas pequeñas, que operan en un rango de $3L/s$ a $240kPa$ a $9L/s$ a $210kPa$, suelen tener una eficiencia entre 45\% a 65\%, respectivamente. Las bombas más grandes, de $30L/s$ a $240kPa$ a $95L/s$ a $210kPa$, suelen tener eficiencias de 75\% a 85\%.
+
+	Por tales razones, las bombas deberán operar cerca del pico de rendimiento, para el caudal y la presión para las que están dimensionadas. La temperatura del refrigerante secundario aumenta ligeramente debido a la energía consumida en el eje de la bomba. Si se utilizan bombas con motores semi-herméticos, la ineficiencia del motor es añadida como calor al refrigerante secundario, y el consumo total del motor, en potencia, debe ser considerado al calcular cargas y temperaturas.
+
+	\subsection{Comparación de rendimento}
+
+	Al contemplar los refrigerantes secundarios para refrigeración, se debe considerar su rendimiento relacionando la carga de refrigeración en contraste del consumo del motor y las pérdidas térmicas. A partir de ello, es posible construir una tabla comparativa para algunos refrigerantes que relacione un coeficiente de intercambio.
+	
+	\begin{table}[H]
+		\centering
+		\caption{Comparación de rendimiento de los refrigerantes secundarios.}
+		\footnotesize
+		\begin{tabular}{M{0.175\linewidth} C{0.125\linewidth} C{0.125\linewidth} C{0.15\linewidth} C{0.125\linewidth} C{0.125\linewidth}}
+			\Tcen{Refrigerante} & Concentración (\%) & Punto de congelación (°C) & Caudal/Potencia ($L/s\, kW$) & Caída de presión ($\Delta P$) & Coeficiente de transferencia ($W/m^2 K$) \\
+			\hline
+			Propilenglicol      	& 39  & -20.6  & 0.0459 & 20.064 & 1164 \\
+			Etilenglicol      		& 38  & -21.6  & 0.0495 & 16.410 & 2305 \\
+			Metanol           		& 26  & -20.7  & 0.0468 & 14.134 & 2686 \\
+			Cloruro de sodio      	& 23  & -20.6  & 0.0459 & 15.858 & 3169 \\
+			Cloruro de calcio      	& 22  & -22.1  & 0.0500 & 16.685 & 3214 \\
+			Agua-amoniaco   	  	& 14  & -21.7  & 0.0445 & 16.823 & 3072 \\
+			Tricloroetileno     	& 100 & -86.1  & 0.1334 & 14.548 & 2453 \\
+			Limoneno           	  	& 100 & -96.7  & 0.1160 & 10.204 & 1823 \\
+			Cloruro de met.     	& 100 & -96.7  & 0.1146 & 12.824 & 3322 \\
+			R-11                   	& 100 & -111.1 & 0.1364 & 14.341 & 2430 \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Otras consideraciones}
+
+	La corrosión debe tenerse en cuenta al seleccionar el refrigerante, el inhibidor y los componentes del sistema. Debe considerarse el efecto de la toxicidad del refrigerante secundario y del inhibidor sobre la salud y la seguridad del personal de la planta o de los consumidores de alimentos y bebidas. Asimismo, deben evaluarse el punto de inflamación y los límites de explosividad de los vapores del refrigerante secundario.
+
+	Examine la estabilidad del refrigerante secundario ante la humedad, el aire y los contaminantes previstos en los límites de temperatura de los materiales utilizados en el sistema. Las temperaturas superficiales de los elementos más calientes determinan la estabilidad del refrigerante secundario.
+	
+	Si se requieren aditivos antiespumantes, se debe considerar su efecto sobre la estabilidad térmica y la toxicidad del refrigerante para cada aplicación.
 
 	\section{Conducción de fluidos refrigerantes}
 	\Biblio{\cite[pág. 29.10 a 29.11]{ashrae2017fundamentals}}
+
+	\subsection{Sistemas de tuberías metálicas}
+
+	Cada sistema de refrigeración requiere de un estudio de las condiciones de operación para determinar los materiales a utilizar. 
 
 	\subsection{Metales}
 
@@ -1024,6 +1085,8 @@
 	El efecto del refrigerante a un material plástico debe ser analizado estrictamente bajo las condiciones de uso previsto, incluyendo la presencia de lubricantes. Los plásticos son generalmente mezclas de dos o más elementos, por lo que es difícil de predecir el efecto del refrigerante sobre el plástico. La masa y los cambios visuales frente al refrigerante pueden ser utilizados como referencia, pero los cambios en las propiedades internas del plástico deben ser examinadas. Los refrigerantes y lubricantes tuvieron poco efecto sobre la mayoría de los plásticos, aunque el acrilonitrilo-butadieno-estireno, el óxido de polifenileno y el policarbonato se vieron afectados lo suficiente como para ser considerados incompatibles.
 
 	Se evaluó la compatibilidad de los refrigerantes R-134a y R-1234yf con los plásticos típicos utilizados en los sistemas de aire acondicionado automotriz. Cinco plásticos (poliéster, nailon, epoxi, tereftalato de polietileno y poliamida) se pusieron en contacto en tubos sellados que contenían los refrigerantes y el lubricante PAG, y se mantuvieron a 100 °C durante dos semanas. Veinticuatro horas después de finalizar la prueba, se evaluaron los cambios de masa y apariencia de los plásticos, obteniéndose esencialmente las mismas calificaciones positivas de ambos refrigerantes con los plásticos.
+
+
 
 \newpage
 \pagestyle{empty}
