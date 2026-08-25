@@ -70,39 +70,20 @@
 \contentsline {paragraph}{Subenfriamiento del líquido}{33}{subsection.1.8.3}%
 \contentsline {paragraph}{Temperatura de vaporización y de condensación}{33}{subsection.1.8.3}%
 \contentsline {section}{\numberline {1.9}Selección de refrigerantes}{33}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Refrigeración a media o baja temperatura}{34}{subsection.1.9.1}%
-\contentsline {subsection}{\numberline {1.9.2}Acondicionamiento de aire}{35}{subsection.1.9.2}%
-\contentsline {subsection}{\numberline {1.9.3}Refrigeración a muy baja temperatura}{35}{subsection.1.9.3}%
-\contentsline {section}{\numberline {1.10}Consideraciones de seguridad}{35}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{36}{section.1.11}%
-\contentsline {subsection}{\numberline {1.11.1}Selección de un refrigerante secundario}{36}{subsection.1.11.1}%
-\contentsline {subsection}{\numberline {1.11.2}Carga y caudal del refrigerante secundario}{36}{subsection.1.11.2}%
-\contentsline {subsection}{\numberline {1.11.3}Energía de bombeo}{37}{subsection.1.11.3}%
-\contentsline {subsection}{\numberline {1.11.4}Comparación de rendimento}{37}{subsection.1.11.4}%
-\contentsline {subsection}{\numberline {1.11.5}Otras consideraciones}{38}{subsection.1.11.5}%
-\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{38}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}Sistemas de tuberías metálicas}{38}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {1.12.2}Metales}{38}{subsection.1.12.2}%
-\contentsline {subsection}{\numberline {1.12.3}Elastómeros}{38}{subsection.1.12.3}%
-\contentsline {subsection}{\numberline {1.12.4}Plásticos}{39}{subsection.1.12.4}%
+\contentsline {subsection}{\numberline {1.9.1}Refrigeración a media o baja temperatura}{35}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Acondicionamiento de aire}{36}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.3}Refrigeración a muy baja temperatura}{36}{subsection.1.9.3}%
+\contentsline {section}{\numberline {1.10}Consideraciones de seguridad}{36}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{37}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}Selección de un refrigerante secundario}{37}{subsection.1.11.1}%
+\contentsline {subsection}{\numberline {1.11.2}Carga y caudal del refrigerante secundario}{37}{subsection.1.11.2}%
+\contentsline {subsection}{\numberline {1.11.3}Energía de bombeo}{38}{subsection.1.11.3}%
+\contentsline {subsection}{\numberline {1.11.4}Comparación de rendimento}{38}{subsection.1.11.4}%
+\contentsline {subsection}{\numberline {1.11.5}Otras consideraciones}{39}{subsection.1.11.5}%
+\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{39}{section.1.12}%
+\contentsline {subsection}{\numberline {1.12.1}Sistemas de tuberías metálicas}{39}{subsection.1.12.1}%
+\contentsline {subsection}{\numberline {1.12.2}Metales}{39}{subsection.1.12.2}%
+\contentsline {subsection}{\numberline {1.12.3}Elastómeros}{39}{subsection.1.12.3}%
+\contentsline {subsection}{\numberline {1.12.4}Plásticos}{40}{subsection.1.12.4}%
 \contentsline {part}{II\hspace {1em}Anexos}{41}{part.2}%
-\contentsline {chapter}{\numberline {A}Ciclos de refrigeración}{43}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Parámetros principales de ciclos}{44}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Presión}{44}{subsection.Alph1.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Energía interna}{44}{subsection.Alph1.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Entropía}{45}{subsection.Alph1.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Entalpía}{45}{subsection.Alph1.1.4}%
-\contentsline {section}{\numberline {A.2}1° Ley en flujos cerrados}{46}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}1° Ley de la termodinámica}{46}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Proceso isocórico (V = cte)}{46}{subsection.Alph1.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Proceso isobárico (P = cte)}{46}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Proceso isotérmico (T = cte)}{47}{subsection.Alph1.2.4}%
-\contentsline {subsection}{\numberline {A.2.5}Proceso adiabático (Q = Cte)}{47}{subsection.Alph1.2.5}%
-\contentsline {section}{\numberline {A.3}Gráficos termodinámicos fundamentales}{48}{section.Alph1.3}%
-\contentsline {subsection}{\numberline {A.3.1}Diagrama T-s}{48}{subsection.Alph1.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Diagrama p-v}{48}{subsection.Alph1.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Diagrama p-h}{49}{subsection.Alph1.3.3}%
-\contentsline {section}{\numberline {A.4}Ciclo Carnot inverso}{50}{section.Alph1.4}%
-\contentsline {section}{\numberline {A.5}Ciclo Rankine inverso}{50}{section.Alph1.5}%
-\contentsline {section}{\numberline {A.6}Ciclo Brayton inverso}{51}{section.Alph1.6}%
 \contentsfinish 
