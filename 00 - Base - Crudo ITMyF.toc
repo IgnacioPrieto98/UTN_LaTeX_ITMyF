@@ -44,46 +44,53 @@
 \contentsline {section}{\numberline {1.5}Refrigerantes y humedad}{22}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Comportamiento de los refrigerantes}{22}{subsection.1.5.1}%
 \contentsline {section}{\numberline {1.6}Impacto ambiental}{23}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Capa de ozono y temperatura terrestre}{23}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Otros parámetros de medición}{25}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Detección de fugas}{25}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Criterios de detección}{25}{subsection.1.7.1}%
-\contentsline {paragraph}{Detección electrónica}{26}{subsection.1.7.1}%
-\contentsline {paragraph}{Método de la burbuja}{26}{subsection.1.7.1}%
-\contentsline {paragraph}{Método de cambio de presión}{26}{subsection.1.7.1}%
-\contentsline {paragraph}{Método de tinta UV}{26}{subsection.1.7.1}%
-\contentsline {paragraph}{Fugas de amoniaco}{26}{subsection.1.7.1}%
-\contentsline {section}{\numberline {1.8}Refrigeración y los ciclos}{27}{section.1.8}%
-\contentsline {paragraph}{Compresión}{27}{section.1.8}%
-\contentsline {paragraph}{Condensación}{27}{section.1.8}%
-\contentsline {paragraph}{Expansión}{27}{section.1.8}%
-\contentsline {paragraph}{Evaporación}{27}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Coeficiente de desempeño de un ciclo de refrigeración (COP)}{27}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Ciclos principales}{28}{subsection.1.8.2}%
-\contentsline {paragraph}{Ciclo Carnot Inverso}{29}{figure.caption.14}%
-\contentsline {paragraph}{Ciclo Rankine inverso}{30}{equation.1.5}%
-\contentsline {paragraph}{Ciclo Brayton inverso}{31}{equation.1.6}%
-\contentsline {paragraph}{Ciclo de absorción}{32}{equation.1.7}%
-\contentsline {subsection}{\numberline {1.8.3}Factores principales de ciclos de refrigeración}{33}{subsection.1.8.3}%
-\contentsline {paragraph}{Presión del cambio de estado}{33}{subsection.1.8.3}%
-\contentsline {paragraph}{Sobrecalentamiento de vapor}{33}{subsection.1.8.3}%
-\contentsline {paragraph}{Subenfriamiento del líquido}{33}{subsection.1.8.3}%
-\contentsline {paragraph}{Temperatura de vaporización y de condensación}{33}{subsection.1.8.3}%
-\contentsline {section}{\numberline {1.9}Selección de refrigerantes}{33}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Refrigeración a media o baja temperatura}{35}{subsection.1.9.1}%
-\contentsline {subsection}{\numberline {1.9.2}Acondicionamiento de aire}{36}{subsection.1.9.2}%
-\contentsline {subsection}{\numberline {1.9.3}Refrigeración a muy baja temperatura}{36}{subsection.1.9.3}%
-\contentsline {section}{\numberline {1.10}Consideraciones de seguridad}{36}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{37}{section.1.11}%
-\contentsline {subsection}{\numberline {1.11.1}Selección de un refrigerante secundario}{37}{subsection.1.11.1}%
-\contentsline {subsection}{\numberline {1.11.2}Carga y caudal del refrigerante secundario}{37}{subsection.1.11.2}%
-\contentsline {subsection}{\numberline {1.11.3}Energía de bombeo}{38}{subsection.1.11.3}%
-\contentsline {subsection}{\numberline {1.11.4}Comparación de rendimento}{38}{subsection.1.11.4}%
-\contentsline {subsection}{\numberline {1.11.5}Otras consideraciones}{39}{subsection.1.11.5}%
-\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{39}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}Sistemas de tuberías metálicas}{39}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {1.12.2}Metales}{39}{subsection.1.12.2}%
-\contentsline {subsection}{\numberline {1.12.3}Elastómeros}{39}{subsection.1.12.3}%
-\contentsline {subsection}{\numberline {1.12.4}Plásticos}{40}{subsection.1.12.4}%
-\contentsline {part}{II\hspace {1em}Anexos}{41}{part.2}%
+\contentsline {subsection}{\numberline {1.6.1}Capa de Ozono}{23}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Destrucción del ozono estratosférico}{24}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Potencial de agotamiento de ozono (ODP)}{25}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Convenio de Viena y protocolo de Montreal}{25}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Capa de ozono y temperatura terrestre}{27}{subsection.1.6.5}%
+\contentsline {subsection}{\numberline {1.6.6}Otros parámetros de medición}{28}{subsection.1.6.6}%
+\contentsline {section}{\numberline {1.7}Detección de fugas}{29}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Criterios de detección}{29}{subsection.1.7.1}%
+\contentsline {paragraph}{Detección electrónica}{29}{subsection.1.7.1}%
+\contentsline {paragraph}{Método de la burbuja}{30}{subsection.1.7.1}%
+\contentsline {paragraph}{Método de cambio de presión}{30}{subsection.1.7.1}%
+\contentsline {paragraph}{Método de tinta UV}{30}{subsection.1.7.1}%
+\contentsline {paragraph}{Fugas de amoniaco}{30}{subsection.1.7.1}%
+\contentsline {section}{\numberline {1.8}Refrigeración y los ciclos}{31}{section.1.8}%
+\contentsline {paragraph}{Compresión}{31}{section.1.8}%
+\contentsline {paragraph}{Condensación}{31}{section.1.8}%
+\contentsline {paragraph}{Expansión}{31}{section.1.8}%
+\contentsline {paragraph}{Evaporación}{31}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Coeficiente de desempeño de un ciclo de refrigeración (COP)}{31}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Ciclos principales}{32}{subsection.1.8.2}%
+\contentsline {paragraph}{Ciclo Carnot Inverso}{33}{figure.caption.16}%
+\contentsline {paragraph}{Ciclo Rankine inverso}{34}{equation.1.5}%
+\contentsline {paragraph}{Ciclo Brayton inverso}{35}{equation.1.6}%
+\contentsline {paragraph}{Ciclo de absorción}{36}{equation.1.7}%
+\contentsline {subsection}{\numberline {1.8.3}Factores principales de ciclos de refrigeración}{37}{subsection.1.8.3}%
+\contentsline {paragraph}{Presión del cambio de estado}{37}{subsection.1.8.3}%
+\contentsline {paragraph}{Sobrecalentamiento de vapor}{37}{subsection.1.8.3}%
+\contentsline {paragraph}{Subenfriamiento del líquido}{37}{subsection.1.8.3}%
+\contentsline {paragraph}{Temperatura de vaporización y de condensación}{37}{subsection.1.8.3}%
+\contentsline {section}{\numberline {1.9}Consideraciones de seguridad}{37}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Selección de refrigerantes}{38}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Refrigerantes secundarios}{39}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}Algunos refrigerantes y sus propiedades}{39}{subsection.1.11.1}%
+\contentsline {paragraph}{Refrigerantes basados en sales (salmueras)}{39}{subsection.1.11.1}%
+\contentsline {paragraph}{Glicoles inhibidos}{40}{subsection.1.11.1}%
+\contentsline {paragraph}{Halocarbonos}{41}{subsection.1.11.1}%
+\contentsline {paragraph}{Fluidos que no son halocarbonos ni mezclas acuosas}{41}{subsection.1.11.1}%
+\contentsline {subsection}{\numberline {1.11.2}Selección de un refrigerante secundario}{41}{subsection.1.11.2}%
+\contentsline {subsection}{\numberline {1.11.3}Energía de bombeo}{41}{subsection.1.11.3}%
+\contentsline {subsection}{\numberline {1.11.4}Comparación de rendimento}{42}{subsection.1.11.4}%
+\contentsline {subsection}{\numberline {1.11.5}Carga y caudal del refrigerante secundario}{42}{subsection.1.11.5}%
+\contentsline {section}{\numberline {1.12}Conducción de fluidos refrigerantes}{43}{section.1.12}%
+\contentsline {subsection}{\numberline {1.12.1}Materiales de las tuberías}{43}{subsection.1.12.1}%
+\contentsline {subsection}{\numberline {1.12.2}Uniones de tubos}{43}{subsection.1.12.2}%
+\contentsline {subsection}{\numberline {1.12.3}Localización}{44}{subsection.1.12.3}%
+\contentsline {subsection}{\numberline {1.12.4}Vibración y ruido}{45}{subsection.1.12.4}%
+\contentsline {subsection}{\numberline {1.12.5}Tamaño de la tubería de succión}{46}{subsection.1.12.5}%
+\contentsline {subsection}{\numberline {1.12.6}}{46}{subsection.1.12.6}%
+\contentsline {part}{II\hspace {1em}Anexos}{47}{part.2}%
 \contentsfinish 
