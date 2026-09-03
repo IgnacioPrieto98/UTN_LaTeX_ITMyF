@@ -1,15 +1,15 @@
 # Fdb version 4
-["xdvipdfmx"] 1783952254.70671 "00-Portada.xdv" "00-Portada.pdf" "00-Portada" 1783952256.21645 0
-  "00-Portada.xdv" 1783952254 13468 0d22819a1cfc62138e4be685266c7008 "xelatex"
+["xdvipdfmx"] 1788439333.42228 "00-Portada.xdv" "00-Portada.pdf" "00-Portada" 1788439334.80442 0
+  "00-Portada.xdv" 1788439333 13484 6e922be3000cada4cb08f70ea223c53e "xelatex"
   (generated)
   "00-Portada.pdf"
   (rewritten before read)
-["xelatex"] 1783952253.03539 "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/Portada/00-Portada.tex" "00-Portada.xdv" "00-Portada" 1783952256.17813 0
-  "00-Portada.aux" 1783952254 551 8e2ee9cd6f8c22e35f74b7ac7e76c035 "xelatex"
-  "00-Portada.mtc" 1783952253 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "00-Portada.mtc0" 1783952253 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "00-Portada.out" 1783952254 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "00-Portada.tex" 1783952241 2061 fcad72791352aa898e8693a18fb499ad ""
+["xelatex"] 1788439331.68157 "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/Portada/00-Portada.tex" "00-Portada.xdv" "00-Portada" 1788439334.79053 0
+  "00-Portada.aux" 1788439333 551 8e2ee9cd6f8c22e35f74b7ac7e76c035 "xelatex"
+  "00-Portada.mtc" 1788439332 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "00-Portada.mtc0" 1788439332 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "00-Portada.out" 1788439333 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "00-Portada.tex" 1788439285 2087 6a26c2dfadbd658b0c2f490590050b61 ""
   "C:/Users/Igna_/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1740959912 25448750 a373862406b8380123e4a3cd92e3476b ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -436,9 +436,9 @@
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Igna_/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "STY-UTN-LTX-CATEDRAS.sty" 1695842921 11187 bae684ab64c971c9f69755ff0baa99af ""
-  "UTN-LTX-LOGOS.png" 1691782123 571491 2816a677ad6d38e18843b6cfc08a6e48 ""
-  "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/Portada/00-Portada.tex" 1783952241 2061 fcad72791352aa898e8693a18fb499ad ""
+  "STY-UTN-LTX-CATEDRAS.sty" 1784642328 11187 bae684ab64c971c9f69755ff0baa99af ""
+  "UTN-LTX-LOGOS.png" 1784642328 571491 2816a677ad6d38e18843b6cfc08a6e48 ""
+  "d:/Documentos/00 - Archivos LaTeX/Instalaciones TMF - Latex/Portada/00-Portada.tex" 1788439285 2087 6a26c2dfadbd658b0c2f490590050b61 ""
   (generated)
   "00-Portada.aux"
   "00-Portada.log"
