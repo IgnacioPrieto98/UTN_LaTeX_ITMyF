@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  3 SEP 2026 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.20)  3 SEP 2026 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1237,7 +1237,7 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 28.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 28.
 \c@mv@tabular=\count376
 \c@mv@boldtabular=\count377
-<Portada/00-Portada.pdf, id=230, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=234, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
 Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
@@ -1246,7 +1246,7 @@ File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf>
 Package pdftex.def Info: Portada/00-Portada.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<Portada/00-Portada.pdf, id=233, page=1, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=237, page=1, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 1>
 Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
@@ -1273,7 +1273,7 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page1 used on input line 31.
 
 
  <./Portada/00-Portada.pdf>]
-<Portada/00-Portada.pdf, id=256, page=2, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=260, page=2, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 2>
 Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
@@ -1291,7 +1291,7 @@ Package pdftex.def Info: Portada/00-Portada.pdf , page2 used on input line 31.
 [2
 
  <./Portada/00-Portada.pdf>]
-<Portada/00-Portada.pdf, id=261, page=3, 597.51233pt x 845.0471pt>
+<Portada/00-Portada.pdf, id=265, page=3, 597.51233pt x 845.0471pt>
 File: Portada/00-Portada.pdf Graphic file (type pdf)
 <use Portada/00-Portada.pdf, page 3>
 Package pdftex.def Info: Portada/00-Portada.pdf , page3 used on input line 31.
@@ -1372,7 +1372,7 @@ LaTeX Font Info:    Font shape `T1/Montserrat-TLF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 15.
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 16.
-<Figuras/U1/U1-Generaciones.png, id=418, 521.01628pt x 90.96776pt>
+<Figuras/U1/U1-Generaciones.png, id=424, 521.01628pt x 90.96776pt>
 File: Figuras/U1/U1-Generaciones.png Graphic file (type png)
 <use Figuras/U1/U1-Generaciones.png>
 Package pdftex.def Info: Figuras/U1/U1-Generaciones.png  used on input line 26.
@@ -1421,12 +1421,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
 [12]
-<Figuras/U1/U1-CompuestosHidrocarburos.png, id=450, 526.26846pt x 97.69055pt>
+<Figuras/U1/U1-CompuestosHidrocarburos.png, id=456, 526.26846pt x 97.69055pt>
 File: Figuras/U1/U1-CompuestosHidrocarburos.png Graphic file (type png)
 <use Figuras/U1/U1-CompuestosHidrocarburos.png>
 Package pdftex.def Info: Figuras/U1/U1-CompuestosHidrocarburos.png  used on input line 78.
 (pdftex.def)             Requested size: 483.69687pt x 89.78992pt.
-<Figuras/U1/U1-Metano.png, id=451, 68.48843pt x 95.58968pt>
+<Figuras/U1/U1-Metano.png, id=457, 68.48843pt x 95.58968pt>
 File: Figuras/U1/U1-Metano.png Graphic file (type png)
 <use Figuras/U1/U1-Metano.png>
 Package pdftex.def Info: Figuras/U1/U1-Metano.png  used on input line 92.
@@ -1436,17 +1436,17 @@ Package pdftex.def Info: Figuras/U1/U1-Metano.png  used on input line 92.
 LaTeX Info: Redefining \. on input line 97.
 LaTeX Info: Redefining \% on input line 97.
 [13 <./Figuras/U1/U1-CompuestosHidrocarburos.png> <./Figuras/U1/U1-Metano.png>]
-<Figuras/U1/U1-DesarrolloMetano.png, id=467, 525.00793pt x 178.57413pt>
+<Figuras/U1/U1-DesarrolloMetano.png, id=473, 525.00793pt x 178.57413pt>
 File: Figuras/U1/U1-DesarrolloMetano.png Graphic file (type png)
 <use Figuras/U1/U1-DesarrolloMetano.png>
 Package pdftex.def Info: Figuras/U1/U1-DesarrolloMetano.png  used on input line 100.
 (pdftex.def)             Requested size: 483.69687pt x 164.52452pt.
-<Figuras/U1/U1-Etano.png, id=468, 81.934pt x 85.71558pt>
+<Figuras/U1/U1-Etano.png, id=474, 81.934pt x 85.71558pt>
 File: Figuras/U1/U1-Etano.png Graphic file (type png)
 <use Figuras/U1/U1-Etano.png>
 Package pdftex.def Info: Figuras/U1/U1-Etano.png  used on input line 113.
 (pdftex.def)             Requested size: 106.4139pt x 111.33081pt.
-<Figuras/U1/U1-DesarrolloEtano.png, id=471, 469.12474pt x 203.57451pt>
+<Figuras/U1/U1-DesarrolloEtano.png, id=477, 469.12474pt x 203.57451pt>
 File: Figuras/U1/U1-DesarrolloEtano.png Graphic file (type png)
 <use Figuras/U1/U1-DesarrolloEtano.png>
 Package pdftex.def Info: Figuras/U1/U1-DesarrolloEtano.png  used on input line 121.
@@ -1456,7 +1456,7 @@ Package pdftex.def Info: Figuras/U1/U1-DesarrolloEtano.png  used on input line 1
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
 [14 <./Figuras/U1/U1-DesarrolloMetano.png> <./Figuras/U1/U1-Etano.png>]
-<Figuras/U1/U1-CompuestosInorganicos.png, id=481, 511.77245pt x 95.58968pt>
+<Figuras/U1/U1-CompuestosInorganicos.png, id=487, 511.77245pt x 95.58968pt>
 File: Figuras/U1/U1-CompuestosInorganicos.png Graphic file (type png)
 <use Figuras/U1/U1-CompuestosInorganicos.png>
 Package pdftex.def Info: Figuras/U1/U1-CompuestosInorganicos.png  used on input line 139.
@@ -1479,12 +1479,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
 [16{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-<Figuras/U1/U1-OrgInsat.png, id=501, 257.56693pt x 107.98483pt>
+<Figuras/U1/U1-OrgInsat.png, id=507, 257.56693pt x 107.98483pt>
 File: Figuras/U1/U1-OrgInsat.png Graphic file (type png)
 <use Figuras/U1/U1-OrgInsat.png>
 Package pdftex.def Info: Figuras/U1/U1-OrgInsat.png  used on input line 201.
 (pdftex.def)             Requested size: 290.22107pt x 121.6754pt.
-<Figuras/U1/U1-PropenoA1234.png, id=503, 404.62796pt x 107.98483pt>
+<Figuras/U1/U1-PropenoA1234.png, id=509, 404.62796pt x 107.98483pt>
 File: Figuras/U1/U1-PropenoA1234.png Graphic file (type png)
 <use Figuras/U1/U1-PropenoA1234.png>
 Package pdftex.def Info: Figuras/U1/U1-PropenoA1234.png  used on input line 209.
@@ -1515,111 +1515,97 @@ LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
 LaTeX Info: Redefining \. on input line 335.
 LaTeX Info: Redefining \% on input line 335.
 [21]
-LaTeX Font Info:    Trying to load font information for TS1+Montserrat-TLF on input line 446.
+<Figuras/U1/U1-Salmueras.png, id=551, 285.82785pt x 149.5989pt>
+File: Figuras/U1/U1-Salmueras.png Graphic file (type png)
+<use Figuras/U1/U1-Salmueras.png>
+Package pdftex.def Info: Figuras/U1/U1-Salmueras.png  used on input line 446.
+(pdftex.def)             Requested size: 193.47578pt x 101.26707pt.
+
+
+LaTeX Info: Redefining \. on input line 451.
+LaTeX Info: Redefining \% on input line 451.
+[22 <./Figuras/U1/U1-Salmueras.png>]
+LaTeX Font Info:    Trying to load font information for TS1+Montserrat-TLF on input line 452.
  (C:\Users\Igna_\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\ts1montserrat-tlf.fd
 File: TS1Montserrat-TLF.fd 2019/11/07 (autoinst) Font definitions for TS1/Montserrat-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 446.
+(Font)              scaled to size 10.95pt on input line 452.
 
 
-LaTeX Info: Redefining \. on input line 449.
-LaTeX Info: Redefining \% on input line 449.
-[22{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_ro7vi7.enc}]
-
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
-[23]
+LaTeX Info: Redefining \. on input line 465.
+LaTeX Info: Redefining \% on input line 465.
+[23{C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/montserrat/zmo_ro7vi7.enc}]
 
 LaTeX Info: Redefining \. on input line 493.
 LaTeX Info: Redefining \% on input line 493.
 [24]
 
-LaTeX Info: Redefining \. on input line 519.
-LaTeX Info: Redefining \% on input line 519.
+LaTeX Info: Redefining \. on input line 521.
+LaTeX Info: Redefining \% on input line 521.
 [25]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.538 	\begin{equation}
+l.542 	\begin{equation}
                        \nonumber
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.538 	\begin{equation}
+l.542 	\begin{equation}
                        \nonumber
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.538 	\begin{equation}
+l.542 	\begin{equation}
                        \nonumber
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.538 	\begin{equation}
+l.542 	\begin{equation}
                        \nonumber
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 550.
+(Font)              scaled to size 8.27998pt on input line 554.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 550.
+(Font)              scaled to size 8.27998pt on input line 554.
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2005| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2007| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2010| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2015| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2020| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2025| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--551
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--555
  []|\T1/Montserrat-TLF/regular/n/9 2030| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 551--552
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 555--556
  []|\T1/Montserrat-TLF/regular/n/9 2040| 
- []
-
-
-Overfull \hbox (3.05463pt too wide) in paragraph at lines 553--554
- []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
- []
-
-
-Overfull \hbox (3.05463pt too wide) in paragraph at lines 554--555
- []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
- []
-
-
-Overfull \hbox (3.05463pt too wide) in paragraph at lines 555--556
- []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
- []
-
-
-Overfull \hbox (3.05463pt too wide) in paragraph at lines 556--557
- []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
  []
 
 
@@ -1628,506 +1614,600 @@ Overfull \hbox (3.05463pt too wide) in paragraph at lines 557--558
  []
 
 
-Overfull \hbox (4.96262pt too wide) in paragraph at lines 558--558
- []|\T1/Montserrat-TLF/regular/n/9 67.5$ $%| 
- []
-
-
-Overfull \hbox (4.96262pt too wide) in paragraph at lines 558--558
- []|\T1/Montserrat-TLF/regular/n/9 97.5$ $%| 
- []
-
-
 Overfull \hbox (3.05463pt too wide) in paragraph at lines 558--559
  []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
  []
 
 
+Overfull \hbox (3.05463pt too wide) in paragraph at lines 559--560
+ []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
+ []
 
-LaTeX Info: Redefining \. on input line 562.
-LaTeX Info: Redefining \% on input line 562.
+
+Overfull \hbox (3.05463pt too wide) in paragraph at lines 560--561
+ []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
+ []
+
+
+Overfull \hbox (3.05463pt too wide) in paragraph at lines 561--562
+ []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
+ []
+
+
+Overfull \hbox (4.96262pt too wide) in paragraph at lines 562--562
+ []|\T1/Montserrat-TLF/regular/n/9 67.5$ $%| 
+ []
+
+
+Overfull \hbox (4.96262pt too wide) in paragraph at lines 562--562
+ []|\T1/Montserrat-TLF/regular/n/9 97.5$ $%| 
+ []
+
+
+Overfull \hbox (3.05463pt too wide) in paragraph at lines 562--563
+ []|\T1/Montserrat-TLF/regular/n/9 100$ $%| 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 565.
+LaTeX Info: Redefining \% on input line 565.
 [26]
 
-LaTeX Info: Redefining \. on input line 583.
-LaTeX Info: Redefining \% on input line 583.
+LaTeX Info: Redefining \. on input line 586.
+LaTeX Info: Redefining \% on input line 586.
 [27]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.595 	\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.595 	\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.595 	\begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.595 	\begin{equation}
+                       
 
-LaTeX Info: Redefining \. on input line 639.
-LaTeX Info: Redefining \% on input line 639.
+LaTeX Info: Redefining \. on input line 618.
+LaTeX Info: Redefining \% on input line 618.
 [28]
 
-LaTeX Info: Redefining \. on input line 643.
-LaTeX Info: Redefining \% on input line 643.
+LaTeX Info: Redefining \. on input line 646.
+LaTeX Info: Redefining \% on input line 646.
 [29]
-<Figuras/U1/seguridad.png, id=595, 709.90219pt x 479.54156pt>
+<Figuras/U1/seguridad.png, id=605, 709.90219pt x 479.54156pt>
 File: Figuras/U1/seguridad.png Graphic file (type png)
 <use Figuras/U1/seguridad.png>
-Package pdftex.def Info: Figuras/U1/seguridad.png  used on input line 658.
-(pdftex.def)             Requested size: 193.47578pt x 130.6926pt.
+Package pdftex.def Info: Figuras/U1/seguridad.png  used on input line 649.
+(pdftex.def)             Requested size: 338.58632pt x 228.7212pt.
 
 
-LaTeX Info: Redefining \. on input line 670.
-LaTeX Info: Redefining \% on input line 670.
+LaTeX Info: Redefining \. on input line 669.
+LaTeX Info: Redefining \% on input line 669.
 [30 <./Figuras/U1/seguridad.png>]
 
-LaTeX Info: Redefining \. on input line 699.
-LaTeX Info: Redefining \% on input line 699.
+LaTeX Info: Redefining \. on input line 697.
+LaTeX Info: Redefining \% on input line 697.
 [31]
 
-LaTeX Info: Redefining \. on input line 728.
-LaTeX Info: Redefining \% on input line 728.
+LaTeX Info: Redefining \. on input line 720.
+LaTeX Info: Redefining \% on input line 720.
 [32]
 LaTeX Font Info:    Font shape `T1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 7.6pt on input line 756.
+(Font)              scaled to size 7.6pt on input line 732.
 
 
-LaTeX Info: Redefining \. on input line 758.
-LaTeX Info: Redefining \% on input line 758.
-[33]
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.758 	\begin{equation}
-                       \label{E1-COP}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.758 	\begin{equation}
-                       \label{E1-COP}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.758 	\begin{equation}
-                       \label{E1-COP}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.758 	\begin{equation}
-                       \label{E1-COP}
-<Figuras/U1/Diagramas.png, id=625, 604.8999pt x 166.04033pt>
+LaTeX Info: Redefining \. on input line 768.
+LaTeX Info: Redefining \% on input line 768.
+[33
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.768 		\item C
+               iclo Rankine inverso.
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.768 		\item C
+               iclo Rankine inverso.]
+<Figuras/U1/Diagramas.png, id=637, 604.8999pt x 166.04033pt>
 File: Figuras/U1/Diagramas.png Graphic file (type png)
 <use Figuras/U1/Diagramas.png>
-Package pdftex.def Info: Figuras/U1/Diagramas.png  used on input line 802.
+Package pdftex.def Info: Figuras/U1/Diagramas.png  used on input line 778.
 (pdftex.def)             Requested size: 483.69687pt x 132.77415pt.
-
-
-LaTeX Info: Redefining \. on input line 809.
-LaTeX Info: Redefining \% on input line 809.
-[34
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.809 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.809 
-       <./Figuras/U1/Diagramas.png>]
-<Figuras/U1/Carnot.png, id=636, 604.8999pt x 164.0529pt>
+<Figuras/U1/Carnot.png, id=638, 604.8999pt x 164.0529pt>
 File: Figuras/U1/Carnot.png Graphic file (type png)
 <use Figuras/U1/Carnot.png>
-Package pdftex.def Info: Figuras/U1/Carnot.png  used on input line 812.
+Package pdftex.def Info: Figuras/U1/Carnot.png  used on input line 788.
 (pdftex.def)             Requested size: 483.69687pt x 131.1849pt.
 
 
-LaTeX Info: Redefining \. on input line 855.
-LaTeX Info: Redefining \% on input line 855.
-[35
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.855 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.855 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.855 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.855 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.855 
-       <./Figuras/U1/Carnot.png>]
+LaTeX Info: Redefining \. on input line 801.
+LaTeX Info: Redefining \% on input line 801.
+[34 <./Figuras/U1/Diagramas.png> <./Figuras/U1/Carnot.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.805 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.805 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.805 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.805 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.811 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.811 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.811 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.811 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 	\begin{equation}
+                       \nonumber
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.821 	\begin{equation}
+                       \label{E1-COP para un ciclo carnot inverso}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.821 	\begin{equation}
+                       \label{E1-COP para un ciclo carnot inverso}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.821 	\begin{equation}
+                       \label{E1-COP para un ciclo carnot inverso}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.821 	\begin{equation}
+                       \label{E1-COP para un ciclo carnot inverso}
 <Figuras/U1/Rankine.png, id=653, 604.8999pt x 164.0529pt>
 File: Figuras/U1/Rankine.png Graphic file (type png)
 <use Figuras/U1/Rankine.png>
-Package pdftex.def Info: Figuras/U1/Rankine.png  used on input line 858.
+Package pdftex.def Info: Figuras/U1/Rankine.png  used on input line 834.
 (pdftex.def)             Requested size: 483.69687pt x 131.1849pt.
 
 
-LaTeX Info: Redefining \. on input line 911.
-LaTeX Info: Redefining \% on input line 911.
-[36
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-       
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.911 	
-        <./Figuras/U1/Rankine.png>]
+LaTeX Info: Redefining \. on input line 844.
+LaTeX Info: Redefining \% on input line 844.
+[35 <./Figuras/U1/Rankine.png>]
 
-LaTeX Info: Redefining \. on input line 971.
-LaTeX Info: Redefining \% on input line 971.
-[37
+LaTeX Info: Redefining \. on input line 912.
+LaTeX Info: Redefining \% on input line 912.
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
+l.912 
       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
+l.912 
       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
+l.912 
       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
+l.912 
       
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
+l.912 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.912 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.912 
       ]
 
-LaTeX Info: Redefining \. on input line 1014.
-LaTeX Info: Redefining \% on input line 1014.
-[38
+LaTeX Info: Redefining \. on input line 964.
+LaTeX Info: Redefining \% on input line 964.
+[37
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1014 	\end{itemize}
+l.964 	\end{equation}
                      
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1014 	\end{itemize}
+l.964 	\end{equation}
                      
 pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1014 	\end{itemize}
+l.964 	\end{equation}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.964 	\end{equation}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.964 	\end{equation}
                      ]
 
-LaTeX Info: Redefining \. on input line 1040.
-LaTeX Info: Redefining \% on input line 1040.
+LaTeX Info: Redefining \. on input line 1013.
+LaTeX Info: Redefining \% on input line 1013.
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1013 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1013 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1013 
+       ]
+
+LaTeX Info: Redefining \. on input line 1016.
+LaTeX Info: Redefining \% on input line 1016.
 [39]
 
-LaTeX Info: Redefining \. on input line 1073.
-LaTeX Info: Redefining \% on input line 1073.
+LaTeX Info: Redefining \. on input line 1049.
+LaTeX Info: Redefining \% on input line 1049.
 [40]
 
-LaTeX Info: Redefining \. on input line 1092.
-LaTeX Info: Redefining \% on input line 1092.
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
 [41]
 
-LaTeX Info: Redefining \. on input line 1104.
-LaTeX Info: Redefining \% on input line 1104.
+LaTeX Info: Redefining \. on input line 1080.
+LaTeX Info: Redefining \% on input line 1080.
 [42]
 
-LaTeX Info: Redefining \. on input line 1126.
-LaTeX Info: Redefining \% on input line 1126.
+LaTeX Info: Redefining \. on input line 1102.
+LaTeX Info: Redefining \% on input line 1102.
 [43]
 
-LaTeX Info: Redefining \. on input line 1149.
-LaTeX Info: Redefining \% on input line 1149.
+LaTeX Info: Redefining \. on input line 1125.
+LaTeX Info: Redefining \% on input line 1125.
 [44]
-Overfull \hbox (2.91368pt too wide) in paragraph at lines 1150--1151
+Overfull \hbox (2.91368pt too wide) in paragraph at lines 1126--1127
 []\T1/Montserrat-TLF/regular/n/10.95 En cam-bio, ha-cien-do én-fa-sis en la com-po-si-ción, los di-fe-ren-tes re-fri-ge-ran-tes tie-nen gran-
  []
 
 LaTeX Font Info:    Font shape `TS1/Montserrat-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 1200.
+(Font)              scaled to size 9.0pt on input line 1176.
 
-Overfull \hbox (2.84299pt too wide) in paragraph at lines 1200--1200
+Overfull \hbox (2.84299pt too wide) in paragraph at lines 1176--1176
  []|\T1/Montserrat-TLF/regular/n/9 Pg| 
  []
 
 
-Overfull \hbox (5.37198pt too wide) in paragraph at lines 1200--1200
+Overfull \hbox (5.37198pt too wide) in paragraph at lines 1176--1176
  []|\T1/Montserrat-TLF/regular/n/9 AM| 
  []
 
 
-Overfull \hbox (2.87898pt too wide) in paragraph at lines 1200--1200
+Overfull \hbox (2.87898pt too wide) in paragraph at lines 1176--1176
  []|\T1/Montserrat-TLF/regular/n/9 Ab| 
  []
 
 
-Overfull \hbox (2.10236pt too wide) in paragraph at lines 1200--1200
+Overfull \hbox (2.10236pt too wide) in paragraph at lines 1176--1176
  []|\T1/Montserrat-TLF/regular/n/9 ODP| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1202--1202
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1178--1178
  []|\T1/Montserrat-TLF/regular/n/9 1430| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1203--1203
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1179--1179
  []|\T1/Montserrat-TLF/regular/n/9 0.04| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1203--1203
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1179--1179
  []|\T1/Montserrat-TLF/regular/n/9 1182| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1204--1204
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1180--1180
  []|\T1/Montserrat-TLF/regular/n/9 0.04| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1204--1204
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1180--1180
  []|\T1/Montserrat-TLF/regular/n/9 1288| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1205--1205
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1181--1181
  []|\T1/Montserrat-TLF/regular/n/9 0.02| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1205--1205
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1181--1181
  []|\T1/Montserrat-TLF/regular/n/9 2788| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1206--1206
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1182--1182
  []|\T1/Montserrat-TLF/regular/n/9 0.03| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1206--1206
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1182--1182
  []|\T1/Montserrat-TLF/regular/n/9 2416| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1183--1183
  []|\T1/Montserrat-TLF/regular/n/9 3920| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1208--1208
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1184--1184
  []|\T1/Montserrat-TLF/regular/n/9 2110| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1209--1209
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1185--1185
  []|\T1/Montserrat-TLF/regular/n/9 1770| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1186--1186
  []|\T1/Montserrat-TLF/regular/n/9 0.02| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1186--1186
  []|\T1/Montserrat-TLF/regular/n/9 3152| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1211--1211
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1187--1187
  []|\T1/Montserrat-TLF/regular/n/9 0.05| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1211--1211
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1187--1187
  []|\T1/Montserrat-TLF/regular/n/9 1585| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1212--1212
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1188--1188
  []|\T1/Montserrat-TLF/regular/n/9 1820| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1213--1213
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1189--1189
  []|\T1/Montserrat-TLF/regular/n/9 2525| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1214--1214
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1190--1190
  []|\T1/Montserrat-TLF/regular/n/9 3085| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1215--1215
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1191--1191
  []|\T1/Montserrat-TLF/regular/n/9 2730| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1216--1216
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1192--1192
  []|\T1/Montserrat-TLF/regular/n/9 3985| 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1220.
-LaTeX Info: Redefining \% on input line 1220.
+LaTeX Info: Redefining \. on input line 1196.
+LaTeX Info: Redefining \% on input line 1196.
 [45]
-Overfull \hbox (2.84299pt too wide) in paragraph at lines 1228--1228
+Overfull \hbox (2.84299pt too wide) in paragraph at lines 1204--1204
  []|\T1/Montserrat-TLF/regular/n/9 Pg| 
  []
 
 
-Overfull \hbox (5.37198pt too wide) in paragraph at lines 1228--1228
+Overfull \hbox (5.37198pt too wide) in paragraph at lines 1204--1204
  []|\T1/Montserrat-TLF/regular/n/9 AM| 
  []
 
 
-Overfull \hbox (2.87898pt too wide) in paragraph at lines 1228--1228
+Overfull \hbox (2.87898pt too wide) in paragraph at lines 1204--1204
  []|\T1/Montserrat-TLF/regular/n/9 Ab| 
  []
 
 
-Overfull \hbox (2.10236pt too wide) in paragraph at lines 1228--1228
+Overfull \hbox (2.10236pt too wide) in paragraph at lines 1204--1204
  []|\T1/Montserrat-TLF/regular/n/9 ODP| 
  []
 
 
-Overfull \hbox (2.03064pt too wide) in paragraph at lines 1230--1230
+Overfull \hbox (2.03064pt too wide) in paragraph at lines 1206--1206
  []|\T1/Montserrat-TLF/regular/n/9 14.8k| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1231--1231
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1207--1207
  []|\T1/Montserrat-TLF/regular/n/9 0.03| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1231--1231
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1207--1207
  []|\T1/Montserrat-TLF/regular/n/9 4460| 
  []
 
 
-Overfull \hbox (2.03064pt too wide) in paragraph at lines 1232--1232
+Overfull \hbox (2.03064pt too wide) in paragraph at lines 1208--1208
  []|\T1/Montserrat-TLF/regular/n/9 13.4k| 
  []
 
 
-Overfull \hbox (2.84299pt too wide) in paragraph at lines 1244--1244
+Overfull \hbox (2.84299pt too wide) in paragraph at lines 1220--1220
  []|\T1/Montserrat-TLF/regular/n/9 Pg| 
  []
 
 
-Overfull \hbox (5.37198pt too wide) in paragraph at lines 1244--1244
+Overfull \hbox (5.37198pt too wide) in paragraph at lines 1220--1220
  []|\T1/Montserrat-TLF/regular/n/9 AM| 
  []
 
 
-Overfull \hbox (2.87898pt too wide) in paragraph at lines 1244--1244
+Overfull \hbox (2.87898pt too wide) in paragraph at lines 1220--1220
  []|\T1/Montserrat-TLF/regular/n/9 Ab| 
  []
 
 
-Overfull \hbox (2.10236pt too wide) in paragraph at lines 1244--1244
+Overfull \hbox (2.10236pt too wide) in paragraph at lines 1220--1220
  []|\T1/Montserrat-TLF/regular/n/9 ODP| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1246--1246
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1222--1222
  []|\T1/Montserrat-TLF/regular/n/9 2110| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1247--1247
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1223--1223
  []|\T1/Montserrat-TLF/regular/n/9 2088| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1248--1248
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1224--1224
  []|\T1/Montserrat-TLF/regular/n/9 0.04| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1248--1248
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1224--1224
  []|\T1/Montserrat-TLF/regular/n/9 1365| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1249--1249
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1225--1225
  []|\T1/Montserrat-TLF/regular/n/9 2525| 
  []
 
 
-Overfull \hbox (1.01364pt too wide) in paragraph at lines 1250--1250
+Overfull \hbox (1.01364pt too wide) in paragraph at lines 1226--1226
  []|\T1/Montserrat-TLF/regular/n/9 2730| 
  []
 
 
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 1252--1252
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 1228--1228
  []|\T1/Montserrat-TLF/regular/n/9 0.03| 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1256.
-LaTeX Info: Redefining \% on input line 1256.
+LaTeX Info: Redefining \. on input line 1232.
+LaTeX Info: Redefining \% on input line 1232.
 [46]
-Overfull \hbox (5.35475pt too wide) in paragraph at lines 1280--1280
+
+LaTeX Info: Redefining \. on input line 1250.
+LaTeX Info: Redefining \% on input line 1250.
+[47]
+Overfull \hbox (5.35475pt too wide) in paragraph at lines 1260--1260
  []|\T1/Montserrat-TLF/regular/n/9 Concentración| 
  []
 
 
-Overfull \hbox (1.78828pt too wide) in paragraph at lines 1280--1280
+Overfull \hbox (1.78828pt too wide) in paragraph at lines 1260--1260
  []|\T1/Montserrat-TLF/regular/n/9 Caudal/Potencia| 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1296.
-LaTeX Info: Redefining \% on input line 1296.
-[47]
-
-LaTeX Info: Redefining \. on input line 1299.
-LaTeX Info: Redefining \% on input line 1299.
+LaTeX Info: Redefining \. on input line 1279.
+LaTeX Info: Redefining \% on input line 1279.
 [48])
 
 [49
@@ -2149,20 +2229,20 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `"00 - Base - Crudo ITMyF".out' has not changed.
-(rerunfilecheck)             Checksum: FD6EC3990C0BB6CE04835EEB19BA6ED4;12854.
+(rerunfilecheck)             Checksum: 848AF905284CB3EB360E8E7731F8B1FD;13396.
  ) 
 Here is how much of TeX's memory you used:
- 32444 strings out of 473536
- 636841 string characters out of 5714956
+ 32448 strings out of 473536
+ 637042 string characters out of 5714956
  1169225 words of memory out of 5000000
- 54863 multiletter control sequences out of 15000+600000
+ 54865 multiletter control sequences out of 15000+600000
  934657 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,17n,121p,1773b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Bold.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-BoldItalic.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Italic.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/montserrat/Montserrat-Regular.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ml.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/Igna_/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on "00 - Base - Crudo ITMyF.pdf" (51 pages, 2677741 bytes).
+Output written on "00 - Base - Crudo ITMyF.pdf" (51 pages, 2712909 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 556 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 858 PDF objects out of 1000 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
+ 569 words of extra memory for PDF output out of 10000 (max. 10000000)
 

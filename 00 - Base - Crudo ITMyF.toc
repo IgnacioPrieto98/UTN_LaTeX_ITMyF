@@ -44,7 +44,7 @@
 \contentsline {section}{\numberline {1.5}Refrigerantes secundarios: composición y propiedades}{22}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Refrigerantes basados en sales (salmueras)}{22}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Glicoles inhibidos}{23}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Halocarbonos}{23}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.3}Halocarbonos}{24}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Fluidos que no son halocarbonos ni mezclas acuosas}{24}{subsection.1.5.4}%
 \contentsline {section}{\numberline {1.6}Impacto ambiental}{24}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Capa de Ozono}{24}{subsection.1.6.1}%
@@ -52,31 +52,31 @@
 \contentsline {subsection}{\numberline {1.6.3}Potencial de agotamiento de ozono (ODP)}{26}{subsection.1.6.3}%
 \contentsline {subsection}{\numberline {1.6.4}Convenio de Viena y protocolo de Montreal}{26}{subsection.1.6.4}%
 \contentsline {subsection}{\numberline {1.6.5}Efecto invernadero y calentamiento global}{27}{subsection.1.6.5}%
-\contentsline {subsection}{\numberline {1.6.6}Capa de ozono y temperatura terrestre}{28}{subsection.1.6.6}%
-\contentsline {subsection}{\numberline {1.6.7}Otros parámetros de medición}{29}{subsection.1.6.7}%
-\contentsline {section}{\numberline {1.7}Consideraciones de seguridad}{30}{section.1.7}%
+\contentsline {subsection}{\numberline {1.6.6}Acuerdos internacionales sobre el cambio climático}{28}{subsection.1.6.6}%
+\contentsline {subsection}{\numberline {1.6.7}Relación entre el agotamiento de ozono y el cambio climático}{29}{subsection.1.6.7}%
+\contentsline {subsection}{\numberline {1.6.8}Otros parámetros de medición}{29}{subsection.1.6.8}%
+\contentsline {section}{\numberline {1.7}Consideraciones de seguridad}{29}{section.1.7}%
 \contentsline {subsection}{\numberline {1.7.1}Otros parámetros a considerar}{30}{subsection.1.7.1}%
 \contentsline {section}{\numberline {1.8}Detección de fugas}{31}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Criterios de detección}{31}{subsection.1.8.1}%
-\contentsline {paragraph}{Detección electrónica}{31}{subsection.1.8.1}%
-\contentsline {paragraph}{Método de la burbuja}{32}{subsection.1.8.1}%
-\contentsline {paragraph}{Método de cambio de presión}{32}{subsection.1.8.1}%
-\contentsline {paragraph}{Método de tinta UV}{32}{subsection.1.8.1}%
-\contentsline {paragraph}{Fugas de amoniaco}{32}{subsection.1.8.1}%
-\contentsline {section}{\numberline {1.9}Refrigeración y los ciclos}{33}{section.1.9}%
-\contentsline {paragraph}{Compresión}{33}{section.1.9}%
-\contentsline {paragraph}{Condensación}{33}{section.1.9}%
-\contentsline {paragraph}{Expansión}{33}{section.1.9}%
-\contentsline {paragraph}{Evaporación}{33}{section.1.9}%
+\contentsline {paragraph}{Detección electrónica}{31}{section.1.8}%
+\contentsline {paragraph}{Método de la burbuja}{31}{section.1.8}%
+\contentsline {paragraph}{Método de cambio de presión}{32}{section.1.8}%
+\contentsline {paragraph}{Método de tinta UV}{32}{section.1.8}%
+\contentsline {paragraph}{Fugas de amoniaco}{32}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Refrigeración y los ciclos}{32}{section.1.9}%
+\contentsline {paragraph}{Compresión}{32}{section.1.9}%
+\contentsline {paragraph}{Condensación}{32}{section.1.9}%
+\contentsline {paragraph}{Expansión}{32}{section.1.9}%
+\contentsline {paragraph}{Evaporación}{32}{section.1.9}%
 \contentsline {subsection}{\numberline {1.9.1}Coeficiente de desempeño de un ciclo de refrigeración (COP)}{33}{subsection.1.9.1}%
 \contentsline {subsection}{\numberline {1.9.2}Ciclos principales}{34}{subsection.1.9.2}%
-\contentsline {paragraph}{Ciclo Carnot Inverso}{35}{figure.caption.16}%
-\contentsline {paragraph}{Ciclo Rankine inverso}{36}{equation.1.5}%
-\contentsline {paragraph}{Ciclo Brayton inverso}{37}{equation.1.6}%
-\contentsline {paragraph}{Ciclo de absorción}{38}{equation.1.7}%
-\contentsline {subsection}{\numberline {1.9.3}Factores principales de ciclos de refrigeración}{39}{subsection.1.9.3}%
-\contentsline {paragraph}{Presión del cambio de estado}{39}{subsection.1.9.3}%
-\contentsline {paragraph}{Sobrecalentamiento de vapor}{39}{subsection.1.9.3}%
+\contentsline {paragraph}{Ciclo Carnot Inverso}{34}{figure.caption.16}%
+\contentsline {paragraph}{Ciclo Rankine inverso}{35}{equation.1.6}%
+\contentsline {paragraph}{Ciclo Brayton inverso}{37}{equation.1.7}%
+\contentsline {paragraph}{Ciclo de absorción}{37}{equation.1.8}%
+\contentsline {subsection}{\numberline {1.9.3}Factores principales de ciclos de refrigeración}{38}{subsection.1.9.3}%
+\contentsline {paragraph}{Presión del cambio de estado}{38}{subsection.1.9.3}%
+\contentsline {paragraph}{Sobrecalentamiento de vapor}{38}{subsection.1.9.3}%
 \contentsline {paragraph}{Subenfriamiento del líquido}{39}{subsection.1.9.3}%
 \contentsline {paragraph}{Temperatura de vaporización y de condensación}{39}{subsection.1.9.3}%
 \contentsline {section}{\numberline {1.10}Conducción de fluidos refrigerantes}{40}{section.1.10}%
@@ -92,6 +92,7 @@
 \contentsline {subsection}{\numberline {1.11.1}Comportamiento de los refrigerantes}{44}{subsection.1.11.1}%
 \contentsline {section}{\numberline {1.12}Selección de refrigerantes}{45}{section.1.12}%
 \contentsline {subsection}{\numberline {1.12.1}Selección de un refrigerante secundario}{47}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {1.12.2}Comparación del rendimento}{47}{subsection.1.12.2}%
+\contentsline {subsection}{\numberline {1.12.2}Refrigerantes secundarios particulares}{47}{subsection.1.12.2}%
+\contentsline {subsection}{\numberline {1.12.3}Comparación del rendimento}{48}{subsection.1.12.3}%
 \contentsline {part}{II\hspace {1em}Anexos}{49}{part.2}%
 \contentsfinish 
